@@ -1,23 +1,30 @@
 import React from "react"
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Footer from './components/Footer'
+import Main from './components/Main'
+import Opening from './components/Opening'
+import Navtabs from './components/Navtabs'
+
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>My react portfolio</h1>
+      <Navtabs/>
+
+      <BrowserRouter>
+      <Switch>
+        <Route path="/">
+          <Opening/>
+        </Route>
+        <Route path="/main">
+          <Main/>
+        </Route>
+          </Switch>
+      </BrowserRouter>
+    
+    <Footer/>
     </div>
   );
 }
