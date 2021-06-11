@@ -9,22 +9,18 @@ import Navtabs from './components/Navtabs'
 
 function App() {
   return (
-    <div>
-      <h1>My react portfolio</h1>
-      <Navtabs/>
-
+    <div className="wrapper">
+      <h1>Marine Mammals</h1>
       <BrowserRouter>
-      <Switch>
-        <Route path="/">
-          <Opening/>
-        </Route>
-        <Route path="/main">
-          <Main/>
-        </Route>
-          </Switch>
+        <Switch>
+          <Route path="/open">
+            <Opening />
+          </Route>
+          <Route path="/main">
+            <Main />
+          </Route>
+        </Switch>
       </BrowserRouter>
-    
-    <Footer/>
     </div>
   );
 }
