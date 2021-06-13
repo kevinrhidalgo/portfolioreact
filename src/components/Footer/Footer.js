@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css'
 import Ig from "./ig.PNG"
 import Github from "./github.PNG"
 import Twitter from "./twitter.PNG"
@@ -9,13 +10,7 @@ const footerImg ={
     width: 40,
     height: 50
     }
-    const projTitle={
-      color:"#222222",
-      fontFamily: "Stint Ultra Condensed, cursive",
-      fontWeight:50,
-      fontSize:45,
-      paddingLeft:50
-    }
+    
 
 export default function Footer() {
     return (
@@ -25,9 +20,7 @@ export default function Footer() {
         <br/>
         <br/>
 
-        <footer>     
-        <h1 style={projTitle}>Kevin R. Hidalgo</h1>
-       
+        <footer>        
         <p> Copyright © 2021 Kevin Hidalgo. 
         <br/>
         <div className="contactList">

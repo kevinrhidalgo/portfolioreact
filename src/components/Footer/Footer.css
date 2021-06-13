@@ -1,0 +1,7 @@
+.footerFlexer{
+    display: flex;
+    justify-content: center;
+}
+.contactList{
+    margin-left: 16px;
+}
