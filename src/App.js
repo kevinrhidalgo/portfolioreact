@@ -1,35 +1,37 @@
 import React from "react"
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
-import Footer from './components/Footer'
-import Home from './components/Home'
-import Opening from './components/Opening'
+import Footer from './components/Footer/Footer'
+import Home from './components/HomePage/HomePage'
 import Navtabs from './components/Navtabs'
-import About from './components/About'
+import About from './components/About/About'
+import Projects from './components/MyProjects/MyProjects'
 
+const pageChange={
+  backgroundColor:"red"
+}
 
 
 function App() {
   return (
     <div className="wrapper">
-      <h1>This is the routes page</h1>
       <Navtabs/>
       <BrowserRouter>
       <nav>
-        <ul>
+        <ul style={pageChange}>
 <li><Link to="/home">Home</Link></li>
 <li><Link to="/about">About</Link></li>
+<li><Link to="/projects">Projects</Link></li>
         </ul>
         </nav>
-      
         <Switch>
-          <Route path="/open">
-            <Opening />
-          </Route>
           <Route path="/home">
             <Home />
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
         </Switch>
       </BrowserRouter>
