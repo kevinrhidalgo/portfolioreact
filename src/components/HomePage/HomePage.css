@@ -1,2 +1,20 @@
+.Home h2, p, .contactList{
+    display: flex;
+    justify-content: center;
+}
+.Home{
+    margin-top: 250px;
+}
 
+.Home h2{
+    font-size: 70px;
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Home p{
+    font-size:20px;
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 650;
+}
 

@@ -4,16 +4,19 @@ import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
 import Projects from './components/MyProjects/MyProjects'
+import Skills from './components/Skills/Skills'
 
 const pageChange={
-  fontSize:17,
+  fontSize:30,
   display:"flex",
   justifyContent:"center",
-  fontFamily: 'Noto Sans JP, sans-serif',
-  fontWeight:850
+  fontFamily: 'Yanone Kaffeesatz, sans-serif',
+  fontWeight:850,
+  transform: 'translateY(-70%)',
+
 }
 const headerRoute={
-  margin:15,
+  marginTop:15,
   listStyleType:"none",
 }
 
@@ -26,9 +29,10 @@ function App() {
       <nav>
         <ul style={pageChange}>
         
-<li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'navy'}}>Home</Link></li>
-<li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'navy' }}>About</Link></li>
-<li style={headerRoute}><Link to="/projects" style={{ textDecoration: 'none', color:'navy' }}>Projects</Link></li>
+<li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'white',margin:40 }}>Home</Link></li>
+<li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'white',margin:40 }}>About</Link></li>
+<li style={headerRoute}><Link to="/projects" style={{ textDecoration: 'none', color:'white',margin:40 }}>Projects</Link></li>
+<li style={headerRoute}><Link to="/projects" style={{ textDecoration: 'none', color:'white',margin:40 }}>Skills</Link></li>
         </ul>
         </nav>
         <Switch>
@@ -40,6 +44,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
         </Switch>
       </BrowserRouter>
