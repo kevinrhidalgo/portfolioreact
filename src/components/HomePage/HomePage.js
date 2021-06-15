@@ -1,17 +1,17 @@
 import React from 'react';
 import "./HomePage.css"
-import Ig from "./instagram.png"
-import Github from "./github.jpeg"
-import Phone from "./phone.jpeg"
-import Email from "./email.jpeg"
-import Linkedin from "./linkedin.png"
+import Ig from "./ig.png"
+import Github from "./ghub.png"
+import Phone from "./cellphone.jpeg"
+import Email from "./Email.png"
+import Linkedin from "./in.png"
 
 const footerImg ={
     width: 40,
     height: 50,
     borderRadius:'100%',
-    border:'black solid 2px',
     margin: '12px',
+    opacity:'85%'
     }
 
 export default function HomePage() {
