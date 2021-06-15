@@ -21,6 +21,8 @@ export default function HomePage() {
     <p>FULL-STACK WEB DEVELOPER</p>
         <h3>“It’s not how good you are, it’s how good you want to be”
 </h3>
+<br/>
+<br/>
 
         <div className="contactList">
        <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 

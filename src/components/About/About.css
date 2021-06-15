@@ -1,0 +1,7 @@
+.emptyBox{
+    width:400px;
+    height:400px;
+    background-color:#cacaca ;
+    transform: translateX(470%);
+    transform: translateY(-60%);
+}

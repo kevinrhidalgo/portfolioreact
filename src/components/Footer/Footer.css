@@ -6,14 +6,15 @@ footer{
   footer p{
       font-family: poppins;
       text-align:center;
-      color: black;
+      color: #222222;
       font-size: 20px;
       float: left;
       width: 1200px;
       height:140px;
       padding:10px; 
       position:absolute;
-      
+      transform: translateY(-100%);
+      margin-left: 90px;
     }
   
   

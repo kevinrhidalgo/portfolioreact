@@ -11,7 +11,7 @@ const pageChange={
   display:"flex",
   justifyContent:"center",
   fontFamily: 'Roboto, sans-serif',
-  fontWeight:550,
+  fontWeight:250,
   transform: 'translateY(-70%)',
   marginRight:'15px',
 
