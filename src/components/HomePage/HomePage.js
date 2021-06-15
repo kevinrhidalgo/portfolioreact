@@ -17,10 +17,11 @@ const footerImg ={
 export default function HomePage() {
     return (
         <div className="Home">
-    <h2>
-       Kevin R. Hidalgo
-        </h2>
-        <p>FULL-STACK WEB DEVELOPER</p>
+    <h2>Kevin R. Hidalgo</h2>
+    <p>FULL-STACK WEB DEVELOPER</p>
+        <h3>“It’s not how good you are, it’s how good you want to be”
+</h3>
+
         <div className="contactList">
        <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 
        <a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 

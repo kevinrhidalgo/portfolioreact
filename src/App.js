@@ -7,12 +7,13 @@ import Projects from './components/MyProjects/MyProjects'
 import Skills from './components/Skills/Skills'
 
 const pageChange={
-  fontSize:30,
+  fontSize:17,
   display:"flex",
   justifyContent:"center",
-  fontFamily: 'Yanone Kaffeesatz, sans-serif',
-  fontWeight:850,
+  fontFamily: 'Roboto, sans-serif',
+  fontWeight:550,
   transform: 'translateY(-70%)',
+  marginRight:'15px',
 
 }
 const headerRoute={
