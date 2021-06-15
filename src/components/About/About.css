@@ -22,5 +22,7 @@
 .aboutMe {
     background-color: #dddddd;
     width:400px;
-    transform:translate(110%,-300%); 
+    transform:translate(100%,-45%); 
+    padding:10px;
+    box-shadow: 10px 10px 5px gray;
 }

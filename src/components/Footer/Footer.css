@@ -13,7 +13,7 @@ footer{
       height:140px;
       padding:10px; 
       position:absolute;
-      transform: translateY(-100%);
+      transform: translate(-60px,-90%);
       margin-left: 90px;
     }
   
