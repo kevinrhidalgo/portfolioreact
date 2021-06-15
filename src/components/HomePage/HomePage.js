@@ -8,7 +8,10 @@ import Linkedin from "./linkedin.png"
 
 const footerImg ={
     width: 40,
-    height: 50
+    height: 50,
+    borderRadius:'100%',
+    border:'black solid 2px',
+    margin: '12px',
     }
 
 export default function HomePage() {
