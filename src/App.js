@@ -2,25 +2,33 @@ import React from "react"
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
-import Navtabs from './components/Navtabs'
 import About from './components/About/About'
 import Projects from './components/MyProjects/MyProjects'
 
 const pageChange={
-  backgroundColor:"red"
+  fontSize:17,
+  display:"flex",
+  justifyContent:"center",
+  fontFamily: 'Noto Sans JP, sans-serif',
+  fontWeight:850
+}
+const headerRoute={
+  margin:15,
+  listStyleType:"none",
 }
 
 
 function App() {
   return (
     <div className="wrapper">
-      <Navtabs/>
+
       <BrowserRouter>
       <nav>
         <ul style={pageChange}>
-<li><Link to="/home">Home</Link></li>
-<li><Link to="/about">About</Link></li>
-<li><Link to="/projects">Projects</Link></li>
+        
+<li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'navy'}}>Home</Link></li>
+<li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'navy' }}>About</Link></li>
+<li style={headerRoute}><Link to="/projects" style={{ textDecoration: 'none', color:'navy' }}>Projects</Link></li>
         </ul>
         </nav>
         <Switch>

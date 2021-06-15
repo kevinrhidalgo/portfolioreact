@@ -1,7 +1,25 @@
-.footerFlexer{
-    display: flex;
-    justify-content: center;
-}
-.contactList{
+
+.contactList img{
+    background-color:white;
+    margin-top: 15px;
     margin-left: 16px;
+    margin-right: 16px;
 }
+footer{
+    margin-top: 250px;
+    
+  }
+  footer p{
+      font-family: poppins;
+      text-align:center;
+      color: black;
+      font-size: 20px;
+      float: left;
+      width: 1200px;
+      height:140px;
+      padding:10px; 
+      position:absolute;
+      
+    }
+  
+  

@@ -15,11 +15,6 @@ const footerImg ={
 export default function Footer() {
     return (
         <div className="footerFlexer"> 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
         <footer>        
         <p> Copyright © 2021 Kevin Hidalgo. 
         <br/>

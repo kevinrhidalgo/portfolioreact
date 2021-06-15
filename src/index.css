@@ -1,12 +1,13 @@
-.About{
-    background-color: red;
-   background-size: cover;
-   min-width: 100%;
-   min-height: 100%;
-}
-.Opening{
-    background-color: green;
-    background-size: cover;
-   min-width: 100%;
-   min-height: 100%;
-}
+
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp6350571.jpg);
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
