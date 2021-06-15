@@ -1,7 +1,26 @@
+
 .emptyBox{
+    width:300px;
+    height:300px;
+    background-color:#222222 ;
+    transform:translate(140%,20%);
+    box-shadow: 10px 10px 5px rgb(179, 179, 179);
+}
+.emptyBox h4{
+    transform:translate(4%,598%);
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color:#dddddd
+}
+
+.emptyBox p{
+    transform:translate(4%,1550%); 
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    color:#dddddd;
+}
+.aboutMe {
+    background-color: #dddddd;
     width:400px;
-    height:400px;
-    background-color:#cacaca ;
-    transform: translateX(470%);
-    transform: translateY(-60%);
+    transform:translate(110%,-300%); 
 }

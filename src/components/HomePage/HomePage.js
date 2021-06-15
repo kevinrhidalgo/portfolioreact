@@ -18,7 +18,6 @@ export default function HomePage() {
     return (
         <div className="Home">
     <h2>Kevin R. Hidalgo</h2>
-    <p>FULL-STACK WEB DEVELOPER</p>
         <h3>“It’s not how good you are, it’s how good you want to be”
 </h3>
 <br/>

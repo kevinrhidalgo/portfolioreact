@@ -1,4 +1,4 @@
-.Home h2, h3, p, .contactList{
+.Home h2, h3, .contactList{
     display: flex;
     justify-content: center;
 }
@@ -17,13 +17,6 @@
     color:white;
     font-family: 'Libre Baskerville', serif;
 }
-.Home p{
-    font-size:20px;
-    color:white;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 350;
-}
-
 
 
 
