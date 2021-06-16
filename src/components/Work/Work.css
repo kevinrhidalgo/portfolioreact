@@ -1,0 +1,135 @@
+
+.projectOne img{
+  width:210px;
+  height:150px;
+  margin:20px;
+  transform: translate(160%,70%);
+ border-bottom: #222222 solid 10px;
+}
+
+.workSection{
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  width: 800px;
+}
+
+.skillsSection p {
+  font-size: 13px;
+}
+.skillsSection h1 {
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(192, 192, 192);
+  width: 90%;
+      border-radius: 15px;
+}
+
+.skill {
+  background-color:navy;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  text-align: right;
+  font-size: 13px;
+  border-radius: 15px;
+}
+.vl {
+  border-top: 1px solid gray;
+  width: 130px;
+  padding-bottom: 20px;
+  margin: 6px;
+}
+.html {
+  width: 90%;
+}
+.css {
+  width: 83%;
+}
+.javascript{
+  width: 60%;
+}
+.nosql{
+  width: 35%;
+}
+
+
+.github{
+  width: 95%;
+}
+.mongodb{
+  width: 51%;
+}
+.mysql{
+  width: 55%;
+}
+.vscode{
+  width: 99%;
+}
+.robo3t{
+  width: 33%;
+}
+.insomnia{
+  width: 75%;
+}
+
+
+.express{
+  width: 51%;
+}
+.react{
+  width: 68%;
+}
+.node{
+  width: 58%;
+}
+.handlebars{
+  width: 65%;
+}
+.jquery{
+  width: 50%;
+}
+.bootstrap{
+  width: 90%;
+}
+.api{
+  width: 60%;
+}
+.skillsSection{
+  background-color: #dddddd;
+  width:140px;
+  padding:10px;
+  margin:30px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+ }
+  
+
+.projectSection{
+  background-color: #eeeeee;
+  border-radius: 4%;
+  width: 1020px;
+  height:500px;
+  margin:20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.shelfi{
+  background-color: white;
+  width:420px;
+  height:280px;
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  padding:25px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 10px;
+}
+.shelifOne{
+  display: flex;
+  flex-direction: row;
+}

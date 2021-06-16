@@ -3,8 +3,8 @@ import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
-import Projects from './components/MyProjects/MyProjects'
-import Skills from './components/Skills/Skills'
+import Work from './components/Work/Work'
+
 
 const pageChange={
   fontSize:17,
@@ -32,8 +32,8 @@ function App() {
         
 <li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'white',margin:40 }}>Home</Link></li>
 <li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'white',margin:40 }}>About</Link></li>
-<li style={headerRoute}><Link to="/projects" style={{ textDecoration: 'none', color:'white',margin:40 }}>Projects</Link></li>
-<li style={headerRoute}><Link to="/skills" style={{ textDecoration: 'none', color:'white',margin:40 }}>Skills</Link></li>
+<li style={headerRoute}><Link to="/work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Work</Link></li>
+
         </ul>
         </nav>
         <Switch>
@@ -43,11 +43,8 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/skills">
-            <Skills />
+          <Route path="/work">
+            <Work />
           </Route>
         </Switch>
       </BrowserRouter>
