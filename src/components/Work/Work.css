@@ -1,56 +1,14 @@
 
-.projectOne img{
-  width:210px;
-  height:150px;
-  margin:20px;
-  transform: translate(160%,70%);
- border-bottom: #222222 solid 10px;
-}
-
-.workSection{
-  display: flex;
-  flex-direction: row;
-  background-color: #222222;
-  width: 800px;
-}
-
-.skillsSection p {
-  font-size: 13px;
-}
-.skillsSection h1 {
-  font-size: 23px;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  background-color: rgb(192, 192, 192);
-  width: 90%;
-      border-radius: 15px;
-}
-
-.skill {
-  background-color:teal;
-  color: rgb(255, 255, 255);
-  padding: 1%;
-  text-align: right;
-  font-size: 13px;
-  border-radius: 15px;
-}
 
 
-.skillsSection{
-  background-color: #dddddd;
-  width:140px;
-  padding:10px;
-  margin:30px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
- }
+
+
+
+
   
 
 .projectSection{
-  background-color: #dddeee
-  ;
+  background-color: #dddeee;
   border-radius: 4%;
   width: 1020px;
   height:840px;

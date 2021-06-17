@@ -13,7 +13,8 @@ const skillWord={
     display:'flex',
     justifyContent:'center',
     fontFamily: 'Anton, sans-serif',
-    paddingTop: '30px'
+    paddingTop: '30px',
+    color:'white'
 }
 
 
@@ -28,7 +29,7 @@ export default function Skills() {
         <h1 style={skillWord}>Skills</h1>
     <div>
 <div className='skillsType'>
-<h1>Languages</h1>
+<h1 style={skillWord}>Languages</h1>
 <div className='languagesType'>
     <div className='secOne'>
 <p>HTML</p>
@@ -60,7 +61,7 @@ export default function Skills() {
 </div>
 
 
-<h1>Applications</h1>
+<h1 style={skillWord}>Applications</h1>
 <div className='applicationType'>
 <div className='secOne'>
 <p>Github</p>
@@ -103,7 +104,7 @@ export default function Skills() {
 </div>
 </div>
 
-<h1>Tools</h1>
+<h1 style={skillWord}>Tools</h1>
 <div className='toolType'>
 <div className='secOne'>
     <p>Express</p>
