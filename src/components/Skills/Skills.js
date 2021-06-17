@@ -167,6 +167,7 @@ export default function Skills() {
 
 
  <div className='projSec'>
+     <h1>Projects</h1>
 <div className='firstSection'>
  <div className='aSection'>
  <img style={projImg} src={shelfi}/> 
