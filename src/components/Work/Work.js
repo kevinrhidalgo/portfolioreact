@@ -59,22 +59,25 @@ export default function Projects() {
 
 <div className="skillsSection">
      <h1>Languages</h1>
-     <div class="vl"></div>
+    
+
     <p>HTML</p>
     <div class="container">
         <div class="skill html">90%</div>
     </div>
-    <div class="vl"></div>
+    
+
   <p>CSS</p>
     <div class="container">
         <div class="skill css">83%</div>
     </div>
-    <div class="vl"></div>
+
+
     <p>Javascript</p>
     <div class="container">
         <div class="skill javascript">60%</div>
     </div>
-    <div class="vl"></div>
+
     <p>NoSQL</p>
     <div class="container">
         <div class="skill nosql">35%</div>
