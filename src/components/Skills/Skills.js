@@ -3,6 +3,7 @@ import'./Skills.css'
 import myphoto from './myphoto.jpg'
 import salud from './salud.png'
 import shelfi from './shelfi.png'
+import underC from './underC.jpg'
  
 const myfoto={
     borderRadius:'100%',
@@ -162,7 +163,11 @@ export default function Skills() {
     </div>
     </div>
 
+
+
+
  <div className='projSec'>
+<div className='firstSection'>
  <div className='aSection'>
  <img style={projImg} src={shelfi}/> 
  <div className='descSec'>
@@ -184,7 +189,35 @@ export default function Skills() {
        <a href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
 </div>
 
-</div>   
+</div> 
+</div>
+
+<div className='firstSection'>
+<div className='aSection'>
+<img style={projImg} src={underC}/>  
+<div className='descSec'>
+<h2>Coming Soon.</h2>
+<p>Project currently in coding development.</p>
+       <a href="https://github.com/kevinrhidalgo" class="card-link">Repo</a>
+       <a href="https://github.com/kevinrhidalgo" class="card-link">App</a>
+</div>
+
+</div>
+<div className='aSection'>
+<img style={projImg} src={underC}/>  
+<div className='descSec'>
+<h2>Coming Soon.</h2>
+<p>Project currently in coding development.</p>
+       <a href="https://github.com/kevinrhidalgo" class="card-link">Repo</a>
+       <a href="https://github.com/kevinrhidalgo" class="card-link">App</a>
+</div>
+
+</div>
+
+
+
+</div>
+
 </div>  
 
 

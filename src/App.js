@@ -3,7 +3,7 @@ import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
-import Work from './components/Work/Work'
+
 import Skills from './components/Skills/Skills'
 
 
@@ -33,7 +33,6 @@ function App() {
         
 <li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'white',margin:40 }}>Home</Link></li>
 <li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'white',margin:40 }}>About</Link></li>
-<li style={headerRoute}><Link to="/work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Work</Link></li>
 <li style={headerRoute}><Link to="/skills-work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Skills/Work</Link></li>
 
         </ul>
@@ -44,9 +43,6 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
-          </Route>
-          <Route path="/work">
-            <Work />
           </Route>
           <Route path="/skills-work">
             <Skills />
