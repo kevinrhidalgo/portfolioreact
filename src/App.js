@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
 import Work from './components/Work/Work'
+import Skills from './components/Skills/Skills'
 
 
 const pageChange={
@@ -33,6 +34,7 @@ function App() {
 <li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'white',margin:40 }}>Home</Link></li>
 <li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'white',margin:40 }}>About</Link></li>
 <li style={headerRoute}><Link to="/work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Work</Link></li>
+<li style={headerRoute}><Link to="/skills-work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Skills/Work</Link></li>
 
         </ul>
         </nav>
@@ -45,6 +47,9 @@ function App() {
           </Route>
           <Route path="/work">
             <Work />
+          </Route>
+          <Route path="/skills-work">
+            <Skills />
           </Route>
         </Switch>
       </BrowserRouter>

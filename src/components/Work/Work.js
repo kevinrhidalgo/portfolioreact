@@ -7,13 +7,13 @@ import shelfi from './shelfi.png'
 const projectsImg1={
    width:270,
    height:220,
-   margin:20
+   margin:20,
 }
 const projectsImg2={
     width:250,
     height:270,
     marginRight:20,
-    borderRight:'#dddddd solid 2px'
+    borderRight:'#dddddd solid 2px',
  }
 const projLinks={
     backgroundColor:'#FF7F4F',

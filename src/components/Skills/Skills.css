@@ -1,0 +1,25 @@
+.emptySpace {
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    transform: translate(20%,60%);
+    border-top: beige solid 10px;
+}
+
+.emptySpace h2{
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+}
+
+.skillsSec{
+    background-color: #fffaf1;
+    width: 900px;
+    height: 950px;
+    transform: translate(20%,-7%);
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+}
+

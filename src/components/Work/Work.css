@@ -30,7 +30,7 @@
 }
 
 .skill {
-  background-color:navy;
+  background-color:teal;
   color: rgb(255, 255, 255);
   padding: 1%;
   text-align: right;
@@ -108,7 +108,8 @@
   
 
 .projectSection{
-  background-color: #eeeeee;
+  background-color: #dddeee
+  ;
   border-radius: 4%;
   width: 1020px;
   height:840px;
