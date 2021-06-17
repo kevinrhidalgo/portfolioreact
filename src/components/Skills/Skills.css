@@ -106,7 +106,7 @@ flex-direction: row;
         border-radius: 15px;
   }
   .skill {
-    background-color:coral;
+    background-color:rgb(91, 162, 255);
     color: rgb(255, 255, 255);
     padding: 1%;
     text-align: right;
