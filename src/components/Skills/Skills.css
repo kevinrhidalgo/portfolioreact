@@ -115,3 +115,24 @@ flex-direction: row;
   .secOne p{
     font-size: 13px;
   }
+
+  .projSec{
+    width: 710px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    transform: translate(40%,-5%);
+    padding: 20px;
+    
+  }
+
+  .aSection{
+    width: 240px;
+    height: 400px;
+    margin:20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .descSec{
+    margin:11px;
+  }

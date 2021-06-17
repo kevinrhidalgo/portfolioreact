@@ -1,6 +1,8 @@
 import React from 'react';
 import'./Skills.css'
 import myphoto from './myphoto.jpg'
+import salud from './salud.png'
+import shelfi from './shelfi.png'
  
 const myfoto={
     borderRadius:'100%',
@@ -15,6 +17,10 @@ const skillWord={
     fontFamily: 'Anton, sans-serif',
     paddingTop: '30px',
     color:'white'
+}
+const projImg={
+    width:'240px',
+    height:'200px'
 }
 
 
@@ -155,7 +161,31 @@ export default function Skills() {
 </div>
     </div>
     </div>
-   
+
+ <div className='projSec'>
+ <div className='aSection'>
+ <img style={projImg} src={shelfi}/> 
+ <div className='descSec'>
+ <h2>Shelfi.</h2>
+       <p> A library application where you can search for your books of choice in which you want to read and plan to read.</p>
+       <a href="https://github.com/mascarelloa/shelfi" class="card-link">Repo</a>
+       <a href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
+</div> 
+</div>    
+
+
+
+<div className='aSection'>
+<img style={projImg} src={salud}/>  
+<div className='descSec'>
+<h2>Salud.</h2>
+<p>Salud is an application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean.</p>
+       <a href="https://github.com/mascarelloa/shelfi" class="card-link">Repo</a>
+       <a href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
+</div>
+
+</div>   
+</div>  
 
 
 

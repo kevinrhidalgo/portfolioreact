@@ -1,20 +1,14 @@
 import React from 'react';
 import './Work.css'
 import underC from './underC.jpg'
-import salud from './salud.png'
-import shelfi from './shelfi.png'
+
 
 const projectsImg1={
    width:270,
    height:220,
    margin:20,
 }
-const projectsImg2={
-    width:250,
-    height:270,
-    marginRight:20,
-    borderRight:'#dddddd solid 2px',
- }
+
 const projLinks={
     backgroundColor:'#FF7F4F',
     color:'black',
@@ -61,24 +55,14 @@ export default function Projects() {
    <div className='shelfiOne'>
        <h2>Shelfi.</h2>
        <p> A library application where you can search for your books of choice in which you want to read and plan to read.</p>
-       <a style={projLinks} href="https://github.com/mascarelloa/shelfi" class="card-link">Repo</a>
-       <a style={projLinks} href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
+       <a href="https://github.com/mascarelloa/shelfi" class="card-link">Repo</a>
+       <a href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
         </div>
         <div className='shelfiOne'>
-      <img style={projectsImg1} src={shelfi}/>
+      
     </div>
 </div>
-<div className='shelfi'>
-<div className='shelfiOne'>
-      <img style={projectsImg2} src={salud}/>
-</div>
-<div className='shelfiOne'>
-        <h2>Salud.</h2>
-       <p>Salud is an application with the purpose of showing users that one can enjoy and have fun eating, all while eating clean.</p>
-       <a style={projLinks2} href="https://github.com/mascarelloa/shelfi" class="card-link">Repo</a>
-       <a style={projLinks2} href="https://myshelfi.herokuapp.com/" class="card-link">App</a>
-</div>
-</div>
+
 </div>
 
 
