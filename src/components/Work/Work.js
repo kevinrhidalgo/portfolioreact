@@ -54,112 +54,6 @@ const projLinks4={
 export default function Projects() {
     return (
        <>
-       <div className="workSection">
-          <h1>Skills</h1>
-
-<div className="skillsSection">
-     <h1>Languages</h1>
-    
-
-    <p>HTML</p>
-    <div class="container">
-        <div class="skill html">90%</div>
-    </div>
-    
-
-  <p>CSS</p>
-    <div class="container">
-        <div class="skill css">83%</div>
-    </div>
-
-
-    <p>Javascript</p>
-    <div class="container">
-        <div class="skill javascript">60%</div>
-    </div>
-
-    <p>NoSQL</p>
-    <div class="container">
-        <div class="skill nosql">35%</div>
-    </div>
-</div>   
-
-<div className="skillsSection">
-     <h1>Applications</h1>
-     <div class="vl"></div>
-    <p>Github</p>
-    <div class="container">
-        <div class="skill github">95%</div>
-    </div>
-    <div class="vl"></div>
-  <p>MongoDB</p>
-    <div class="container">
-        <div class="skill mongodb">51%</div>
-    </div>
-    <div class="vl"></div>
-    <p>MySQL</p>
-    <div class="container">
-        <div class="skill mysql">55%</div>
-    </div>
-    <div class="vl"></div>
-    <p>VS Code</p>
-    <div class="container">
-        <div class="skill vscode">99%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Robo 3T</p>
-    <div class="container">
-        <div class="skill robo3t">33%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Insomnia</p>
-    <div class="container">
-        <div class="skill insomnia">75%</div>
-    </div>
-</div> 
-
-<div className="skillsSection">
-     <h1>Tools</h1>
-     <div class="vl"></div>
-    <p>Express</p>
-    <div class="container">
-        <div class="skill express">51%</div>
-    </div>
-    <div class="vl"></div>
-  <p>React</p>
-    <div class="container">
-        <div class="skill react">68%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Node</p>
-    <div class="container">
-        <div class="skill node">58%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Handlebars</p>
-    <div class="container">
-        <div class="skill handlebars">65%</div>
-    </div>
-    <div class="vl"></div>
-    <p>JQuery</p>
-    <div class="container">
-        <div class="skill jquery">50%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Bootstrap</p>
-    <div class="container">
-        <div class="skill bootstrap">90%</div>
-    </div>
-    <div class="vl"></div>
-    <p>Api(server-side/3rd Party</p>
-    <div class="container">
-        <div class="skill api">60%</div>
-    </div>
-</div> 
-</div>
-
-
-
 <div class="projectSection">
 <div className='projTitle'><h1>Projects</h1></div>
 <div class="projectSection2">
@@ -217,8 +111,6 @@ export default function Projects() {
 </div>
 </div>
 </div>
-
-
 
 </>
     );

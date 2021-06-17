@@ -16,11 +16,12 @@
 
 .skillsSec{
     background-color: #fffaf1;
-    width: 900px;
-    height: 950px;
-    transform: translate(20%,-7%);
+    width: 840px;
+    height: 980px;
+    transform: translate(20%,-4%);
     background: rgb(204, 204, 204);
     background: rgba(204, 204, 204, 0.5);
+    padding: 30px;
 }
 .secOne{
    background-color: white;
@@ -28,8 +29,72 @@
    padding: 3px;
    margin:10px;
    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 .languagesType{
 display: flex;
 flex-direction: row;
 }
+.applicationType{
+    display: flex;
+    flex-direction: row;
+}
+.toolType{
+    display: flex;
+    flex-direction: row;
+}
+.html {
+    width: 90%;
+  }
+  .css {
+    width: 83%;
+  }
+  .javascript{
+    width: 60%;
+  }
+  .nosql{
+    width: 35%;
+  }
+  
+  
+  .github{
+    width: 95%;
+  }
+  .mongodb{
+    width: 51%;
+  }
+  .mysql{
+    width: 55%;
+  }
+  .vscode{
+    width: 99%;
+  }
+  .robo3t{
+    width: 33%;
+  }
+  .insomnia{
+    width: 75%;
+  }
+  
+  
+  .express{
+    width: 51%;
+  }
+  .react{
+    width: 68%;
+  }
+  .node{
+    width: 58%;
+  }
+  .handlebars{
+    width: 65%;
+  }
+  .jquery{
+    width: 50%;
+  }
+  .bootstrap{
+    width: 90%;
+  }
+  .api{
+    width: 60%;
+  }

@@ -37,67 +37,8 @@
   font-size: 13px;
   border-radius: 15px;
 }
-.vl {
-  border-top: 1px solid gray;
-  width: 130px;
-  padding-bottom: 20px;
-  margin: 6px;
-}
-.html {
-  width: 90%;
-}
-.css {
-  width: 83%;
-}
-.javascript{
-  width: 60%;
-}
-.nosql{
-  width: 35%;
-}
 
 
-.github{
-  width: 95%;
-}
-.mongodb{
-  width: 51%;
-}
-.mysql{
-  width: 55%;
-}
-.vscode{
-  width: 99%;
-}
-.robo3t{
-  width: 33%;
-}
-.insomnia{
-  width: 75%;
-}
-
-
-.express{
-  width: 51%;
-}
-.react{
-  width: 68%;
-}
-.node{
-  width: 58%;
-}
-.handlebars{
-  width: 65%;
-}
-.jquery{
-  width: 50%;
-}
-.bootstrap{
-  width: 90%;
-}
-.api{
-  width: 60%;
-}
 .skillsSection{
   background-color: #dddddd;
   width:140px;
