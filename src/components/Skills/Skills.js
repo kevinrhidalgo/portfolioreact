@@ -26,10 +26,12 @@ const projImg={
 const linkBtn={
     textDecoration:'none',
     margin:'35px',
-    backgroundColor:'rgb(91, 162, 255)',
+    backgroundColor:'#fffaf1',
+    border:'rgb(91, 162, 255) solid 2px',
     color:'black',
-    padding:'4px',
-    textWeight:'800px'
+    padding:'5px',
+    textWeight:'800px',
+    borderRadius:'10%',
 }
 
 export default function Skills() {

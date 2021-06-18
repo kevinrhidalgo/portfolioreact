@@ -150,3 +150,7 @@ margin:15px;
   justify-content: center;
   margin-top: 80px;
 }
+.aSection img{
+  background-color: red;
+  width:500px;
+}
