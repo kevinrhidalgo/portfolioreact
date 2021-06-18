@@ -4,13 +4,15 @@
     height:300px;
     background-color:#222222 ;
     transform:translate(140%,20%);
-    box-shadow: 10px 5px 2px rgb(182, 182, 182);
+    box-shadow: 10px 10px 5px rgb(196, 192, 192);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .emptyBox h4{
     transform:translate(4%,598%);
     font-size: 32px;
     font-family: 'Oswald', sans-serif;
-    color:#dddddd
+    color:#dddddd;
+    
 }
 
 .emptyBox p{
@@ -20,9 +22,9 @@
     color:#dddddd;
 }
 .aboutMe {
-    background-color: #dddddd;
+    background-color: #f0f0f0;
     width:400px;
     transform:translate(100%,-45%); 
     padding:10px;
-    box-shadow: 10px 10px 5px rgb(172, 172, 172);
+    box-shadow: 10px 10px 5px rgb(196, 192, 192) ;
 }
