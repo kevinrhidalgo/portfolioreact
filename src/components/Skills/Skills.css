@@ -151,6 +151,8 @@ margin:15px;
   margin-top: 80px;
 }
 .aSection img{
-  background-color: red;
-  width:500px;
+  opacity: 0.5;
+}
+.aSection img:hover{
+  opacity: 1.0;
 }
