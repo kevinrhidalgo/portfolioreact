@@ -1,6 +1,7 @@
 import React from 'react';
 import Photo from './nycc.jpg'
 import './About.css'
+import proResume from './proResume.pdf'
 
 const famPhoto={
     width:'300px',
@@ -10,6 +11,21 @@ const famPhoto={
 }
 const hello={
     fontFamily: 'Dancing Script, cursive'
+}
+const resumePro={
+    display:'flex',
+    justifyContent:'center',
+    backgroundColor:'#dddddd',
+    borderRadius:'10%',
+    color:'blue',
+    height:'25px',
+    width:'80px',
+    paddingTop:'4px',
+    fontSize:'18px',
+    fontFamily: 'Dancing Script, cursive',
+    boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
+    marginLeft:'150px',
+    fontWeight:'900px'
 }
 
 
@@ -29,7 +45,7 @@ export default function About() {
         <p>Growing up I always had two career paths I wanted to pursue, coder or cardiologist. Prior to deciding between the two, I chose to pursue a career in medicine. I got as far as my junior year in which it was than I made the difficult decision to 
         change career paths due to some unfortunate events. Thanks to a friend, it was he who introduced me to the concept of a coding bootcamp to jumpstart my career in web development.</p>
           <p> Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
-          <h1>Resume Link</h1>
+          <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
        </div> 
 
    </div>

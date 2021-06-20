@@ -220,7 +220,7 @@ export default function Skills() {
 <div className='descSec'>
 <h2>Coming Soon.</h2>
 <p>Project currently in coding development.</p>
-       <a style={linkBtn} href="https://github.com/kevinrhidalgo" class="card-link">App</a>
+       <a style={linkBtn} href="https://github.com/kevinrhidalgo" class="card-link">Repo/</a>
 </div>
 
 </div>
