@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
+import Opener from './components/Opener'
 
 
 const pageChange={
@@ -27,6 +28,8 @@ function App() {
     <div className="wrapper">
 
       <BrowserRouter>
+      <opener/>
+<Route path='/' exact={true} component={Opener}/>  
       <nav>
         <ul style={pageChange}>
         
@@ -36,8 +39,9 @@ function App() {
 
         </ul>
         </nav>
+
         <Switch>
-        <Route path='/' exact={true} component={Home}/>
+        
           <Route path="/home">
             <Home />
           </Route>
