@@ -2,19 +2,32 @@
       margin-top: 10px;
       margin-bottom: 90px;
       background-color: #ececec;;  
-      
-  }
+      }
 .footerInfo{
       display: flex;
       flex-direction: row; 
       justify-content: center;
       background-color: #ececec;;
       height: 800px;
-  }  
+  } 
+.footerInfo :hover{
+  background-color:#eba832;
+  border-radius: 100%;
+  
+} 
 .questionAsk{
     background-color: #ececec;;
     color:#222222;
     display: flex;
     justify-content: space-around;
     font-family: 'Encode Sans SC', sans-serif; 
+}
+.questionAsk a:hover{
+  background-color:#eba832;
+  border-radius: 100%;
+  
+}
+.contactList :hover{
+  background-color:#eba832;
+  border-radius: 100%;
 }
