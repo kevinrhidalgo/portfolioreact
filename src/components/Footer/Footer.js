@@ -15,14 +15,14 @@ const footerInfo={
  margin:'30px',
  fontSize:'15px',
  fontWeight:'bold',
- fontFamily: 'Old Standard TT, serif',
+ fontFamily: 'Encode Sans SC, sans-serif',
  textDecoration:'none'
 }
 const letsTalk={
   textDecoration:'none',
   color:'red',
   fontSize:'50px',
-  color:'gray'
+  color:'#222222'
 }
 
 function Footer() {
@@ -39,10 +39,10 @@ function Footer() {
     <nav style={footerBg} className="navbar navbar-expand  ">
 
     <div class='questionAsk'> 
-      <h1>Looking for a Front-end Developer? 
+      <h1>Looking for a Front-End Developer? 
         <br/>
         <br/>
-       & a Back-end Developer?</h1>
+       & a Back-End Developer?</h1>
       <a style={letsTalk}  href="mailto:kevinrhidalgo@yahoo.com"><h3 >Let's talk</h3> </a> 
       </div>
 

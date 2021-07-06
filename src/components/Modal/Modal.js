@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
-import knife from './knife.jpeg'
+import nyc from './nyc.png'
 import Ig from "./ig.png"
 import Github from "./ghub.png"
 import Phone from "./cellphone.jpeg"
@@ -20,8 +20,7 @@ const footerImg ={
 const Background = styled.div`
  margin-bottom:50px
   background: rgba(0, 0, 0, 0.8);
-  transform:translate(5%,-80%)
-  
+  transform:translate(-20%,-100%) 
 `;
 
 const ModalWrapper = styled.div`
@@ -40,7 +39,7 @@ const ModalWrapper = styled.div`
 
 const ModalImg = styled.img`
   width: 100%;
-  height: 100%;
+  height: 70%;
   border-radius: 10px 0 0 10px;
   background-color: #dddddd;
   
@@ -53,6 +52,7 @@ const ModalContent = styled.div`
   align-items: center;
   line-height: 1.8;
   color: #141414;
+  margin-top:-160px;
 
   p {
     margin-bottom: 1rem;
@@ -118,7 +118,7 @@ export const Modal = ({ showModal, setShowModal }) => {
         <Background onClick={closeModal} ref={modalRef}>
           <animated.div style={animation}>
             <ModalWrapper showModal={showModal}>
-              <ModalImg src={knife} alt='camera' />
+              <ModalImg src={nyc} alt='camera' />
               <ModalContent>
                 <h1>Contacts.</h1>
                 <div className="contactList">
