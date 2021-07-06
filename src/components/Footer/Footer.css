@@ -22,11 +22,16 @@
     font-family: 'Encode Sans SC', sans-serif; 
 }
 .questionAsk a:hover{
-  background-color:tomato;
+  background-color:#bcd2e8;
   border-radius: 100%;
   
 }
+.contactList{
+  display: flex;
+  justify-content: center;
+}
 .contactList a:hover{
-  background-color:tomato;
+  background-color:#bcd2e8;
   border-radius: 100%;
+  
 }

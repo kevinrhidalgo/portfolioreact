@@ -1,10 +1,9 @@
 import React from "react"
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer/Footer'
-import Home from './components/HomePage/HomePage'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
-import Opener from './components/Opener'
+import Home from './components/Opener'
 
 
 const pageChange={
@@ -52,7 +51,7 @@ function App() {
       <nav>
         <ul style={pageChange}>
         
-<li style={headerRoute}><Link to="/home" style={leftLinks}><span style={appLinks}>Kevin Hidalgo</span>
+<li style={headerRoute}><Link to="/" style={leftLinks}><span style={appLinks}>Kevin Hidalgo</span>
 <br/><span style={appLinksTwo}>Portfolio</span></Link></li>
 <li style={headerRoute}><Link to="/about" style={appLinksTwo}>About</Link></li>
 
@@ -61,10 +60,10 @@ function App() {
         </ul>
         </nav>
 
-        <Route path='/' exact={true} component={Opener}/>   
+        <Route path='/' exact={true} component={Home}/>   
 
         <Switch> 
-        <Route path="/home" component={Home} />
+    
         <Route path="/about" component={About} />
         <Route path="/skills-work" component={Skills}/>     
         </Switch>
