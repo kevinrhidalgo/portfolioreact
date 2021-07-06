@@ -1,26 +1,21 @@
+.myFooter{
+      margin-top: 10px;
+      margin-bottom: 90px;
+      background-color: #f5f5f4;
 
- 
-    .myFooter{
-      margin-top: 70px;
   
   }
   .footerInfo{
       display: flex;
       flex-direction: row; 
+      justify-content: center;
+      background-color: #f5f5f4;
+      height: 400px
   }
   
-  .footerContactUs a:hover{
-      background-color:red;
-  }
-  .opener h3{
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 15px;
+.questionAsk{
+    background-color: #f5f5f4;
+    display: flex;
+    justify-content: space-around;
+   
 }
-
-.opener h2{
-    font-size: 70px;
-    color:white;
-    font-family: 'Libre Baskerville', serif;
-}
-  

@@ -5,11 +5,16 @@
     justify-content: center;
     align-content: center;
 }
-.enterBtn{
+
+
+.opener h3{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
     font-size: 15px;
-    display: flex;
-    justify-content: center;
 }
-.enterBtn :hover{
-    color:navy
+
+.opener h2{
+    font-size: 70px;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
 }

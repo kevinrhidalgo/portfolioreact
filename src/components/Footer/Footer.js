@@ -7,7 +7,8 @@ const footerBg={
   backgroundColor:'white',
   height:'200px',
   display:'flex',
-  justifyContent:'center'
+  justifyContent:'center',
+  flexDirection:'column'
 }
 const footerInfo={
  color:'#222222',
@@ -17,9 +18,11 @@ const footerInfo={
  fontFamily: 'Old Standard TT, serif',
  textDecoration:'none'
 }
-const myTitle={
-  fontFamily:'Lobster Two, cursive',
-  fontSize:'30px',
+const letsTalk={
+  textDecoration:'none',
+  color:'red',
+  fontSize:'50px',
+  color:'gray'
 }
 
 function Footer() {
@@ -31,17 +34,30 @@ function Footer() {
   
   return (
     <div className='myFooter'>
-    <nav style={footerBg} className="navbar navbar-expand  ">
-      <div className="footerInfo">
-      <p style={footerInfo}><a style={footerInfo} href="mailto:kevinrhidalgo@yahoo.com">Collaborate with us</a></p>
 
+      
+    <nav style={footerBg} className="navbar navbar-expand  ">
+
+    <div class='questionAsk'> 
+      <h1>Looking for a Front-end Developer? 
+        <br/>
+        <br/>
+       & a Back-end Developer?</h1>
+      <a style={letsTalk}  href="mailto:kevinrhidalgo@yahoo.com"><h3 >Let's talk</h3> </a> 
+      </div>
+
+      
+      <div className="footerInfo">
+      <p style={footerInfo}><a style={footerInfo} href="mailto:kevinrhidalgo@yahoo.com">Collaborate with Me</a></p>
+
+      <p style={footerInfo}> © 2021. Kevin Hidalgo Portfolio</p>
 
       <a onClick={openModal}><p style={footerInfo}>Contacts</p></a>
         <Modal showModal={showModal} setShowModal={setShowModal} />
 
-        <p style={footerInfo}> © 2021. Kevin Hidalgo Portfolio</p>
+        
 
-    <p style={footerInfo}>FAQ </p>   
+    
     
   
    </div>

@@ -16,7 +16,7 @@ const pageChange={
   transform: 'translateY(-70%)',
   marginRight:'15px',
   marginTop:'40px',
-  marginBottom:'-185px'
+  marginBottom:'-256px'
   
 
 }
