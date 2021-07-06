@@ -11,8 +11,7 @@
       height: 800px;
   } 
 .footerInfo :hover{
-  background-color:#eba832;
-  border-radius: 100%;
+  cursor: pointer;
   
 } 
 .questionAsk{
@@ -23,11 +22,11 @@
     font-family: 'Encode Sans SC', sans-serif; 
 }
 .questionAsk a:hover{
-  background-color:#eba832;
+  background-color:tomato;
   border-radius: 100%;
   
 }
-.contactList :hover{
-  background-color:#eba832;
+.contactList a:hover{
+  background-color:tomato;
   border-radius: 100%;
 }

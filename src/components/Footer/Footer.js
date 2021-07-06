@@ -69,6 +69,7 @@ function Footer() {
         <Modal showModal={showModal} setShowModal={setShowModal} />
 
    </div>
+
    <div className="contactList">
        <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 
        <a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
