@@ -36,12 +36,14 @@ function Footer() {
       <p style={footerInfo}><a style={footerInfo} href="mailto:kevinrhidalgo@yahoo.com">Collaborate with us</a></p>
 
 
-      <a onClick={openModal}><p style={footerInfo}>Contact us.</p></a>
+      <a onClick={openModal}><p style={footerInfo}>Contacts</p></a>
         <Modal showModal={showModal} setShowModal={setShowModal} />
+
+        <p style={footerInfo}> © 2021. Kevin Hidalgo Portfolio</p>
 
     <p style={footerInfo}>FAQ </p>   
     
-   <p style={footerInfo}> © 2021. Kevin Hidalgo Portfolio</p>
+  
    </div>
     </nav>
     </div>

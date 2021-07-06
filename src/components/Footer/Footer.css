@@ -1,24 +1,7 @@
 
-footer{
-    margin-top: 250px;
-    
-  }
-  footer p{
-      font-family: poppins;
-      text-align:center;
-      color: #222222;
-      font-size: 20px;
-      float: left;
-      width: 1200px;
-      height:140px;
-      padding:10px; 
-      position:absolute;
-      transform: translate(-60px,-90%);
-      margin-left: 90px;
-    }
+ 
     .myFooter{
       margin-top: 70px;
-     
   
   }
   .footerInfo{
@@ -29,5 +12,15 @@ footer{
   .footerContactUs a:hover{
       background-color:red;
   }
-  
+  .opener h3{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+}
+
+.opener h2{
+    font-size: 70px;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+}
   

@@ -10,47 +10,63 @@ import Opener from './components/Opener'
 const pageChange={
   fontSize:17,
   display:"flex",
-  justifyContent:"center",
+  justifyContent:"space-between",
   fontFamily: 'Roboto, sans-serif',
   fontWeight:250,
   transform: 'translateY(-70%)',
   marginRight:'15px',
+  marginTop:'40px',
+  marginBottom:'-185px'
+  
 
 }
 const headerRoute={
-  marginTop:15,
-  listStyleType:"none",
+  marginTop:85,
+  listStyleType:"none", 
 }
-
+const leftLinks={
+  textDecoration:'none',
+}
+const appLinks={
+  color:'#fffaf1',
+  textDecoration:'none',
+  fontFamily: 'Mulish, sans-serif',
+  fontSize:'30px',
+  padding:"50px"
+}
+const appLinksTwo={
+  color:'#203354',
+  textDecoration:'none',
+  fontWeight:'bold',
+  fontFamily: 'Lato, sans-serif',
+  padding:"50px",
+  fontSize:'22px'
+}
 
 function App() {
   return (
     <div className="wrapper">
 
       <BrowserRouter>
-      <opener/>
-<Route path='/' exact={true} component={Opener}/>  
+
       <nav>
         <ul style={pageChange}>
         
-<li style={headerRoute}><Link to="/home" style={{ textDecoration: 'none', color:'white',margin:40 }}>Home</Link></li>
-<li style={headerRoute}><Link to="/about" style={{ textDecoration: 'none', color:'white',margin:40 }}>About</Link></li>
-<li style={headerRoute}><Link to="/skills-work" style={{ textDecoration: 'none', color:'white',margin:40 }}>Skills/Work</Link></li>
+<li style={headerRoute}><Link to="/home" style={leftLinks}><span style={appLinks}>Kevin Hidalgo</span>
+<br/><span style={appLinksTwo}>Portfolio</span></Link></li>
+<li style={headerRoute}><Link to="/about" style={appLinksTwo}>About</Link></li>
+
+{ /* <li style={headerRoute}><Link to="/skills-work" style={{ textDecoration: 'none', color:'red',margin:40 }}>Skills/Work</Link></li> */ }
 
         </ul>
         </nav>
 
-        <Switch>
-        
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/skills-work">
-            <Skills />
-          </Route>
+        <Route path='/' exact={true} component={Opener}/>   
+
+        <Switch> 
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/skills-work" component={Skills}/>     
         </Switch>
       </BrowserRouter>
       <Footer/>
