@@ -1,7 +1,8 @@
 .myFooter{
       margin-top: 10px;
       margin-bottom: 90px;
-      background-color: #ececec;;  
+      background-color: #ececec;
+      bottom: 0; 
       }
 .footerInfo{
       display: flex;
@@ -19,7 +20,7 @@
 } 
 
 .questionAsk{
-    background-color: #ececec;;
+    background-color: #ececec;
     color:#222222;
     display: flex;
     justify-content: space-around;
@@ -34,6 +35,7 @@
 .contactList{
   display: flex;
   justify-content: center;
+  background-color: #ececec;
 }
 .contactList a:hover{
   background-color:#bcd2e8;

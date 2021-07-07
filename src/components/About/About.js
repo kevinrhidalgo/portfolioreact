@@ -41,6 +41,7 @@ export default function About() {
    </div> 
    <div className='famPhoto'><img style={famPhoto}/></div>   
   
+
    <div className='aboutMe'>
        <h2 style={hello}>Hello</h2>
 
@@ -52,7 +53,14 @@ export default function About() {
           <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
        </div> 
 
+
+       <div className='boutSection'>
+<h1>hello</h1>
+</div>        
+
+
 </div>
+
    </div>
     );
   }

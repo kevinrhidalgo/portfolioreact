@@ -17,6 +17,8 @@ const pStyler={
 const projectImg={
    width:'350px',
    height:'250px',
+   borderRadius: '2%',
+  
 }
 
 export default function Opener() {
@@ -24,14 +26,14 @@ export default function Opener() {
   return (
     <>
       <div className='opener' id='opener'>
-      <div className='openerBody'>
+
             <div className='openerBody'>
 <h2>Kevin R. Hidalgo</h2>
         <h3>“It’s not how good you are, it’s how good you want to be”
 </h3>
 
 </div>
-</div>
+
           
       </div>
 { /* <div className='midBorder'>Hello</div> */}
