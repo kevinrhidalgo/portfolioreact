@@ -7,6 +7,7 @@ import Github from "../Modal/ghub.png"
 import Phone from "../Modal/cellphone.jpeg"
 import Email from "../Modal/Email.png"
 import Linkedin from "../Modal/in.png"
+import proResume from './proResume.pdf'
 
 const footerBg={
   backgroundColor:'white',
@@ -67,6 +68,8 @@ function Footer() {
 
       <a onClick={openModal}><p style={footerInfo}>Contacts</p></a>
         <Modal showModal={showModal} setShowModal={setShowModal} />
+
+        <a href={proResume}><h1 style={footerInfo} >Resume</h1></a>
 
    </div>
 

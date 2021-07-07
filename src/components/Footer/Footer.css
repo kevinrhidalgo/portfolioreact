@@ -9,11 +9,15 @@
       justify-content: center;
       background-color: #ececec;;
       height: 800px;
+     
   } 
+.footerInfo a{
+  text-decoration: none;
+}
 .footerInfo :hover{
-  cursor: pointer;
-  
+  cursor: pointer;  
 } 
+
 .questionAsk{
     background-color: #ececec;;
     color:#222222;
