@@ -46,7 +46,27 @@ It's a balance of applying various technology, designs, and research with non-st
 
 
 
+  <div className='projectSetOne'>
+  <div className='setOne'>Salud</div>
+  <div className='setOne'>Shelfi</div>
+  <div className='setOne'>Coming Soon!</div>
+</div>
+
+ <div className='projectSetOne'>
+  <div className='setOne'>Coming Soon!</div>
+  <div className='setOne'>Coming Soon!</div>
+  <div className='setOne'>Coming Soon!</div>
+</div>
+
+
+
+
+
 </div> 
+
+
+
+
     </>
   );
 }
