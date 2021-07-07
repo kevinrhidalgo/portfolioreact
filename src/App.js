@@ -16,8 +16,6 @@ const pageChange={
   marginRight:'15px',
   marginTop:'40px',
   marginBottom:'-256px'
-  
-
 }
 const headerRoute={
   marginTop:85,
@@ -51,9 +49,8 @@ function App() {
       <nav>
         <ul style={pageChange}>
         
-<li style={headerRoute}><Link to="/" style={leftLinks}><span style={appLinks}>Kevin Hidalgo</span>
-<br/><span style={appLinksTwo}>Portfolio</span></Link></li>
-<li style={headerRoute}><Link to="/about" style={appLinksTwo}>About</Link></li>
+<li style={headerRoute}><Link to="/" style={leftLinks}><span style={appLinks}>Kevin Hidalgo</span> <br/><span style={appLinksTwo}>portfolio</span></Link></li>
+<li style={headerRoute}><Link to="/about" style={appLinksTwo}>about.</Link></li>
 
 { /* <li style={headerRoute}><Link to="/skills-work" style={{ textDecoration: 'none', color:'red',margin:40 }}>Skills/Work</Link></li> */ }
 

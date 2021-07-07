@@ -1,5 +1,4 @@
 import React from 'react';
-import Photo from './nycc.jpg'
 import './About.css'
 import proResume from './proResume.pdf'
 
@@ -7,7 +6,9 @@ const famPhoto={
     width:'300px',
     height:'300px', 
     transform:'translate(175%,-110%)',
-    filter:'blur(.7px)'
+    filter:'blur(.7px)',
+    backgroundColor:'#d3d3d3'
+    
 }
 const hello={
     fontFamily: 'Dancing Script, cursive'
@@ -31,12 +32,15 @@ const resumePro={
 
 export default function About() {
     return (
+<div className='aboutPage'>
+
    <div className='aboutSection'>
    <div className='emptyBox'>
        <h4>About</h4>
    <p>FULL-STACK WEB DEVELOPER</p>
    </div> 
-   <div className='famPhoto'><img style={famPhoto} src={Photo}/></div>   
+   <div className='famPhoto'><img style={famPhoto}/></div>   
+  
    <div className='aboutMe'>
        <h2 style={hello}>Hello</h2>
 
@@ -48,6 +52,7 @@ export default function About() {
           <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
        </div> 
 
+</div>
    </div>
     );
   }

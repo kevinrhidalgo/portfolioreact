@@ -2,7 +2,7 @@ body {
     background-color: #ececec;;
   }
 
-
+.aboutPage
   .opener{
     display: flex;
   height: 100vh;
@@ -23,4 +23,15 @@ body {
   height: 1050px;
   margin-bottom: 1px;
 }
+.aboutPage{
+  background-image: url(https://eskipaper.com/images/manhattan-bridge-new-york-city-usa-night-photo-1.jpg);
+  background-position: center;
+  background-size: 1750px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1050px;
+  margin-bottom: 1px;
+  
+}
+
 
