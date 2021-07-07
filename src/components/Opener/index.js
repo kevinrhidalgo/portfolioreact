@@ -9,6 +9,11 @@ const underScore={
   color:'tomato',
   animation: 'blinker 1s linear infinite',
 }
+const pStyler={
+  display:'flex',
+  justifyContent:'center',
+  fontWeight:'bold'
+}
 
 export default function Opener() {
  
@@ -30,10 +35,14 @@ export default function Opener() {
 
 <div className='projSec'>
      <h1>Work <span style={underScore} className='underScore'>_</span></h1>
-<p>As a fullstack web developer, my passion is creating different projects <br/> to enhance user experiences, and creating
-  an application that comes from an idea.<br/> It's a balance of applying various technology, designs, and research and 
-  experimentation.
-</p>
+     <div className='pStyler'>
+       <div className='pStylerTwo'>
+<p style={pStyler}>As a fullstack web developer, my passion is creating different projects to enhance user experiences.
+ To create applications that start from an idea in the head. 
+It's a balance of applying various technology, designs, and research with non-stop
+  experimentation.</p>
+  </div>
+  </div>
 
 
 

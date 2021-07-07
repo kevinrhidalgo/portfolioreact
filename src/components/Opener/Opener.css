@@ -51,7 +51,7 @@
     align-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
-    line-height: 40px;
+    line-height: 21px;
     color:white;
     margin-bottom: 50px;
   }
@@ -62,4 +62,11 @@
   50% {
     opacity: 0;
   }
+}
+.pStyler{
+  display: flex;
+  justify-content: center;
+}
+.pStylerTwo{
+ width:800px;
 }
