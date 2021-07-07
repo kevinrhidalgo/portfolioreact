@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-around;
     font-family: 'Encode Sans SC', sans-serif; 
+    padding-top: 50px;
 }
 .questionAsk a:hover{
   background-color:#bcd2e8;
