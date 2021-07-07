@@ -1,7 +1,7 @@
 import React from 'react';
 import './Opener.css'
 import { Link } from "react-router-dom";
-import salud from './salud.png'
+import salud from './saludHome.png'
 import shelfi from './shelfi.png'
 import underC from './underC.jpg'
 
@@ -13,6 +13,10 @@ const pStyler={
   display:'flex',
   justifyContent:'center',
   fontWeight:'bold'
+}
+const projectImg={
+   width:'350px',
+   height:'250px',
 }
 
 export default function Opener() {
@@ -47,15 +51,15 @@ It's a balance of applying various technology, designs, and research with non-st
 
 
   <div className='projectSetOne'>
-  <div className='setOne'>Salud</div>
-  <div className='setOne'>Shelfi</div>
-  <div className='setOne'>Coming Soon!</div>
+  <div className='setOne'><img style={projectImg} src={salud}/></div>
+  <div className='setOne'><img style={projectImg} src={shelfi}/></div>
+  <div className='setOne'><img style={projectImg} src={underC}/></div>
 </div>
 
  <div className='projectSetOne'>
-  <div className='setOne'>Coming Soon!</div>
-  <div className='setOne'>Coming Soon!</div>
-  <div className='setOne'>Coming Soon!</div>
+  <div className='setOne'><img style={projectImg} src={underC}/></div>
+  <div className='setOne'><img style={projectImg} src={underC}/></div>
+  <div className='setOne'><img style={projectImg} src={underC}/></div>
 </div>
 
 
