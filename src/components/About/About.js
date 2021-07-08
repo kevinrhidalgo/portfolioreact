@@ -28,6 +28,10 @@ const resumePro={
     marginLeft:'150px',
     fontWeight:'900px'
 }
+const underScore={
+    color:'#6c5b7b',
+    animation: 'blinker 1s linear infinite',
+  }
 
 
 export default function About() {
@@ -61,8 +65,8 @@ export default function About() {
 
 
 <div className='aboutSec'>
-   <h1>Skills</h1>
-   <h1>Languages</h1>
+<h1>Skills<span style={underScore} className='underScore'>_</span></h1>
+   <h1>Languages<span style={underScore} className='underScore'>_</span></h1>
 
 <div className='languagesType'>
     <div className='secOne'>
@@ -83,17 +87,22 @@ export default function About() {
         <div class="skill javascript">60%</div>
     </div>
 </div>
-</div>
 <div className='secOne'>
 <p>NoSQL</p>
     <div class="container">
         <div class="skill nosql">35%</div>
     </div>
 </div>
+</div>
+<div className='secOne'>
+<p>Spanish</p>
+    <div class="container">
+        <div class="skill spanish">100%</div>
+    </div>
+</div>
 
 
-
-<h1 >Applications</h1>
+<h1>Applications<span style={underScore} className='underScore'>_</span></h1>
 <div className='applicationType'>
 <div className='secOne'>
 <p>Github</p>
@@ -113,15 +122,16 @@ export default function About() {
         <div class="skill mysql">55%</div>
     </div>
 </div>
-</div>
-
-<div className='applicationType'>
 <div className='secOne'>
 <p>VS Code</p>
     <div class="container">
         <div class="skill vscode">99%</div>
     </div>
 </div> 
+</div>
+
+<div className='applicationType'>
+
 <div className='secOne'>
 <p>Robo 3T</p>
     <div class="container">
@@ -138,7 +148,7 @@ export default function About() {
 
 
 
-<h1>Tools</h1>
+<h1>Tools<span style={underScore} className='underScore'>_</span></h1>
 <div className='toolType'>
 <div className='secOne'>
     <p>Express</p>
@@ -158,15 +168,15 @@ export default function About() {
         <div class="skill node">58%</div>
     </div>  
 </div>
-</div>
-
-<div className='toolType'>
 <div className='secOne'>
 <p>Handlebars</p>
     <div class="container">
         <div class="skill handlebars">65%</div>
     </div>
 </div>
+</div>
+
+<div className='toolType'>
 <div className='secOne'>
 <p>JQuery</p>
     <div class="container">
@@ -178,17 +188,16 @@ export default function About() {
     <div class="container">
         <div class="skill bootstrap">90%</div>
     </div>
-</div>    
-</div>
-
-<div className='toolType'>
+</div>  
 <div className='secOne'>
 <p>Api(server-side/3rd Party</p>
     <div class="container">
         <div class="skill api">60%</div>
     </div>
+</div>  
 </div>
-</div>
+
+
 
 
 </div> 
