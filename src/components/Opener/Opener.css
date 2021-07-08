@@ -79,21 +79,33 @@ border-radius: 2%;
 .setOne{
   width: 350px;
   height:250px;
-  background-color:tomato;
   margin:15px;
-  border-radius: 5%;
+  border-radius: 2%;
+  background-color:tomato;
 }
+.setOne img:hover{
+  background-color: tomato;
+  object-fit: cover;
+   opacity: 0.6;
+}
+.projectImg{
+   object-fit: cover;
+   opacity: 0.2;
+}
+
 .projectTitle{
   font-size:45px ;
   color:white;
   font-family: 'Yellowtail', cursive;
  transform: translate(30%,-220%);
+ font-weight: bolder;
 }
 .projectTitle2{
   font-size:40px ;
   color:white;
   font-family: 'Poppins', sans-serif;
   transform: translate(35%,-320%);
+  font-weight: bolder;
 }
 .projectTitle3{
   font-size:30px ;
@@ -112,6 +124,7 @@ border-radius: 2%;
   color:white;
   font-family: 'Teko', sans-serif;
   transform: translate(20%,-390%);
+  font-weight: bolder;
 }
 .projectTitle6{
   font-size:30px;
