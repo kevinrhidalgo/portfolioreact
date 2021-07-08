@@ -32,15 +32,15 @@ const resumePro={
 
 export default function About() {
     return (
-<div className='aboutPage'>
 
-   <div className='aboutSection'>
+        <>
+      <div className='aboutPage'>
+      <div className='aboutSection'>
    <div className='emptyBox'>
        <h4>About</h4>
    <p>FULL-STACK WEB DEVELOPER</p>
    </div> 
-   <div className='famPhoto'><img style={famPhoto}/></div>   
-  
+   <div className='famPhoto'><img style={famPhoto}/></div>  
 
    <div className='aboutMe'>
        <h2 style={hello}>Hello</h2>
@@ -54,13 +54,28 @@ export default function About() {
        </div> 
 
 
-       <div className='boutSection'>
-<h1>hello</h1>
-</div>        
-
-
-</div>
-
    </div>
+
+      </div>
+
+
+
+<div className='aboutSec'>
+   <h1>hello</h1>
+
+
+
+
+
+</div> 
+
+
+
+
+
+
+
+    </>
+
     );
   }
