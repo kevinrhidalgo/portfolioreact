@@ -17,8 +17,9 @@ const pStyler={
 const projectImg={
    width:'350px',
    height:'250px',
-   borderRadius: '2%',
-  
+   borderRadius: '5%',
+   objectFit: 'cover',
+   opacity: '0.2'
 }
 
 export default function Opener() {
@@ -53,15 +54,15 @@ It's a balance of applying various technology, designs, and research with non-st
 
 
   <div className='projectSetOne'>
-  <div className='setOne'><img style={projectImg} src={salud}/></div>
-  <div className='setOne'><img style={projectImg} src={shelfi}/></div>
-  <div className='setOne'><img style={projectImg} src={underC}/></div>
+  <div className='setOne'><img style={projectImg} src={salud}/><div className='projectTitle'>Salud.</div></div>
+  <div className='setOne'><img style={projectImg} src={shelfi}/><div className='projectTitle2'>Shelfi.</div></div>
+  <div className='setOne'><img style={projectImg} src={underC}/><div className='projectTitle3'>Coming Soon!</div></div>
 </div>
 
  <div className='projectSetOne'>
-  <div className='setOne'><img style={projectImg} src={underC}/></div>
-  <div className='setOne'><img style={projectImg} src={underC}/></div>
-  <div className='setOne'><img style={projectImg} src={underC}/></div>
+  <div className='setOne'><img style={projectImg} src={underC}/><div className='projectTitle4'>Coming Soon!</div></div>
+  <div className='setOne'><img style={projectImg} src={underC}/><div className='projectTitle5'>Coming Soon!</div></div>
+  <div className='setOne'><img style={projectImg} src={underC}/><div className='projectTitle6'>Coming Soon!</div></div>
 </div>
 
 
