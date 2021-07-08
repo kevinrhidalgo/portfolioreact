@@ -2,7 +2,6 @@ import React from "react"
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer/Footer'
 import About from './components/About/About'
-import Skills from './components/Skills/Skills'
 import Home from './components/Opener'
 
 
@@ -58,11 +57,8 @@ function App() {
         </nav>
 
         <Route path='/' exact={true} component={Home}/>   
-
         <Switch> 
-    
-        <Route path="/about" component={About} />
-        <Route path="/skills-work" component={Skills}/>     
+        <Route path="/about" component={About} />    
         </Switch>
       </BrowserRouter>
       <Footer/>
