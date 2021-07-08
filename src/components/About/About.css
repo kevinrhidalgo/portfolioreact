@@ -26,7 +26,7 @@
     width:400px;
     transform:translate(100%,-45%); 
     padding:10px;
-    box-shadow: 10px 10px 5px rgb(196, 192, 192) ;
+    box-shadow: 10px 8px 7px rgb(167, 165, 165) ;
     margin-bottom: 100px;
 }
 .aboutMe a{
@@ -40,15 +40,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     margin-bottom: 90px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .aboutSec{
     width: 100%;
     height: 1200px;
-    background-color: #cbcbcb;
-    
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
