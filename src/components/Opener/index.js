@@ -19,6 +19,9 @@ const projectImg={
    height:'225px',
    borderRadius: '2%',
 }
+const modalProjects={
+  margin:'-5px -15px'
+}
 
 
 
@@ -97,29 +100,29 @@ It's a balance of applying various technology, designs, and research with non-st
 
   <div className='projectSetOne'>
 
-<a onClick={toggleModal} className="btn-modal">
+<a style={modalProjects} onClick={toggleModal} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={salud}/><div className='projectTitle'>Salud.</div></div>
 </a>
 
-<a onClick={toggleModalTwo} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalTwo} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={shelfi}/><div className='projectTitle2'>Shelfi.</div></div>
 </a>
 
-<a onClick={toggleModalThree} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle3'>Coming Soon!</div></div>
 </a>
 </div>
 
  <div className='projectSetOne'>
-<a onClick={toggleModalThree} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle4'>Coming Soon!</div></div>
 </a>
 
-<a onClick={toggleModalThree} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle5'>Coming Soon!</div></div>
 </a>
 
-<a onClick={toggleModalThree} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle6'>Coming Soon!</div></div>
 </a>
 </div>
