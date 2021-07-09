@@ -143,6 +143,8 @@ It's a balance of applying various technology, designs, and research with non-st
 
 </div> 
 
+
+
 {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
@@ -163,6 +165,9 @@ It's a balance of applying various technology, designs, and research with non-st
         </div>
       )}
 
+
+
+
 {modalTwo && (
         <div className="modal">
           <div onClick={toggleModalTwo} className="overlay"></div>
@@ -177,6 +182,9 @@ It's a balance of applying various technology, designs, and research with non-st
           </div>
         </div>
       )}
+
+
+
 
 {modalThree && (
         <div className="modal">
