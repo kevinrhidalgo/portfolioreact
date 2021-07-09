@@ -171,6 +171,7 @@ body.active-modal {
   border-radius: 3px;
   max-width: 600px;
   min-width: 300px;
+  font-family: 'Encode Sans SC', sans-serif;
 }
 
 .close-modal {

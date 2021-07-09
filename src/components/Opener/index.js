@@ -25,7 +25,8 @@ const modalProjects={
 const closeBtn={
   fontSize:'25px',
   fontFamily: 'Lato, sans-serif',
-  color:'tomato'
+  color:'tomato',
+  cursor: 'pointer' 
 }
 const githubLink={
   textDecoration:'none',
