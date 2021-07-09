@@ -22,6 +22,11 @@ const projectImg={
 const modalProjects={
   margin:'-5px -15px'
 }
+const closeBtn={
+  fontSize:'25px',
+  fontFamily: 'Lato, sans-serif',
+  color:'tomato'
+}
 
 
 
@@ -144,7 +149,7 @@ It's a balance of applying various technology, designs, and research with non-st
               placeat tempora vitae enim incidunt porro fuga ea.
             </p>
             <a className="close-modal" onClick={toggleModal}>
-              CLOSE
+            <span style={closeBtn}>X</span>
             </a>
           </div>
         </div>
@@ -159,11 +164,12 @@ It's a balance of applying various technology, designs, and research with non-st
               Hello
             </p>
             <a className="close-modal" onClick={toggleModalTwo}>
-              CLOSE
+            <span style={closeBtn}>X</span>
             </a>
           </div>
         </div>
       )}
+
 {modalThree && (
         <div className="modal">
           <div onClick={toggleModalThree} className="overlay"></div>
@@ -173,7 +179,7 @@ It's a balance of applying various technology, designs, and research with non-st
               Yuurrrrrrrrrr!
             </p>
             <a className="close-modal" onClick={toggleModalThree}>
-              CLOSE
+              <span style={closeBtn}>X</span>
             </a>
           </div>
         </div>
