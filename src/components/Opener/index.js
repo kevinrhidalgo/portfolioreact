@@ -27,6 +27,13 @@ const closeBtn={
   fontFamily: 'Lato, sans-serif',
   color:'tomato'
 }
+const githubLink={
+  textDecoration:'none',
+  fontSize:'18px',
+  color:'tomato',
+  display:'flex',
+  justifyContent:'center'
+}
 
 
 
@@ -174,10 +181,14 @@ It's a balance of applying various technology, designs, and research with non-st
         <div className="modal">
           <div onClick={toggleModalThree} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
+            <h2>Coming Soon!</h2>
             <p>
-              Yuurrrrrrrrrr!
+              This is a current Project underdevelopment.<br/>
+              Currently being coded out.
             </p>
+            <h4>Heres the Link to my Github</h4>
+            <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
+            
             <a className="close-modal" onClick={toggleModalThree}>
               <span style={closeBtn}>X</span>
             </a>
