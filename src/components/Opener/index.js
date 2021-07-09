@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './Opener.css'
 import { Link } from "react-router-dom";
 import salud from './saludHome.png'
@@ -15,14 +15,56 @@ const pStyler={
   fontWeight:'bold'
 }
 const projectImg={
-   width:'350px',
-   height:'250px',
+   width:'300px',
+   height:'225px',
    borderRadius: '2%',
 }
 
 
 
 export default function Opener() {
+
+
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+
+    setModal(!modal);
+  };
+
+  const [modalTwo, setModalTwo] = useState(false);
+
+  const toggleModalTwo = () => {
+
+    setModalTwo(!modalTwo);
+  };
+
+  const [modalThree, setModalThree] = useState(false);
+
+  const toggleModalThree = () => {
+
+    setModalThree(!modalThree);
+  };
+
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+  if(modalTwo) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+  if(modalThree) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+
  
   return (
     <>
@@ -54,25 +96,85 @@ It's a balance of applying various technology, designs, and research with non-st
 
 
   <div className='projectSetOne'>
+
+<a onClick={toggleModal} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={salud}/><div className='projectTitle'>Salud.</div></div>
+</a>
+
+<a onClick={toggleModalTwo} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={shelfi}/><div className='projectTitle2'>Shelfi.</div></div>
+</a>
+
+<a onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle3'>Coming Soon!</div></div>
+</a>
 </div>
 
  <div className='projectSetOne'>
+<a onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle4'>Coming Soon!</div></div>
+</a>
+
+<a onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle5'>Coming Soon!</div></div>
+</a>
+
+<a onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle6'>Coming Soon!</div></div>
+</a>
 </div>
-
-
-
 
 
 </div> 
 
+{modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Hello Modal</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              perferendis suscipit officia recusandae, eveniet quaerat assumenda
+              id fugit, dignissimos maxime non natus placeat illo iusto!
+              Sapiente dolorum id maiores dolores? Illum pariatur possimus
+              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
+              placeat tempora vitae enim incidunt porro fuga ea.
+            </p>
+            <a className="close-modal" onClick={toggleModal}>
+              CLOSE
+            </a>
+          </div>
+        </div>
+      )}
 
-
+{modalTwo && (
+        <div className="modal">
+          <div onClick={toggleModalTwo} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Hello Modal</h2>
+            <p>
+              Hello
+            </p>
+            <a className="close-modal" onClick={toggleModalTwo}>
+              CLOSE
+            </a>
+          </div>
+        </div>
+      )}
+{modalThree && (
+        <div className="modal">
+          <div onClick={toggleModalThree} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Hello Modal</h2>
+            <p>
+              Yuurrrrrrrrrr!
+            </p>
+            <a className="close-modal" onClick={toggleModalThree}>
+              CLOSE
+            </a>
+          </div>
+        </div>
+      )}
 
     </>
   );
