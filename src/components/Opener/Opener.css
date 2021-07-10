@@ -200,7 +200,7 @@ body.active-modal {
 .carousel {
   margin-top: 100px;
   width: 52%;
-  height: 360px;
+  height: 260px;
   background-color: white;
 }
 .carouselInner {
@@ -209,8 +209,15 @@ body.active-modal {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  
+  display: flex; 
+}
+.carouselInnerShelfi {
+  height: 260px;
+  width: 520px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; 
 }
 .carouselInner .left {
   flex: 5%;
@@ -223,7 +230,29 @@ body.active-modal {
   margin-top: 85px;
   margin-left:0px;
 }
+.carouselInnerShelfi .left {
+  flex: 5%;
+  height: 100%; 
+  place-items: center;
+  color: #0080ff;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 85px;
+  margin-left:0px;
+}
 .carouselInner .right {
+  flex: 5%;
+  height: 100%;
+  place-items: center;
+  color: #0080ff;
+  cursor: pointer;
+  display: flex;
+  align-items:flex-end;
+  margin-top: 85px;
+  margin-left:440px;
+}
+.carouselInnerShelfi .right {
   flex: 5%;
   height: 100%;
   place-items: center;
@@ -302,6 +331,7 @@ body.active-modal {
   margin-top: 20px;
   font-size: 13px;
   padding:7px;
+  text-decoration: none;
 }
 .aboutShelfi a:hover{
   background-color: orange;
