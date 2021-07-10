@@ -238,7 +238,7 @@ body.active-modal {
 
 
 
-/* this is the css for the project descriptionm on the side */
+/* this is the css for the salud project descriptionm on the side */
 .aboutProject2{
   display: flex;
   flex-direction: row;
@@ -258,17 +258,52 @@ body.active-modal {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 25px;
 }
-.aboutSalud button{
-  height:38px;
-  width:90px;
+.aboutSalud a{
+  text-decoration: none;
   background-color: #0080ff;
   color:white;
   font-family: 'Noto Sans JP', sans-serif;
   border-radius: 7px 7px 7px 7px;
   margin:50px;
   margin-top: 20px;
+  font-size: 13px;
+  padding:7px;
 }
-.aboutSalud button:hover{
+.aboutSalud a:hover{
+  background-color: orange;
+  cursor:pointer;
+}
+
+
+
+
+/* this is the css for the shelfi project descriptionm on the side */
+.aboutShelfi{
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.aboutShelfi h1{
+  font-size: 55px;
+  color:white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.aboutShelfi p{
+  font-size: 17px;
+  color:#fffaf1;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 25px;
+}
+.aboutShelfi a{
+  background-color: #0080ff;
+  color:white;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 7px 7px 7px 7px;
+  margin:50px;
+  margin-top: 20px;
+  font-size: 13px;
+  padding:7px;
+}
+.aboutShelfi a:hover{
   background-color: orange;
   cursor:pointer;
 }

@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import salud from './saludHome.png'
 import shelfi from './shelfi.png'
 import underC from './underC.jpg'
-import { images } from "../../Helpers/CarouselData";
+import { images } from "../../Helpers/CarouselData"
+import { imagesTwo } from "../../Helpers/ShelfiData";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+
 
 const underScore={
   color:'#0080ff',
@@ -43,7 +45,6 @@ const indent={
   color:'orange',
   fontSize:'24px'
 }
-
 
 export default function Opener() {
 
@@ -194,8 +195,8 @@ It's a balance of applying various technology, designs, and research with non-st
 You can read articles, read blogs, watch mini-films and even find recipes based on how calories you plan to consume. 
 The application is an ongoing project with hopes to continue growing and implementing new ideas.
 </p>
-<button href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</button>
-<button href='https://github.com/kevinrhidalgo/dd-salud'>View Site</button>
+<a  href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</a>
+<a  href='https://github.com/kevinrhidalgo/dd-salud'>View Site</a>
       </div>
  
 </div>
@@ -211,17 +212,54 @@ The application is an ongoing project with hopes to continue growing and impleme
 
 {modalTwo && (
         <div className="modal">
-          <div onClick={toggleModalTwo} className="overlay"></div>
-          <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Hello
-            </p>
-            <a className="close-modal" onClick={toggleModalTwo}>
+        <div onClick={toggleModal} className="overlay"></div>
+        <div className="modal-content2">
+
+<div className='aboutProject2'>
+     <div className="carousel">
+    
+    <div
+      className="carouselInner"
+      style={{ backgroundImage: `url(${imagesTwo[currImg].img})` }}
+    >
+
+   <div
+        className="left"
+        onClick={() => {
+          currImg > 0 && setCurrImg(currImg - 1);
+        }}
+      >
+        <ArrowBackIosIcon style={{ fontSize: 45 }} />
+      </div>
+      <div
+        className="right"
+        onClick={() => {
+          currImg < imagesTwo.length - 1 && setCurrImg(currImg + 1);
+        }}
+      >
+        <ArrowForwardIosIcon style={{ fontSize: 45 }} />
+      </div>
+    </div>
+  </div>
+
+
+  <div className='aboutShelfi'> 
+    <h1>shelfi.</h1>
+<p>
+<span style={indent}>Shelfi</span>  is a modern search engine for book lovers 
+to find their next good read. Users can search books by author or title 
+to view a description and details.
+</p>
+<a src='https://github.com/mascarelloa/shelfi'>View Repo</a>
+<a src='https://myshelfi.herokuapp.com/'>View Site</a>
+    </div>
+
+</div>
+<a className="close-modal" onClick={toggleModalTwo}>
             <span style={closeBtn}>X</span>
             </a>
-          </div>
         </div>
+      </div>
       )}
 
 
