@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import salud from './saludHome.png'
 import shelfi from './shelfi.png'
 import underC from './underC.jpg'
+import { images } from "../../Helpers/CarouselData";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const underScore={
   color:'tomato',
@@ -40,7 +43,7 @@ const githubLink={
 
 export default function Opener() {
 
-
+//the consat function for the modals of the projects
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -80,7 +83,9 @@ export default function Opener() {
     document.body.classList.remove('active-modal')
   }
 
+  //this is the function code for the image carousal
 
+const [currImg, setCurrImg] = useState(0);
  
   return (
     <>
@@ -148,16 +153,31 @@ It's a balance of applying various technology, designs, and research with non-st
 {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
+          <div className="modal-content2">
+            <h2>Salud.</h2>
+            <div className="carousel">
+      <div
+        className="carouselInner"
+        style={{ backgroundImage: `url(${images[currImg].img})` }}
+      >
+     <div
+          className="left"
+          onClick={() => {
+            currImg > 0 && setCurrImg(currImg - 1);
+          }}
+        >
+          <ArrowBackIosIcon style={{ fontSize: 30 }} />
+        </div>
+        <div
+          className="right"
+          onClick={() => {
+            currImg < images.length - 1 && setCurrImg(currImg + 1);
+          }}
+        >
+          <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+        </div>
+      </div>
+    </div>
             <a className="close-modal" onClick={toggleModal}>
             <span style={closeBtn}>X</span>
             </a>
