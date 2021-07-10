@@ -83,10 +83,10 @@ border-radius: 2%;
   height:225px;
   margin:10px;
   border-radius: 2%;
-  background-color:tomato;
+  background-color:#0080ff;
 }
 .setOne img:hover{
-  background-color: tomato;
+  background-color: #0080ff;
   object-fit: cover;
    opacity: 0.6;
 }
@@ -180,11 +180,10 @@ body.active-modal {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: #f1f1f1;
   padding: 24px 28px;
   border-radius: 3px;
-  height:600px;
-  width:800px;
+  height:700px;
+  width:1000px;
   font-family: 'Encode Sans SC', sans-serif;
 }
 
@@ -199,35 +198,77 @@ body.active-modal {
 
 /* css for the image scroll section of the modals */
 .carousel {
-  width: 65%;
-  height: 350px;
+  margin-top: 100px;
+  width: 52%;
+  height: 360px;
   background-color: white;
 }
 .carouselInner {
-  height: 350px;
+  height: 340px;
   width: 520px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  
 }
 .carouselInner .left {
   flex: 5%;
   height: 100%; 
   place-items: center;
-  color: tomato;
+  color: #0080ff;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 85px;
   margin-left:0px;
 }
 .carouselInner .right {
   flex: 5%;
   height: 100%;
   place-items: center;
-  color: tomato;
+  color: #0080ff;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  margin-left:466px;
+  align-items:flex-end;
+  margin-top: 85px;
+  margin-left:440px;
+}
+
+
+
+
+/* this is the css for the project descriptionm on the side */
+.aboutProject2{
+  display: flex;
+  flex-direction: row;
+}
+.aboutSalud{
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.aboutSalud h1{
+  font-size: 55px;
+  color:white;
+  font-family: 'Yellowtail', cursive;
+}
+.aboutSalud p{
+  font-size: 17px;
+  color:#fffaf1;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 25px;
+}
+.aboutSalud button{
+  height:38px;
+  width:90px;
+  background-color: #0080ff;
+  color:white;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 7px 7px 7px 7px;
+  margin:50px;
+  margin-top: 20px;
+}
+.aboutSalud button:hover{
+  background-color: orange;
+  cursor:pointer;
 }

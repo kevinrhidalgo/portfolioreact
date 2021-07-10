@@ -9,7 +9,7 @@ import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const underScore={
-  color:'tomato',
+  color:'#0080ff',
   animation: 'blinker 1s linear infinite',
 }
 const pStyler={
@@ -28,17 +28,21 @@ const modalProjects={
 const closeBtn={
   fontSize:'25px',
   fontFamily: 'Lato, sans-serif',
-  color:'tomato',
+  color:'#0080ff',
   cursor: 'pointer' 
 }
 const githubLink={
   textDecoration:'none',
   fontSize:'18px',
-  color:'tomato',
+  color:'#0080ff',
   display:'flex',
   justifyContent:'center'
 }
-
+const indent={
+  marginLeft:'20px',
+  color:'orange',
+  fontSize:'24px'
+}
 
 
 export default function Opener() {
@@ -154,19 +158,22 @@ It's a balance of applying various technology, designs, and research with non-st
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content2">
-            <h2>Salud.</h2>
-            <div className="carousel">
+
+<div className='aboutProject2'>
+       <div className="carousel">
+      
       <div
         className="carouselInner"
         style={{ backgroundImage: `url(${images[currImg].img})` }}
       >
+
      <div
           className="left"
           onClick={() => {
             currImg > 0 && setCurrImg(currImg - 1);
           }}
         >
-          <ArrowBackIosIcon style={{ fontSize: 30 }} />
+          <ArrowBackIosIcon style={{ fontSize: 45 }} />
         </div>
         <div
           className="right"
@@ -174,10 +181,24 @@ It's a balance of applying various technology, designs, and research with non-st
             currImg < images.length - 1 && setCurrImg(currImg + 1);
           }}
         >
-          <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+          <ArrowForwardIosIcon style={{ fontSize: 45 }} />
         </div>
       </div>
     </div>
+
+  
+    <div className='aboutSalud'> 
+      <h1>salud.</h1>
+<p>
+<span style={indent}>Salud</span> is an online Magazine application focused on the benefits of a healthy lifestyle, whether that has to with working out to what you eat.
+You can read articles, read blogs, watch mini-films and even find recipes based on how calories you plan to consume. 
+The application is an ongoing project with hopes to continue growing and implementing new ideas.
+</p>
+<button href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</button>
+<button href='https://github.com/kevinrhidalgo/dd-salud'>View Site</button>
+      </div>
+ 
+</div>
             <a className="close-modal" onClick={toggleModal}>
             <span style={closeBtn}>X</span>
             </a>
