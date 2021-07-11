@@ -89,6 +89,7 @@ border-radius: 2%;
   background-color: #0080ff;
   object-fit: cover;
    opacity: 0.6;
+   cursor:pointer;
 }
 .projectImg{
    object-fit: cover;
@@ -122,17 +123,17 @@ border-radius: 2%;
   transform: translate(20%,-380%);
 }
 .projectTitle5{
-  font-size:30px;
+  font-size:40px;
   color:white;
   font-family: 'Teko', sans-serif;
-  transform: translate(20%,-390%);
+  transform: translate(5%,-320%);
   font-weight: bolder;
 }
 .projectTitle6{
-  font-size:30px;
+  font-size:20px;
   color:white;
   font-family: 'Shadows Into Light', cursive;
-  transform: translate(25%,-310%);
+  transform: translate(35%,-400%);
 }
 
 
@@ -189,7 +190,7 @@ body.active-modal {
 
 .close-modal {
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 10px;
   padding: 5px 7px;
 }

@@ -274,7 +274,7 @@ to view a description and details.
               This is a current Project underdevelopment.<br/>
               Currently being coded out.
             </p>
-            <h4>Heres the Link to my Github</h4>
+            <h4>Heres the Link to my Github in the meantime</h4>
             <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
             
             <a className="close-modal" onClick={toggleModalThree}>
