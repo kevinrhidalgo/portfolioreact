@@ -55,7 +55,7 @@
     color:#4a5f70;
     margin-top:-30px;
     margin-bottom: 20px;
-    width:690px;
+    width:710px;
     height:100px;
   }
 .underscore{
@@ -89,7 +89,8 @@ transform: translate(33%, 10%);
   height:280px;
   margin:10px;
   border-radius: 2%;
-  background-color:#4a5f70
+  background-color:#4a5f70;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .setOne img:hover{
   background-color: #4a5f70;
@@ -108,6 +109,7 @@ transform: translate(33%, 10%);
   font-family: 'Yellowtail', cursive;
  transform: translate(30%,-300%);
  font-weight: bolder;
+ 
 }
 .projectTitle2{
   font-size:30px ;

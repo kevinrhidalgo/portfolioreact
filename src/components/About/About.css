@@ -49,7 +49,10 @@
 .aboutSec{
     width: 100%;
     height: 1400px;
-background-color: white;
+background-image: url(https://i.pinimg.com/originals/d8/20/e9/d820e97477beef71b0a43672d1227183.jpg);
+background-repeat: no-repeat;
+background-position-x: center;
+background-size: 1040px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +149,7 @@ background-color: white;
         
       }
       .skill {
-        background-color:#6c5b7b;
+        background-color:#629ac9;
         color: rgb(255, 255, 255);
         padding: 1%;
         text-align: right;

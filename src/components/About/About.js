@@ -29,7 +29,7 @@ const resumePro={
     fontWeight:'900px'
 }
 const underScore={
-    color:'#6c5b7b',
+    color:'#629ac9',
     animation: 'blinker 1s linear infinite',
   }
 

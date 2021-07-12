@@ -23,9 +23,10 @@ const projectImg={
    width:'210px',
    height:'280px',
    borderRadius: '2%',
+   
 }
 const modalProjects={
-  margin:'-5px -15px'
+  margin:'-5px -15px',
 }
 const closeBtn={
   fontSize:'25px',
@@ -46,7 +47,7 @@ const indent={
   fontSize:'24px'
 }
 const indentP={
-  marginLeft:'170px',
+  marginLeft:'190px',
   marginRight:'10px',
   color:'#629ac9',
   fontSize:'24px'
@@ -114,12 +115,12 @@ const [currImg, setCurrImg] = useState(0);
 { /* <div className='midBorder'>Hello</div> */}
 
 
-<div className='projSec'>
+<div className='projSec' id='projSec'>
      <h1>Work <span style={underScore} className='underScore'>_</span></h1>
      <div className='pStyler'>
        <div className='pStylerTwo'>
 <p style={pStyler}>
-<span style={indentP}>As</span> a fullstack web developer, my passion is 
+<div style={indentP}>As</div> a fullstack web developer, my passion is 
 creating different projects to enhance user experiences.To create
 applications that start from an idea in the head. It's a balance of applying 
 various technology, designs, and research with non-stop experimentation.
