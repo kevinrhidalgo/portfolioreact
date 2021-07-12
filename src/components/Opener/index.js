@@ -11,7 +11,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 
 const underScore={
-  color:'#0080ff',
+  color:'#4a5f70',
   animation: 'blinker 1s linear infinite',
 }
 const pStyler={
@@ -30,19 +30,19 @@ const modalProjects={
 const closeBtn={
   fontSize:'25px',
   fontFamily: 'Lato, sans-serif',
-  color:'#0080ff',
+  color:'#629ac9',
   cursor: 'pointer' 
 }
 const githubLink={
   textDecoration:'none',
   fontSize:'18px',
-  color:'#0080ff',
+  color:'blue',
   display:'flex',
   justifyContent:'center'
 }
 const indent={
   marginLeft:'20px',
-  color:'orange',
+  color:'#629ac9',
   fontSize:'24px'
 }
 

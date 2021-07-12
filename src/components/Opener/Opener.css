@@ -1,4 +1,5 @@
 /* this is the css for the main part of the homepage */
+
 .openerBody{
   transform: translate(30%, 350%);
 }
@@ -27,11 +28,12 @@
 .projSec{
     width: 100%;
     height: 1200px;
-    background-color: #222222;
+    background-image: url(https://miro.medium.com/max/1024/1*9WeJrBj6pp-qnGjRGg2NUw.png);
+    background-repeat: no-repeat;
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     margin-bottom: 90px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
@@ -83,10 +85,10 @@ border-radius: 2%;
   height:225px;
   margin:10px;
   border-radius: 2%;
-  background-color:#0080ff;
+  background-color:#4a5f70
 }
 .setOne img:hover{
-  background-color: #0080ff;
+  background-color: #4a5f70;
   object-fit: cover;
    opacity: 0.6;
    cursor:pointer;
@@ -224,7 +226,7 @@ body.active-modal {
   flex: 5%;
   height: 100%; 
   place-items: center;
-  color: #0080ff;
+  color: #629ac9;
   cursor: pointer;
   display: flex;
   align-items: flex-end;
@@ -235,7 +237,7 @@ body.active-modal {
   flex: 5%;
   height: 100%; 
   place-items: center;
-  color: #0080ff;
+  color: #629ac9;
   cursor: pointer;
   display: flex;
   align-items: flex-end;
@@ -246,7 +248,7 @@ body.active-modal {
   flex: 5%;
   height: 100%;
   place-items: center;
-  color: #0080ff;
+  color: #629ac9;
   cursor: pointer;
   display: flex;
   align-items:flex-end;
@@ -257,7 +259,7 @@ body.active-modal {
   flex: 5%;
   height: 100%;
   place-items: center;
-  color: #0080ff;
+  color: #629ac9;
   cursor: pointer;
   display: flex;
   align-items:flex-end;
@@ -290,7 +292,7 @@ body.active-modal {
 }
 .aboutSalud a{
   text-decoration: none;
-  background-color: #0080ff;
+  background-color: #4a5f70;
   color:white;
   font-family: 'Noto Sans JP', sans-serif;
   border-radius: 7px 7px 7px 7px;
@@ -300,7 +302,7 @@ body.active-modal {
   padding:7px;
 }
 .aboutSalud a:hover{
-  background-color: orange;
+  background-color: #629ac9;
   cursor:pointer;
 }
 
@@ -324,7 +326,7 @@ body.active-modal {
   line-height: 25px;
 }
 .aboutShelfi a{
-  background-color: #0080ff;
+  background-color: #4a5f70;
   color:white;
   font-family: 'Noto Sans JP', sans-serif;
   border-radius: 7px 7px 7px 7px;
@@ -335,6 +337,6 @@ body.active-modal {
   text-decoration: none;
 }
 .aboutShelfi a:hover{
-  background-color: orange;
+  background-color: #629ac9;
   cursor:pointer;
 }
