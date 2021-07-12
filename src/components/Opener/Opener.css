@@ -1,7 +1,10 @@
 /* this is the css for the main part of the homepage */
 
 .openerBody{
-  transform: translate(30%, 350%);
+ transform: translate(80%,200%);
+position:fixed;
+z-index: -1;
+
 }
 
 

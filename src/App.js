@@ -11,14 +11,16 @@ const pageChange={
   justifyContent:"space-between",
   fontFamily: 'Roboto, sans-serif',
   fontWeight:250,
-  transform: 'translateY(-70%)',
-  marginRight:'15px',
-  marginTop:'40px',
-  marginBottom:'-256px'
+  transform: 'translateY(-40%)',
+  marginTop:'-51px',
+  marginBottom:'-256px',
 }
+
+
 const headerRoute={
-  marginTop:85,
-  listStyleType:"none", 
+  marginTop:200,
+  marginRight:760,
+  listStyleType:"none",
 }
 const leftLinks={
   textDecoration:'none',
@@ -27,8 +29,8 @@ const appLinks={
   color:'#fffaf1',
   textDecoration:'none',
   fontFamily: 'Mulish, sans-serif',
-  fontSize:'30px',
-  padding:"50px"
+  fontSize:'22px',
+  padding:"20px"
 }
 const appLinksTwo={
   color:'#203354',

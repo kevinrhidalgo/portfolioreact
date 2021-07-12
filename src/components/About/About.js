@@ -1,14 +1,14 @@
 import React from 'react';
 import './About.css'
 import proResume from './proResume.pdf'
+import code from './codewp.jpeg'
 
 const famPhoto={
-    width:'300px',
-    height:'300px', 
-    transform:'translate(175%,-110%)',
+    width:'230px',
+    height:'230px', 
+    transform:'translate(245%,-155%)',
     filter:'blur(.7px)',
-    backgroundColor:'#d3d3d3'
-    
+    backgroundColor:'white',    
 }
 const hello={
     fontFamily: 'Dancing Script, cursive'
@@ -44,7 +44,7 @@ export default function About() {
        <h4>About</h4>
    <p>FULL-STACK WEB DEVELOPER</p>
    </div> 
-   <div className='famPhoto'><img style={famPhoto}/></div>  
+   <div><img src={code} style={famPhoto}/></div>  
 
    <div className='aboutMe'>
        <h2 style={hello}>Hello</h2>
