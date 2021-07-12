@@ -27,10 +27,10 @@
 /*this is the css for the work section */
 .projSec{
     width: 100%;
-    height: 1200px;
-    background-image: url(https://miro.medium.com/max/1024/1*9WeJrBj6pp-qnGjRGg2NUw.png);
+    height: 814px;
+    background-image: url(https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGRlc2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80); 
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:1220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,20 +41,22 @@
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 85px;
-    color:white;
-    margin-top:-10px;
-
+    font-size: 55px;
+    color:#4a5f70;
+    margin-top:-250px;
   }
   .projSec p{
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
+    font-size: 15px;
     line-height: 21px;
-    color:white;
-    margin-bottom: 50px;
+    color:#4a5f70;
+    margin-top:-30px;
+    margin-bottom: 20px;
+    width:690px;
+    height:100px;
   }
 .underscore{
   animation: blinker 1s linear infinite;
@@ -75,14 +77,16 @@
 }
 
 .projectSetOne{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
 border-radius: 2%;
+overflow: scroll;
+width:730px;
+transform: translate(33%, 10%);
 }
+
 .setOne{
-  width: 300px;
-  height:225px;
+  width: 210px;
+  height:280px;
   margin:10px;
   border-radius: 2%;
   background-color:#4a5f70
@@ -99,43 +103,43 @@ border-radius: 2%;
 }
 
 .projectTitle{
-  font-size:45px ;
+  font-size:35px ;
   color:white;
   font-family: 'Yellowtail', cursive;
- transform: translate(30%,-220%);
+ transform: translate(30%,-300%);
  font-weight: bolder;
 }
 .projectTitle2{
-  font-size:40px ;
+  font-size:30px ;
   color:white;
   font-family: 'Poppins', sans-serif;
-  transform: translate(35%,-320%);
+  transform: translate(30%,-450%);
   font-weight: bolder;
 }
 .projectTitle3{
-  font-size:30px ;
+  font-size:20px ;
   color:white;
   font-family: 'IBM Plex Mono', monospace;
-  transform: translate(20%,-400%);
+  transform: translate(20%,-650%);
 }
 .projectTitle4{
-  font-size:30px;
+  font-size:25px;
   color:white;
   font-family: 'Encode Sans SC', sans-serif; 
-  transform: translate(20%,-380%);
+  transform: translate(16%,-480%);
 }
 .projectTitle5{
-  font-size:40px;
+  font-size:27px;
   color:white;
   font-family: 'Teko', sans-serif;
-  transform: translate(5%,-320%);
+  transform: translate(5%,-480%);
   font-weight: bolder;
 }
 .projectTitle6{
-  font-size:20px;
+  font-size:25px;
   color:white;
   font-family: 'Shadows Into Light', cursive;
-  transform: translate(35%,-400%);
+  transform: translate(20%,-400%);
 }
 
 

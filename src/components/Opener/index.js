@@ -11,7 +11,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 
 const underScore={
-  color:'#4a5f70',
+  color:'#dfcab0',
   animation: 'blinker 1s linear infinite',
 }
 const pStyler={
@@ -20,8 +20,8 @@ const pStyler={
   fontWeight:'bold'
 }
 const projectImg={
-   width:'300px',
-   height:'225px',
+   width:'210px',
+   height:'280px',
    borderRadius: '2%',
 }
 const modalProjects={
@@ -42,6 +42,12 @@ const githubLink={
 }
 const indent={
   marginLeft:'20px',
+  color:'#629ac9',
+  fontSize:'24px'
+}
+const indentP={
+  marginLeft:'170px',
+  marginRight:'10px',
   color:'#629ac9',
   fontSize:'24px'
 }
@@ -112,10 +118,12 @@ const [currImg, setCurrImg] = useState(0);
      <h1>Work <span style={underScore} className='underScore'>_</span></h1>
      <div className='pStyler'>
        <div className='pStylerTwo'>
-<p style={pStyler}>As a fullstack web developer, my passion is creating different projects to enhance user experiences.
- To create applications that start from an idea in the head. 
-It's a balance of applying various technology, designs, and research with non-stop
-  experimentation.</p>
+<p style={pStyler}>
+<span style={indentP}>As</span> a fullstack web developer, my passion is 
+creating different projects to enhance user experiences.To create
+applications that start from an idea in the head. It's a balance of applying 
+various technology, designs, and research with non-stop experimentation.
+</p>
   </div>
   </div>
 
@@ -134,9 +142,6 @@ It's a balance of applying various technology, designs, and research with non-st
 <a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle3'>Coming Soon!</div></div>
 </a>
-</div>
-
- <div className='projectSetOne'>
 <a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle4'>Coming Soon!</div></div>
 </a>
