@@ -17,7 +17,8 @@ const underScore={
 const pStyler={
   display:'flex',
   justifyContent:'center',
-  fontWeight:'bold'
+  fontWeight:'bold',
+  marginBottom:'-10px'
 }
 const projectImg={
    width:'210px',
