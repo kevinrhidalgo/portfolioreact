@@ -1,15 +1,8 @@
 import React from 'react';
 import './About.css'
 import proResume from './proResume.pdf'
-import code from './codewp.jpeg'
+import { Link } from "react-router-dom";
 
-const famPhoto={
-    width:'230px',
-    height:'230px', 
-    transform:'translate(245%,-155%)',
-    filter:'blur(.7px)',
-    backgroundColor:'white',    
-}
 const hello={
     fontFamily: 'Dancing Script, cursive'
 }
@@ -17,50 +10,58 @@ const resumePro={
     display:'flex',
     justifyContent:'center',
     backgroundColor:'#dddddd',
-    borderRadius:'10%',
+    borderRadius:'15%',
     color:'blue',
-    height:'25px',
-    width:'80px',
+    height:'30px',
+    width:'70px',
     paddingTop:'4px',
-    fontSize:'18px',
+    fontSize:'20px',
     fontFamily: 'Dancing Script, cursive',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
     marginLeft:'150px',
-    fontWeight:'900px'
+    fontWeight:'900px',
+    position: 'relative',
+zIndex:0,
 }
 const underScore={
     color:'#629ac9',
     animation: 'blinker 1s linear infinite',
-  }
-
+}
 
 export default function About() {
     return (
 
         <>
       <div className='aboutPage'>
-      <div className='aboutSection'>
-   <div className='emptyBox'>
-       <h4>About</h4>
-   <p>FULL-STACK WEB DEVELOPER</p>
-   </div> 
-   <div><img src={code} style={famPhoto}/></div>  
+      <div className='aboutSection'> 
+   <div className="blogContainer">
 
-   <div className='aboutMe'>
-       <h2 style={hello}>Hello</h2>
+<div id="col-1">
+    <h2>about.</h2>
+    <br/>
+   <p>FULL-STACK WEB DEVELOPER</p>
+   <p>Orlando,FL</p>
+   <br/>
+   <br/>
+   <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
+</div>
+
+<div id="col-2">
+<h2 style={hello}>Hello</h2>
 
        <p>If you are reading this than that means you are either grading my work or here to get to know me a little. My name is Kevin Hidalgo and I am a web developer in the making and a current full-time student 
         at the UCF coding bootcamp. I was born and raised in the Bronx, New York until August of 2019, in which I moved to Orlando, Florida. </p>
         <p>Growing up I always had two career paths I wanted to pursue, coder or cardiologist. Prior to deciding between the two, I chose to pursue a career in medicine. I got as far as my junior year in which it was than I made the difficult decision to 
         change career paths due to some unfortunate events. Thanks to a friend, it was he who introduced me to the concept of a coding bootcamp to jumpstart my career in web development.</p>
           <p> Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
-          <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
-       </div> 
+</div>
 
-
+</div>
    </div>
-
       </div>
+
+
+      
 
 
 

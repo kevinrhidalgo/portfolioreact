@@ -33,7 +33,7 @@ const appLinks={
   padding:"20px"
 }
 const appLinksTwo={
-  color:'#203354',
+  color:'#629ac9',
   textDecoration:'none',
   fontWeight:'bold',
   fontFamily: 'Lato, sans-serif',
