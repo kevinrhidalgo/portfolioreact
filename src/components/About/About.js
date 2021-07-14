@@ -10,24 +10,27 @@ const resumePro={
     display:'flex',
     justifyContent:'center',
     backgroundColor:'#dddddd',
-    borderRadius:'15%',
+    borderRadius:'5%',
     color:'blue',
     height:'30px',
-    width:'70px',
+    width:'100px',
     paddingTop:'4px',
     fontSize:'20px',
     fontFamily: 'Dancing Script, cursive',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
     marginLeft:'150px',
-    fontWeight:'900px',
-    position: 'relative',
-   
+}
+const underScoreTwo={
+    color:'white',
+    animation: 'blinker 1s linear infinite',
+    fontSize:'50px',
+    transform:'translate(20%,-10%',
 }
 const underScore={
-    color:'#629ac9',
+    color:'white',
     animation: 'blinker 1s linear infinite',
-    fontSize:'30px',
-
+    fontSize:'50px',
+    transform:'translate(20%,-35%',
 }
 
 export default function About() {
@@ -64,7 +67,7 @@ export default function About() {
 
 
    <div className='mySkillsSection'>
-   <h1>skills<span style={underScore} className='underScore'>.</span></h1>
+   <h1>skills<span style={underScoreTwo} className='underScore'>.</span></h1>
    <h3>languages<span style={underScore} className='underScore'>.</span></h3>
 
 <div className='languagesType'>
