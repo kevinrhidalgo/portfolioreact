@@ -21,7 +21,7 @@ const resumePro={
     marginLeft:'150px',
     fontWeight:'900px',
     position: 'relative',
-zIndex:0,
+   
 }
 const underScore={
     color:'#629ac9',
@@ -56,17 +56,13 @@ export default function About() {
           <p> Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
 </div>
 
+
 </div>
    </div>
-      </div>
-
-
-      
 
 
 
-<div className='aboutSec'>
-<h1>Skills<span style={underScore} className='underScore'>_</span></h1>
+   <h1>Skills<span style={underScore} className='underScore'>_</span></h1>
    <h1>Languages<span style={underScore} className='underScore'>_</span></h1>
 
 <div className='languagesType'>
@@ -94,13 +90,15 @@ export default function About() {
         <div class="skill nosql">35%</div>
     </div>
 </div>
-</div>
 <div className='secOne'>
 <p>Spanish</p>
     <div class="container">
         <div class="skill spanish">100%</div>
     </div>
 </div>
+</div>
+
+
 
 
 <h1>Applications<span style={underScore} className='underScore'>_</span></h1>
@@ -200,8 +198,15 @@ export default function About() {
 
 
 
+<div>    
+</div>
+</div>
 
-</div> 
+
+      
+
+
+
     </>
 
     );

@@ -19,7 +19,7 @@ const pageChange={
 
 const headerRoute={
   marginTop:200,
-  marginRight:760,
+  marginRight:710,
   listStyleType:"none",
 }
 const leftLinks={
