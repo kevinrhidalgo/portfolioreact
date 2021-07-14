@@ -98,7 +98,7 @@ transform: translate(33%, 10%);
 .setOne img:hover{
   background-color: #4a5f70;
   object-fit: cover;
-   opacity: 0.6;
+   opacity: 0.5;
    cursor:pointer;
 }
 .projectImg{

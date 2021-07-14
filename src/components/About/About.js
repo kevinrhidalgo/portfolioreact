@@ -26,6 +26,7 @@ const resumePro={
 const underScore={
     color:'#629ac9',
     animation: 'blinker 1s linear infinite',
+    fontSize:'30px',
 
 }
 
@@ -63,8 +64,8 @@ export default function About() {
 
 
    <div className='mySkillsSection'>
-   <h1>Skills<span style={underScore} className='underScore'>_</span></h1>
-   <h1>Languages<span style={underScore} className='underScore'>_</span></h1>
+   <h1>skills<span style={underScore} className='underScore'>.</span></h1>
+   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
 
 <div className='languagesType'>
     <div className='secOne'>
@@ -102,7 +103,7 @@ export default function About() {
 
 
 
-<h1>Applications<span style={underScore} className='underScore'>_</span></h1>
+<h3>applications<span style={underScore} className='underScore'>.</span></h3>
 <div className='applicationType'>
 <div className='secOne'>
 <p>Github</p>
@@ -147,7 +148,7 @@ export default function About() {
 
 
 
-<h1>Tools<span style={underScore} className='underScore'>_</span></h1>
+<h3>tools<span style={underScore} className='underScore'>.</span></h3>
 <div className='toolType'>
 <div className='secOne'>
     <p>Express</p>

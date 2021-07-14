@@ -155,10 +155,18 @@
       }
 
      .mySkillsSection h1{
-
         display: flex;
         justify-content: center;
-       
+        color:yellow;
+        font-size: 40px;
+        font-family: Mulish, sans-serif;
+      } 
+      .mySkillsSection h3{
+        display: flex;
+        justify-content: center;
+        color:yellow;
+        font-size: 25px;
+        font-family: Mulish, sans-serif;
       } 
       
   
