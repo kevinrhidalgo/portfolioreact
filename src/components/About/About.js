@@ -26,6 +26,7 @@ const resumePro={
 const underScore={
     color:'#629ac9',
     animation: 'blinker 1s linear infinite',
+
 }
 
 export default function About() {
@@ -61,7 +62,7 @@ export default function About() {
    </div>
 
 
-
+   <div className='mySkillsSection'>
    <h1>Skills<span style={underScore} className='underScore'>_</span></h1>
    <h1>Languages<span style={underScore} className='underScore'>_</span></h1>
 
@@ -130,7 +131,6 @@ export default function About() {
 </div>
 
 <div className='applicationType'>
-
 <div className='secOne'>
 <p>Robo 3T</p>
     <div class="container">
@@ -198,11 +198,12 @@ export default function About() {
 
 
 
-<div>    
-</div>
-</div>
 
 
+
+</div>
+
+</div>
       
 
 

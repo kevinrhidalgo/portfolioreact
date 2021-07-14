@@ -65,14 +65,17 @@
 .languagesType{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     }
     .applicationType{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     .toolType{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     .html {
         width: 90%;
@@ -136,7 +139,7 @@
         background-color: rgb(192, 192, 192);
         width: 70%;
         border-radius: 15px;
-        
+    
       }
       .skill {
         background-color:#629ac9;
@@ -150,13 +153,18 @@
       .secOne p{
         font-size: 13px;
       }
+
+     .mySkillsSection h1{
+
+        display: flex;
+        justify-content: center;
+       
+      } 
+      
   
 
 
 
 
 
-
-
-
-
+  
