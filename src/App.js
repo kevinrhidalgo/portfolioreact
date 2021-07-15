@@ -38,7 +38,8 @@ const appLinksTwo={
   fontWeight:'bold',
   fontFamily: 'Lato, sans-serif',
   padding:"50px",
-  fontSize:'22px'
+  fontSize:'22px',
+opacity: '1.0'
 }
 
 function App() {

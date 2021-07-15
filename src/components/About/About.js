@@ -9,16 +9,16 @@ const hello={
 const resumePro={
     display:'flex',
     justifyContent:'center',
-    backgroundColor:'#dddddd',
+    backgroundColor:'#123456',
     borderRadius:'5%',
-    color:'blue',
+    color:'white',
     height:'30px',
-    width:'100px',
-    paddingTop:'4px',
-    fontSize:'20px',
-    fontFamily: 'Dancing Script, cursive',
+    width:'150px',
+    padding:'4px',
+    fontSize:'17px',
+    fontFamily: 'Mulish, sans-serif',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
-    marginLeft:'150px',
+    textDecoration:'none'
 }
 const underScoreTwo={
     color:'white',
@@ -48,7 +48,7 @@ export default function About() {
    <p>Orlando,FL</p>
    <br/>
    <br/>
-   <a href={proResume}><h1 style={resumePro}>Resume</h1></a>
+   <a href={proResume}><h1 style={resumePro}>resume.</h1></a>
 </div>
 
 <div id="col-2">
