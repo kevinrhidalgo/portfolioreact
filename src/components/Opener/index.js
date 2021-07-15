@@ -105,7 +105,9 @@ const [currImg, setCurrImg] = useState(0);
       <div className='opener' id='opener'>
 
             <div className='openerBody'>
+           
 <h2>Kevin R. Hidalgo</h2>
+
         <h3>“It’s not how good you are, it’s how good you want to be”
 </h3>
 
@@ -204,6 +206,23 @@ The application is an ongoing project with hopes to continue growing and impleme
 </p>
 <a  href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</a>
 <a  href='https://github.com/kevinrhidalgo/dd-salud'>View Site</a>
+
+<div className='toolsUsed'>
+
+  <div className='toolsUsedTwo'>
+  <h6>REACT</h6>
+  <div className='vlOne'></div>
+  <h6>NODE</h6>
+  <div className='vlTwo'></div>
+  </div>
+
+  <div className='toolsUsedTwo'>
+  <h6>MONGOOSE</h6>
+  <div className='vlThree'></div>
+  <h6>EXPRESS</h6>
+  <div className='vlFour'></div>
+  </div>
+</div>
       </div>
  
 </div>

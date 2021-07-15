@@ -2,6 +2,10 @@ import React from 'react';
 import './About.css'
 import proResume from './proResume.pdf'
 import { Link } from "react-router-dom";
+import Github from "../Modal/ghub.png"
+import Phone from "../Modal/cellphone.jpeg"
+import Email from "../Modal/Email.png"
+import Linkedin from "../Modal/in.png"
 
 const hello={
     fontFamily: 'Dancing Script, cursive'
@@ -32,6 +36,18 @@ const underScore={
     fontSize:'50px',
     transform:'translate(20%,-35%',
 }
+const footerImg ={
+    width: 30,
+    height: 40,
+    borderRadius:'100%',
+    display:'flex',
+    flexDirection:'column',
+    filter: 'grayscale(70%)',
+    backgroundColor:'white',
+    marginLeft:'-111px',
+    position:'fixed',
+    boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+    }
 
 export default function About() {
     return (
@@ -39,7 +55,14 @@ export default function About() {
         <>
       <div className='aboutPage'>
       <div className='aboutSection'> 
+      <div className='sideContacts'> 
+<a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
+        <a href="tel:555-555-5555"><img style={footerImg} src={Phone}/></a>
+        <a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg} src={Email}/></a>
+        <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg} src={Linkedin}/></a>
+    </div>
    <div className="blogContainer">
+
 
 <div id="col-1">
     <h2>about.</h2>

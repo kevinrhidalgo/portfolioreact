@@ -27,6 +27,7 @@ z-index: -1;
 
 }
 
+
 /*this is the css for the work section */
 .projSec{
     width: 100%;
@@ -289,12 +290,12 @@ body.active-modal {
   margin-left: 90px;
 }
 .aboutSalud h1{
-  font-size: 55px;
+  font-size: 35px;
   color:white;
   font-family: 'Yellowtail', cursive;
 }
 .aboutSalud p{
-  font-size: 17px;
+  font-size: 14px;
   color:#fffaf1;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 25px;
@@ -314,9 +315,37 @@ body.active-modal {
   background-color: #629ac9;
   cursor:pointer;
 }
-
-
-
+.vlOne {
+  border-top: 3px solid teal;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlTwo {
+  border-top: 3px solid blue;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlThree {
+  border-top: 3px solid green;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlFour {
+  border-top: 3px solid yellow;
+  width: 50px;
+  margin-top: -20px ;
+}
+.toolsUsed{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.toolsUsedTwo{
+  margin-right:50px;
+  font-size: 21px;
+  color:white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
 /* this is the css for the shelfi project descriptionm on the side */
 .aboutShelfi{
