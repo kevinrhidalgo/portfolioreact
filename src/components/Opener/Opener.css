@@ -353,12 +353,12 @@ body.active-modal {
   margin-left: 90px;
 }
 .aboutShelfi h1{
-  font-size: 55px;
+  font-size: 37px;
   color:white;
   font-family: 'Noto Sans JP', sans-serif;
 }
 .aboutShelfi p{
-  font-size: 17px;
+  font-size: 15px;
   color:#fffaf1;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 25px;
@@ -377,4 +377,29 @@ body.active-modal {
 .aboutShelfi a:hover{
   background-color: #629ac9;
   cursor:pointer;
+}
+.vlOne1 {
+  border-top: 3px solid #816c5b;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlTwo2 {
+  border-top: 3px solid #8f3b1b;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlThree3 {
+  border-top: 3px solid #d57500;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlFour4 {
+  border-top: 3px solid #404f24;
+  width: 50px;
+  margin-top: -20px ;
+}
+.vlFive5 {
+  border-top: 3px solid #007996;
+  width: 50px;
+  margin-top: -20px ;
 }

@@ -278,8 +278,28 @@ to view a description and details.
 </p>
 <a href='https://github.com/mascarelloa/shelfi'>View Repo</a>
 <a href='https://myshelfi.herokuapp.com/'>View Site</a>
-    </div>
 
+<div className='toolsUsed'>
+
+  <div className='toolsUsedTwo'>
+  <h6>Handlebars</h6>
+  <div className='vlOne1'></div>
+  <h6>NODE</h6>
+  <div className='vlTwo2'></div>
+  </div>
+
+  <div className='toolsUsedTwo'>
+  <h6>mySQL</h6>
+  <div className='vlThree3'></div>
+  <h6>EXPRESS</h6>
+  <div className='vlFour4'></div>
+  </div>
+  <div className='toolsUsedTwo'>
+  <h6>SEQUELIZE</h6>
+  <div className='vlFive5'></div>
+  </div>
+</div>
+    </div>
 </div>
 <a className="close-modal" onClick={toggleModalTwo}>
             <span style={closeBtn}>X</span>
