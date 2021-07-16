@@ -83,11 +83,26 @@
 }
 
 /* css for the skills section of the about me page */
+.languagesSection{
+  display: flex;
+  flex-direction: row;
+}
+.languagestypeOne{
+  background: red;
+  width:200px;
+  height:200px;
+}
 .languagesType{
+  background-color:blue;
+  width:800px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     }
+.langPartOne{
+  display: flex;
+  flex-direction: column;
+}
     .applicationType{
         display: flex;
         flex-direction: row;

@@ -113,9 +113,15 @@ export default function About() {
 
    <div className='mySkillsSection'>
    <h1>skills<span style={underScoreTwo} className='underScore'>.</span></h1>
-   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
 
+
+<div className='languagesSection'>
+<div className='languagestypeOne'>
+   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
+   </div>
 <div className='languagesType'>
+
+    <div className='langPartOne'>
     <div className='secOne'>
 <p>HTML</p>
     <div class="container">
@@ -128,6 +134,8 @@ export default function About() {
         <div class="skill css">83%</div>
     </div>
     </div>
+</div>
+<div className='langPartOne'>
 <div className='secOne'>
 <p>Javascript</p>
     <div class="container">
@@ -140,6 +148,9 @@ export default function About() {
         <div class="skill nosql">35%</div>
     </div>
 </div>
+</div>
+
+<div className='langPartOne'>
 <div className='secOne'>
 <p>Spanish</p>
     <div class="container">
@@ -147,7 +158,8 @@ export default function About() {
     </div>
 </div>
 </div>
-
+</div>
+</div>
 
 
 
