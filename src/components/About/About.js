@@ -163,9 +163,12 @@ export default function About() {
 
 
 
-<h3>applications<span style={underScore} className='underScore'>.</span></h3>
+
+<div className='applicationSection'>
 <div className='applicationType'>
-<div className='secOne'>
+<div className='applicationType'>
+<div className='langPartOne'>
+<div className='secOne'>  
 <p>Github</p>
     <div class="container">
         <div class="skill github">95%</div>
@@ -177,10 +180,30 @@ export default function About() {
         <div class="skill mongodb">51%</div>
     </div>
 </div>
+</div>
+
+<div className='applicationType'>
+<div className='langPartOne'>
 <div className='secOne'>
 <p>MySQL</p>
     <div class="container">
         <div class="skill mysql">55%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>Robo 3T</p>
+    <div class="container">
+        <div class="skill robo3t">33%</div>
+    </div>
+</div>
+</div>
+</div>
+<div className='applicationType'>
+<div className='langPartOne'>
+<div className='secOne'>
+<p>Insomnia</p>
+<div class="container">
+        <div class="skill insomnia">75%</div>
     </div>
 </div>
 <div className='secOne'>
@@ -190,25 +213,19 @@ export default function About() {
     </div>
 </div> 
 </div>
-
-<div className='applicationType'>
-<div className='secOne'>
-<p>Robo 3T</p>
-    <div class="container">
-        <div class="skill robo3t">33%</div>
-    </div>
 </div>
-<div className='secOne'>
-<p>Insomnia</p>
-    <div class="container">
-        <div class="skill insomnia">75%</div>
-    </div>
+</div>
+</div>
+<div className='applicationstypeOne'>
+<h3>applications<span style={underScore} className='underScore'>.</span></h3>
 </div>
 </div>
 
 
-
+<div className='languagesSection'>
+<div className='languagestypeOne'>
 <h3>tools<span style={underScore} className='underScore'>.</span></h3>
+</div>
 <div className='toolType'>
 <div className='secOne'>
     <p>Express</p>
@@ -256,6 +273,8 @@ export default function About() {
     </div>
 </div>  
 </div>
+</div>
+
 
 <br/>
 <br/>

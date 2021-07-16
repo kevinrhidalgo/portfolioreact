@@ -88,12 +88,12 @@
   flex-direction: row;
 }
 .languagestypeOne{
-  background: red;
+  background: brown;
   width:200px;
   height:200px;
 }
 .languagesType{
-  background-color:blue;
+  background-color:beige;
   width:800px;
     display: flex;
     flex-direction: row;
@@ -103,11 +103,30 @@
   display: flex;
   flex-direction: column;
 }
-    .applicationType{
+
+.applicationSection{
+  display: flex;
+  flex-direction: row;
+}
+.applicationstypeOne{
+  background: brown;
+  width:200px;
+  height:200px;
+}
+.applicationType{
+  background-color:beige;
+  width:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.applicationType{
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
+}
+
+
     .toolType{
         display: flex;
         flex-direction: row;
