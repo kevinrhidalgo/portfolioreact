@@ -226,7 +226,9 @@ export default function About() {
 <div className='languagestypeOne'>
 <h3>tools<span style={underScore} className='underScore'>.</span></h3>
 </div>
+<div className='languagesType'>
 <div className='toolType'>
+<div className='langPartOne'>
 <div className='secOne'>
     <p>Express</p>
     <div class="container">
@@ -239,6 +241,8 @@ export default function About() {
         <div class="skill react">68%</div>
     </div>
 </div>
+</div>
+<div className='langPartOne'>
 <div className='secOne'>
 <p>Node</p>
     <div class="container">
@@ -252,8 +256,10 @@ export default function About() {
     </div>
 </div>
 </div>
+</div>
 
 <div className='toolType'>
+<div className='langPartOne'>
 <div className='secOne'>
 <p>JQuery</p>
     <div class="container">
@@ -266,12 +272,14 @@ export default function About() {
         <div class="skill bootstrap">90%</div>
     </div>
 </div>  
+</div>
 <div className='secOne'>
 <p>Api(server-side/3rd Party</p>
     <div class="container">
         <div class="skill api">60%</div>
     </div>
 </div>  
+</div>
 </div>
 </div>
 
