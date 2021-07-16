@@ -226,7 +226,7 @@ export default function About() {
 <div className='languagestypeOne'>
 <h3>tools<span style={underScore} className='underScore'>.</span></h3>
 </div>
-<div className='languagesType'>
+<div className='toolsType'>
 <div className='toolType'>
 <div className='langPartOne'>
 <div className='secOne'>

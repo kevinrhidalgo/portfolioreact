@@ -126,6 +126,13 @@
         justify-content: center;
 }
 
+.toolsType{
+  background-color:beige;
+  width:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
 
     .toolType{
         display: flex;
