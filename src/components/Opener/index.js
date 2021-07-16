@@ -8,6 +8,10 @@ import { images } from "../../Helpers/CarouselData"
 import { imagesTwo } from "../../Helpers/ShelfiData";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import Github from "../About/github.PNG"
+import Phone from "../About/cellphone.PNG"
+import Email from "../About/email.PNG"
+import Linkedin from "../About/linkedin.PNG"
 
 
 const underScore={
@@ -53,6 +57,34 @@ const indentP={
   color:'#629ac9',
   fontSize:'24px'
 }
+const footerImg1 ={
+  width: 50,
+  height: 55,
+  backgroundColor:'#222222',
+  marginBottom:'-4px',
+  boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+  }
+const footerImg2 ={
+      width: 50,
+      height: 55,
+      backgroundColor:'#ff8822',
+      marginBottom:'-4px',
+      boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+      }
+const footerImg3 ={
+      width: 50,
+      height: 55,
+      background:'#0e76a8',
+      marginBottom:'-4px',
+      boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+          }
+const footerImg4 ={
+      width: 50,
+      height: 55,
+      backgroundColor:'#0e76a8',
+      marginBottom:'-4px',
+      boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+              }
 
 export default function Opener() {
 
@@ -115,7 +147,14 @@ const [currImg, setCurrImg] = useState(0);
 
           
       </div>
-{ /* <div className='midBorder'>Hello</div> */}
+
+      <div className='sideContacts'> 
+<a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
+<a href="tel:555-555-5555"><img style={footerImg2} src={Phone}/></a>
+<a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg3} src={Email}/></a>
+<a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
+    </div>
+
 
 
 <div className='projSec' id='projSec'>
