@@ -223,10 +223,21 @@ export default function About() {
 </div>  
 </div>
 
+<br/>
+<br/>
+<br/>
 
-
-
-
+<div className='hobbiesInterestOne'>
+<div className='hobbiesInterest'>
+<h3>Hobbies & Interests</h3>
+<p>Besides my passion for coding, I love to play and watch sports, specfically baseball, 
+    basketball and football. Any of the New York teams, you name it, im a huge fan of minus the Mets and Brooklyn Nets.
+     I also love to cook, travel and draw. My favorite foods to cook is lasagana and chicken sandwiches.
+    Places I hope to visit one day are Greece and the great wall of China. And I dont do much drawing today as I 
+    did before but now I have the chance to implement that hobbie into my coding passion.
+</p>
+</div>
+</div>
 
 </div>
 

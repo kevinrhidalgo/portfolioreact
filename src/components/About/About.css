@@ -183,7 +183,30 @@
         font-size: 30px;
         font-family: Mulish, sans-serif;
       } 
-      
+
+/* css for the hobbies and interests section on the about page */
+.hobbiesInterest{
+  color:white;
+  width:450px;
+      }
+.hobbiesInterest h3{
+  display: flex;
+  justify-content: center;
+  background-color: #dddddd;
+  margin-bottom: -18px;
+  padding:50px;
+      } 
+.hobbiesInterest p{
+ font-size: 17px;
+ font-family: Mulish, sans-serif;
+ background-color: #dddddd;
+ padding:40px;
+ 
+}      
+.hobbiesInterestOne{
+  display: flex;
+  justify-content: center;
+}
   
 
 
