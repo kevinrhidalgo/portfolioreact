@@ -37,35 +37,30 @@ const underScore={
     transform:'translate(20%,-35%',
 }
 const footerImg1 ={
-    width: 55,
-    height: 60,
+    width: 50,
+    height: 55,
     backgroundColor:'#222222',
-    transform: 'translate(-1041%,100%)',
     marginBottom:'-4px',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
     }
 const footerImg2 ={
-        width: 55,
-        height: 60,
+        width: 50,
+        height: 55,
         backgroundColor:'#ff8822',
-        
-        transform: 'translate(-1041%,100%)',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
         }
 const footerImg3 ={
-        width: 55,
-        height: 60,
+        width: 50,
+        height: 55,
         background:'#0e76a8',
-        transform: 'translate(-1041%,100%)',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
             }
 const footerImg4 ={
-        width: 55,
-        height: 60,
+        width: 50,
+        height: 55,
         backgroundColor:'#0e76a8',
-        transform: 'translate(-1041%,100%)',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
                 }
