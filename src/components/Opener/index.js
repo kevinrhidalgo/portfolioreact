@@ -136,13 +136,18 @@ const [currImg, setCurrImg] = useState(0);
     <>
       <div className='opener' id='opener'>
 
+<div className='topOpener'>
+  
             <div className='openerBody'>
+<div className='vl'></div>
            
 <h2>Kevin R. Hidalgo</h2>
 
+<div className='vl'></div>
+
         <h3>“It’s not how good you are, it’s how good you want to be”
 </h3>
-
+</div>
 </div>
 
           

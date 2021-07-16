@@ -4,28 +4,26 @@
  transform: translate(80%,200%);
 position:fixed;
 z-index: -1;
-
+margin-top: 150px;
 }
 
 
-.opener h3{
+.openerBody h3{
     color: white;
     font-family: 'Encode Sans SC', sans-serif; 
-    font-size: 15px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
 }
 
-.opener h2{
-    font-size: 55px;
+.openerBody h2{
+    font-size: 40px;
     color:white;
     font-family: 'Libre Baskerville', serif;
+    display: flex;
+    justify-content: center;
 }
-.midBorder{
-    width: 100%;
-    height:230px;
-    background-color: white;
-    margin-top: -64px;
 
-}
 
 
 /*this is the css for the work section */
@@ -314,6 +312,11 @@ body.active-modal {
 .aboutSalud a:hover{
   background-color: #629ac9;
   cursor:pointer;
+}
+.vl{
+  border-top: 3px solid #dddddd;
+  width: 480px;
+  margin-top: -20px ; 
 }
 .vlOne {
   border-top: 3px solid teal;
