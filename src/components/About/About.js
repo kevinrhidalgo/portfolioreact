@@ -2,10 +2,10 @@ import React from 'react';
 import './About.css'
 import proResume from './proResume.pdf'
 import { Link } from "react-router-dom";
-import Github from "../Modal/ghub.png"
-import Phone from "../Modal/cellphone.jpeg"
-import Email from "../Modal/Email.png"
-import Linkedin from "../Modal/in.png"
+import Github from "./github.PNG"
+import Phone from "./cellphone.PNG"
+import Email from "./email.PNG"
+import Linkedin from "./linkedin.PNG"
 
 const hello={
     fontFamily: 'Dancing Script, cursive'
@@ -36,18 +36,39 @@ const underScore={
     fontSize:'50px',
     transform:'translate(20%,-35%',
 }
-const footerImg ={
-    width: 30,
-    height: 40,
-    borderRadius:'100%',
-    display:'flex',
-    flexDirection:'column',
-    filter: 'grayscale(70%)',
-    backgroundColor:'white',
-    marginLeft:'-111px',
-    position:'fixed',
+const footerImg1 ={
+    width: 55,
+    height: 60,
+    backgroundColor:'#222222',
+    transform: 'translate(-1041%,100%)',
+    marginBottom:'-4px',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
     }
+const footerImg2 ={
+        width: 55,
+        height: 60,
+        backgroundColor:'#ff8822',
+        
+        transform: 'translate(-1041%,100%)',
+        marginBottom:'-4px',
+        boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+        }
+const footerImg3 ={
+        width: 55,
+        height: 60,
+        background:'#0e76a8',
+        transform: 'translate(-1041%,100%)',
+        marginBottom:'-4px',
+        boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+            }
+const footerImg4 ={
+        width: 55,
+        height: 60,
+        backgroundColor:'#0e76a8',
+        transform: 'translate(-1041%,100%)',
+        marginBottom:'-4px',
+        boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
+                }
 
 export default function About() {
     return (
@@ -55,12 +76,18 @@ export default function About() {
         <>
       <div className='aboutPage'>
       <div className='aboutSection'> 
+
+
+    
       <div className='sideContacts'> 
-<a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
-        <a href="tel:555-555-5555"><img style={footerImg} src={Phone}/></a>
-        <a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg} src={Email}/></a>
-        <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg} src={Linkedin}/></a>
+<a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
+<a href="tel:555-555-5555"><img style={footerImg2} src={Phone}/></a>
+<a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg3} src={Email}/></a>
+<a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
     </div>
+
+
+
    <div className="blogContainer">
 
 
