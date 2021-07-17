@@ -318,6 +318,8 @@ export default function About() {
 <div id="tab2"></div>
 <div id="tab3"></div>
 <div id="tab4"></div>
+<div id="tab5"></div>
+<div id="tab6"></div>
 </div> 
 
     </>
