@@ -86,6 +86,7 @@ export default function About() {
    <div className="blogContainer">
 
 
+
 <div id="col-1">
     <h2>about.</h2>
     <br/>
@@ -110,10 +111,11 @@ export default function About() {
 </div>
    </div>
 
+   <div className='skillsSeccion'>
+
 
    <div className='mySkillsSection'>
    <h1>skills<span style={underScoreTwo} className='underScore'>.</span></h1>
-
 
 <div className='languagesSection'>
 <div className='languagestypeOne'>
@@ -198,6 +200,7 @@ export default function About() {
 </div>
 </div>
 </div>
+
 <div className='applicationType'>
 <div className='langPartOne'>
 <div className='secOne'>
@@ -214,12 +217,16 @@ export default function About() {
 </div> 
 </div>
 </div>
+
 </div>
 </div>
 <div className='applicationstypeOne'>
 <h3>applications<span style={underScore} className='underScore'>.</span></h3>
 </div>
 </div>
+
+
+
 
 
 <div className='languagesSection'>
@@ -283,7 +290,8 @@ export default function About() {
 </div>
 </div>
 
-
+</div>
+</div>
 <br/>
 <br/>
 <br/>
@@ -300,12 +308,17 @@ export default function About() {
 </div>
 </div>
 
+
+
 </div>
 
-</div>
-      
-
-
+<div className='folders'>   
+<div id="tab0"></div>
+<div id="tab1"></div>
+<div id="tab2"></div>
+<div id="tab3"></div>
+<div id="tab4"></div>
+</div> 
 
     </>
 

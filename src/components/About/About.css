@@ -16,8 +16,8 @@
 }
 .secOne{
     background-color: #fffaf1;
-    width:180px;
-    height:55px;
+    width:165px;
+    height:45px;
     padding: 8px;
     margin:6px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -83,9 +83,16 @@
 }
 
 /* css for the skills section of the about me page */
+
+.skillsSeccion{
+ background-color:red; 
+ margin-top: 100px;
+}
+
 .languagesSection{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .languagestypeOne{
   background: brown;
@@ -107,6 +114,7 @@
 .applicationSection{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .applicationstypeOne{
   background: brown;
@@ -117,14 +125,9 @@
   background-color:beige;
   width:800px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row;     
 }
-.applicationType{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-}
+
 
 .toolsType{
   background-color:beige;
@@ -216,10 +219,9 @@
         font-size: 11px;
         margin-top: 4px;
         margin-left: 25px;
-        font-size: 12px;
       }
 
-     .mySkillsSection h1{
+    .mySkillsSection h1{
         display: flex;
         justify-content: center;
         color:#fcf4a3;
@@ -263,6 +265,99 @@
 
 
       
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 
+.tab, #tab4, #tab3, #tab2, #tab1, #tab0 {
+  height: 100%;
+  position: absolute;
+  box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+}
+.tab:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
+  transform: translateX(-80vw);
+}
+
+#tab0 {
+  width: 530px;
+  height:900px;
+  background: black;
+  transform: rotate(-90deg);
+}
+
+#tab1 {
+  width: 500px;
+  height:940px;
+  background: #594f4f;
+  transform: rotate(-90deg);
+}
+#tab1::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 24vh;
+  background: #594f4f;;
+  border-radius: 0 15px 15px 0;
+  top: 75%;
+  right: -4vw;
+}
+
+#tab2 {
+  width: 500px;
+  height:940px;
+  background: #547980;
+  transform: rotate(-90deg);
+}
+#tab2::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #547980;
+  border-radius: 0 15px 15px 0;
+  top: 50%;
+  right: -4vw;
+}
+
+#tab3 {
+  width: 500px;
+  height:940px;
+  background: #45ada8;
+  transform: rotate(-90deg);
+}
+#tab3::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #45ada8;
+  border-radius: 0 15px 15px 0;
+  top: 25%;
+  right: -4vw;
+}
+
+#tab4 {
+  width: 500px;
+  height:940px;
+  background: #9de0ad;
+  transform: rotate(-90deg);
+}
+#tab4::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 25vh;
+  background: #9de0ad;
+  border-radius: 0 15px 15px 0;
+  top: 0;
+  right: -4vw;
+}
+.folders{
+  display: flex;
+  justify-content: center;
+}
 
   
