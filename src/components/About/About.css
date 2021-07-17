@@ -264,7 +264,7 @@
 
 
 
-
+/* css for the folder look */
 
 .tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
@@ -406,4 +406,43 @@
   justify-content: center;
 }
 
-  
+/* Css for the info in the first folder tab 6 */
+#tab6 h1{
+  transform: rotate(80deg);
+  margin-top:410px;
+  font-size: 75px;
+  color:red;
+  border:red 4px solid;
+  border-radius: 2%;
+  padding:30px;
+  font-family: 'Encode Sans SC', sans-serif;
+  letter-spacing: 5px;
+  font-weight:bolder ;
+}
+#tab6 .paper-clip{
+  transform: translate(400%,-669%);
+}
+span.paper-clip:after {
+  width: 11px;
+  height: 20px;
+  content: " ";
+  background: #f9e5bc;
+  display: block;
+  position: absolute;
+  right: 2px;
+  top: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+span.paper-clip {
+  background: #f9e5bc;
+  height: 90px;
+  width: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: inline-block;
+  position: absolute;
+}

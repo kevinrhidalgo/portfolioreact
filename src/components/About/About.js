@@ -77,7 +77,10 @@ export default function About() {
 <div id="tab3"></div>
 <div id="tab4"></div>
 <div id="tab5"></div>
-<div id="tab6"></div>
+<div id="tab6">
+    <h1>CLASSIFIED</h1>
+    <span class="paper-clip"></span>
+</div>
 </div> 
       <div className='aboutSection'> 
 
