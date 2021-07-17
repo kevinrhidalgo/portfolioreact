@@ -77,8 +77,13 @@ export default function About() {
 <div id="tab3"></div>
 <div id="tab4"></div>
 <div id="tab5"></div>
+
+
+
 <div id="tab6">
+    <h3>Kevin Hidalgo</h3>
     <h1>CLASSIFIED</h1>
+    <h2>DECLASSIFIED</h2>
     <span class="paper-clip"></span>
 </div>
 </div> 

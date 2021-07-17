@@ -419,8 +419,17 @@
   letter-spacing: 5px;
   font-weight:bolder ;
 }
+#tab6 h2{
+  
+}
+#tab6 h3{
+font-family: 'Encode Sans SC', sans-serif;
+color:rgb(80, 80, 80);
+transform: translate(30%,20%);
+font-size: 40px;
+}
 #tab6 .paper-clip{
-  transform: translate(400%,-669%);
+  transform: translate(400%,-811%);
 }
 span.paper-clip:after {
   width: 11px;
