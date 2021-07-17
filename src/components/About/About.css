@@ -407,7 +407,17 @@
 }
 
 /* Css for the info in the first folder tab 6 */
+#tab6 h2{
+  border:black 4px solid;
+  font-size: 67px;
+  margin-top: -140px;
+  transform: rotate(55deg);
+  
+}
 #tab6 h1{
+  border:black 4px solid;
+  font-size: 65px;
+  margin-top: -100px;
   transform: rotate(80deg);
   margin-top:410px;
   font-size: 75px;
@@ -419,9 +429,7 @@
   letter-spacing: 5px;
   font-weight:bolder ;
 }
-#tab6 h2{
-  
-}
+
 #tab6 h3{
 font-family: 'Encode Sans SC', sans-serif;
 color:rgb(80, 80, 80);
@@ -429,7 +437,7 @@ transform: translate(30%,20%);
 font-size: 40px;
 }
 #tab6 .paper-clip{
-  transform: translate(400%,-811%);
+  transform: translate(400%,-766%);
 }
 span.paper-clip:after {
   width: 11px;
