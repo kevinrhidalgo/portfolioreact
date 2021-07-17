@@ -264,20 +264,15 @@
 
 
 
-      
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
 
-.tab, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
+
+.tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
   position: absolute;
   box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
-  transition: all 0.5s ease;
+  transition: all 0.9s ease;
 }
-.tab:hover ~ div, #tab5:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
+.tab:hover ~ div, #tab6:hover ~ div, #tab5:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
   transform: translateX(-80vw);
 }
 

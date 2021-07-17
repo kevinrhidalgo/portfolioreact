@@ -70,6 +70,15 @@ export default function About() {
 
         <>
       <div className='aboutPage'>
+      <div className='folders'>   
+<div id="tab0"></div>
+<div id="tab1"></div>
+<div id="tab2"></div>
+<div id="tab3"></div>
+<div id="tab4"></div>
+<div id="tab5"></div>
+<div id="tab6"></div>
+</div> 
       <div className='aboutSection'> 
 
 
@@ -312,15 +321,6 @@ export default function About() {
 
 </div>
 
-<div className='folders'>   
-<div id="tab0"></div>
-<div id="tab1"></div>
-<div id="tab2"></div>
-<div id="tab3"></div>
-<div id="tab4"></div>
-<div id="tab5"></div>
-<div id="tab6"></div>
-</div> 
 
     </>
 
