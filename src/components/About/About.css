@@ -452,18 +452,19 @@ span.paper-clip {
 .languages{
   display: flex;
   justify-content: center;
+  transform: rotate(90deg);
 }
 .myLanguageSection{
+  margin-right: -550px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 .languagestypeOne{
   background: #fff740;
-  width:270px;
-  height:200px;
- margin: 5px;
+  width:240px;
+  height:180px;
  padding:10px;
  transform: rotate(-10deg);
  border: 2px black solid;
