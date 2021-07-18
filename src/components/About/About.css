@@ -19,8 +19,8 @@
 }
 .secOne{
     background-color: #fffaf1;
-    width:165px;
-    height:45px;
+    width:150px;
+    height:40px;
     padding: 8px;
     margin:6px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -30,65 +30,10 @@
    position:fixed;
    display: flex;
    flex-direction: column;
-   top: 350px;
+   top: 260px;
    left: 0;
    z-index: 100;
  }
-
-
-
-/* css for the boxes of the about me section */
-.blogContainer {
-  display: flex;
-  flex-direction: row;
-  margin-left: -195px;
-  margin-top: 190px;
-  width:670px;
-  height:645px;
-  transform: rotate(90deg);
-}
-#col-1 {
-  background-image: url(https://images.pexels.com/photos/1755680/pexels-photo-1755680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  flex: .6;
-  color:white;
-  padding-top:60px;
-  padding-left: 20px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  height:360px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-#col-1 h2{
-  margin-top: -30px;
-  margin-left: 30px;
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-}
-#col-1 p{
-  margin-left: 30px;
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-}
-#col-1 a{
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-}
-#col-1 h2{
-  text-decoration: overline;
-}
-
-#col-2 {
-  color:#222222;
-  background-color: rgb(206, 206, 206);
-  flex: 1;
-  font-size: 14px;
-  height:360px;
-  padding:30px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
 
 /* css for the skills section of the about me page */
 
@@ -99,24 +44,9 @@
 
 .languagesSection{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.languagestypeOne{
-  background: brown;
-  width:200px;
-  height:200px;
-}
-.languagesType{
-  background-color:beige;
-  width:800px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    }
-.langPartOne{
-  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .applicationSection{
@@ -150,21 +80,7 @@
         flex-direction: row;
         justify-content: center;
     }
-    .html {
-        width: 90%;
-      }
-      .css {
-        width: 83%;
-      }
-      .javascript{
-        width: 60%;
-      }
-      .nosql{
-        width: 35%;
-      }
-      .spanish{
-        width:100%
-      }
+    
       
       
       .github{
@@ -250,7 +166,7 @@
 
 
 
-/* css for the folder look */
+/* css for the folder design */
 
 .tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
@@ -394,7 +310,7 @@
 
 
 
-/* Css for the info in the first folder tab 6 */
+/* NUMBER 6!!!!!! Css for the info in the first folder tab 6 */
 #tab6 h2{
   border:black 4px solid;
   font-size: 67px;
@@ -451,6 +367,60 @@ span.paper-clip {
   display: inline-block;
   position: absolute;
 }
+
+/* NUMBER 5!!!!!! css for tab 5 of the about me page */
+
+.blogContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: -195px;
+  margin-top: 190px;
+  width:670px;
+  height:645px;
+  transform: rotate(90deg);
+}
+#col-1 {
+  background-image: url(https://images.pexels.com/photos/1755680/pexels-photo-1755680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  flex: .6;
+  color:white;
+  padding-top:60px;
+  padding-left: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  height:360px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#col-1 h2{
+  margin-top: -30px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+#col-1 p{
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+#col-1 a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+#col-1 h2{
+  text-decoration: overline;
+}
+
+#col-2 {
+  color:#222222;
+  background-color: rgb(206, 206, 206);
+  flex: 1;
+  font-size: 14px;
+  height:360px;
+  padding:30px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 .img-tape1:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -474,12 +444,97 @@ span.paper-clip {
   margin-top:180px;
   margin-left: 595px;
   width: 150px;
- transform: translate(110%,10%);
  transform: rotate(90deg);
  }
 
-/* css for tab 5 of the about me page */
 
+/* NUMBER 4!!!!!!  css for tab 4 of the about me page */
+.languages{
+  display: flex;
+  justify-content: center;
+}
+.myLanguageSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.languagestypeOne{
+  background: #fff740;
+  width:270px;
+  height:200px;
+ margin: 5px;
+ padding:10px;
+ transform: rotate(-10deg);
+ border: 2px black solid;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.languagestypeOne h3{
+  color:tomato;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Mulish, sans-serif;
+  
+}
+.languagesType{
+  background-color:#fff740;
+  width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px;
+    border: 2px black solid;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+.langPartOne{
+  display: flex;
+  flex-direction: column;
+}
+.html {
+  width: 90%;
+}
+.css {
+  width: 83%;
+}
+.javascript{
+  width: 60%;
+}
+.nosql{
+  width: 35%;
+}
+.spanish{
+  width:100%
+}
+.img2-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-170px;
+  margin-left: 47px;
+  width: 150px;
+ transform: rotate(0deg);
+ }
+ .img3-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-57px;
+  margin-left: 50px;
+  width: 190px;
+ transform: rotate(0deg);
+ }
+
+/* css for tab 3 of the about me page */
+
+
+/* css for tab 2 of the about me page */
 
 
 

@@ -31,7 +31,7 @@ const underScoreTwo={
     transform:'translate(20%,-10%',
 }
 const underScore={
-    color:'white',
+    color:'tomato',
     animation: 'blinker 1s linear infinite',
     fontSize:'50px',
     transform:'translate(20%,-35%',
@@ -72,7 +72,8 @@ export default function About() {
       <div className='aboutPage'>
 
 
-    <div className='folders'>   
+    <div className='folders'>
+           
 <div id="tab0"></div>
 
 <div id="tab1">
@@ -93,7 +94,53 @@ export default function About() {
 
 <div id="tab3"></div>
 
-<div id="tab4"></div>
+<div id="tab4">
+<div className='languages'>
+   <div className='myLanguageSection'>
+<div className='languagestypeOne img2-tape'>
+   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
+   </div>
+
+<div className='languagesType img3-tape'>
+    <div className='langPartOne'>
+    <div className='secOne'>
+<p>HTML</p>
+    <div class="container">
+        <div class="skill html">90%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>CSS</p>
+    <div class="container">
+        <div class="skill css">83%</div>
+    </div>
+    </div>
+<div className='secOne'>
+<p>Javascript</p>
+    <div class="container">
+        <div class="skill javascript">60%</div>
+    </div>
+</div>
+</div>
+
+<div className='langPartOne'>
+<div className='secOne'>
+<p>NoSQL</p>
+    <div class="container">
+        <div class="skill nosql">35%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>Spanish</p>
+    <div class="container">
+        <div class="skill spanish">100%</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div id="tab5">
  <div className="blogContainer img-tape1">
@@ -127,6 +174,8 @@ export default function About() {
 </div>
     </div> 
 
+
+
       <div className='aboutSection'> 
       <div className='sideContacts'> 
 <a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
@@ -141,57 +190,25 @@ export default function About() {
 
 
 
-   <div className='skillsSeccion'>
+
+
+
+
+
+
+<div className='skillsSeccion'>
 
 
    <div className='mySkillsSection'>
    <h1>skills<span style={underScoreTwo} className='underScore'>.</span></h1>
 
-<div className='languagesSection'>
-<div className='languagestypeOne'>
-   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
-   </div>
-<div className='languagesType'>
 
-    <div className='langPartOne'>
-    <div className='secOne'>
-<p>HTML</p>
-    <div class="container">
-        <div class="skill html">90%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>CSS</p>
-    <div class="container">
-        <div class="skill css">83%</div>
-    </div>
-    </div>
-</div>
-<div className='langPartOne'>
-<div className='secOne'>
-<p>Javascript</p>
-    <div class="container">
-        <div class="skill javascript">60%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>NoSQL</p>
-    <div class="container">
-        <div class="skill nosql">35%</div>
-    </div>
-</div>
-</div>
 
-<div className='langPartOne'>
-<div className='secOne'>
-<p>Spanish</p>
-    <div class="container">
-        <div class="skill spanish">100%</div>
-    </div>
-</div>
-</div>
-</div>
-</div>
+
+
+
+
+
 
 
 
@@ -199,6 +216,9 @@ export default function About() {
 <div className='applicationSection'>
 <div className='applicationType'>
 <div className='applicationType'>
+<div className='applicationstypeOne'>
+<h3>applications<span style={underScore} className='underScore'>.</span></h3>
+</div>
 <div className='langPartOne'>
 <div className='secOne'>  
 <p>Github</p>
@@ -250,22 +270,19 @@ export default function About() {
 
 </div>
 </div>
-<div className='applicationstypeOne'>
-<h3>applications<span style={underScore} className='underScore'>.</span></h3>
-</div>
 </div>
 
 
 
 
 
-<div className='languagesSection'>
-<div className='languagestypeOne'>
+<div className='toolssSection'>
+<div className='toolstypeOne'>
 <h3>tools<span style={underScore} className='underScore'>.</span></h3>
 </div>
 <div className='toolsType'>
 <div className='toolType'>
-<div className='langPartOne'>
+<div className='toolPartOne'>
 <div className='secOne'>
     <p>Express</p>
     <div class="container">
@@ -279,7 +296,7 @@ export default function About() {
     </div>
 </div>
 </div>
-<div className='langPartOne'>
+<div className='toolPartOne'>
 <div className='secOne'>
 <p>Node</p>
     <div class="container">
@@ -296,7 +313,7 @@ export default function About() {
 </div>
 
 <div className='toolType'>
-<div className='langPartOne'>
+<div className='toolPartOne'>
 <div className='secOne'>
 <p>JQuery</p>
     <div class="container">
