@@ -1,9 +1,4 @@
- /* CSS for the about me section and the box its in */
-.aboutSection{
-  padding-top: 270px;
-  display: flex;
-  justify-content: center; 
-}
+
 
 /* css for the skills section of the about me page */
 .secOne{
