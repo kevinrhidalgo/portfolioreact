@@ -229,6 +229,31 @@ span.paper-clip {
   display: inline-block;
   position: absolute;
 }
+#tab6 .frontAbout{
+  color:#222222;
+  font-size: 20px;
+  transform: translate(54%, -830%) rotate(90deg) ;
+}
+#tab6 .frontLanguages{
+  color:#222222;
+  font-size: 18px;
+  transform: translate(54%, -370%) rotate(90deg) ;
+}
+#tab6 .frontApps{
+  color:#222222;
+  font-size: 17px;
+  transform: translate(54%, 220%) rotate(90deg) ;
+}
+#tab6 .frontTools{
+  color:#222222;
+  font-size: 20px;
+  transform: translate(54%, 780%) rotate(90deg) ;
+}
+#tab6 .frontHobs{
+  color:#222222;
+  font-size: 13px;
+  transform: translate(54%, 1800%) rotate(90deg) ;
+}
 
 /* NUMBER 5!!!!!! css for tab 5 of the about me page */
 .blogContainer {

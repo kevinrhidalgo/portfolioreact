@@ -26,29 +26,29 @@ const resumePro={
 }
 
 const footerImg1 ={
-    width: 40,
-    height: 45,
+    width: 45,
+    height: 50,
     backgroundColor:'#222222',
     marginBottom:'-4px',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
     }
 const footerImg2 ={
-        width: 40,
-        height: 45,
+    width: 45,
+    height: 50,
         backgroundColor:'#ff8822',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
         }
 const footerImg3 ={
-        width: 40,
-        height: 45,
+    width: 45,
+    height: 50,
         background:'#0e76a8',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
             }
 const footerImg4 ={
-        width: 40,
-        height: 45,
+    width: 45,
+    height: 50,
         backgroundColor:'#0e76a8',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
@@ -82,6 +82,7 @@ export default function About() {
 
 
 <div id="tab2">
+    
 <div className='tools'>
    <div className='toolstypeOne img5-tape'>
    <h3>tools.</h3>
@@ -279,6 +280,11 @@ export default function About() {
     <h1>CLASSIFIED</h1>
     <h2>DECLASSIFIED</h2>
     <span class="paper-clip"></span>
+<div className='frontAbout'>ABOUT</div>
+<div className='frontLanguages'>LANGUAGES</div>
+<div className='frontApps'>APPLICATIONS</div>
+<div className='frontTools'>TOOLS</div>
+<div className='frontHobs'>HOBBIES/INTERESTS</div>
 </div>
     </div> 
 
