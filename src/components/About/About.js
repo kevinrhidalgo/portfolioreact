@@ -60,7 +60,7 @@ export default function About() {
         <>
       <div className='aboutPage'>
 
-
+<div className='folderData'>
     <div className='folders'>
            
 <div id="tab0"></div>
@@ -286,9 +286,9 @@ export default function About() {
 <div className='frontTools'>TOOLS</div>
 <div className='frontHobs'>HOBBIES/INTERESTS</div>
 </div>
-    </div> 
 
-
+</div> 
+</div>
 
       
       <div className='sideContacts'> 

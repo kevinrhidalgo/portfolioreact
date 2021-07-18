@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #ececec;;
     overflow-x: hidden;
     overflow-y: auto;
@@ -33,14 +33,15 @@ z-index:-2;
   
 }
 .aboutPage{
-  background-color: #3d3d3d;
+  background-image:url(https://images.unsplash.com/photo-1504019853082-9a4cb128c1ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG5ldyUyMHlvcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
   background-position: center;
   background-size: 1200px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 1500px;
-  margin-bottom: 1px;
+  height: 1200px;
+  margin-top: -310px;
   margin-bottom: 80px;
+padding-top: 100px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 

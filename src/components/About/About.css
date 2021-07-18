@@ -30,7 +30,6 @@
   z-index: 100;
 }
 
-
 /* css for the folder design */
 .tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
@@ -165,6 +164,7 @@
 .folders{
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 
@@ -231,8 +231,8 @@ span.paper-clip {
 }
 #tab6 .frontAbout{
   color:#222222;
-  font-size: 20px;
-  transform: translate(54%, -830%) rotate(90deg) ;
+  font-size: 16px;
+  transform: translate(54%, -1000%) rotate(90deg) ;
 }
 #tab6 .frontLanguages{
   color:#222222;
