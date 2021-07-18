@@ -60,7 +60,7 @@ export default function About() {
         <>
       <div className='aboutPage'>
 
-{/*
+
     <div className='folders'>
            
 <div id="tab0"></div>
@@ -79,7 +79,68 @@ export default function About() {
 </div>
 </div>
 
-<div id="tab2"></div>
+
+
+<div id="tab2">
+<div className='tools'>
+   <div className='toolstypeOne img5-tape'>
+   <h3>tools.</h3>
+   </div>
+   <div className='myToolSection'>
+<div className='toolsType img4-tape'>
+    <div className='langPartOne'>
+    <div className='secOne'>
+    <p>Express</p>
+    <div class="container">
+        <div class="skill express">51%</div>
+    </div>
+</div> 
+<div className='secOne'>
+<p>React</p>
+    <div class="container">
+        <div class="skill react">68%</div>
+    </div>
+</div> 
+<div className='secOne'>
+<p>Node</p>
+    <div class="container">
+        <div class="skill node">58%</div>
+    </div>  
+</div>
+<div className='secOne'>
+<p>Handlebars</p>
+    <div class="container">
+        <div class="skill handlebars">65%</div>
+    </div>
+</div>
+</div>
+<div className='langPartOne'>
+<div className='secOne'>
+<p>JQuery</p>
+    <div class="container">
+        <div class="skill jquery">50%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>Bootstrap</p>
+    <div class="container">
+        <div class="skill bootstrap">90%</div>
+    </div>
+</div> 
+<div className='secOne'>
+<p>Api(server-side/3rd Party</p>
+    <div class="container">
+        <div class="skill api">60%</div>
+    </div>
+</div> 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
 
 <div id="tab3">
 <div className='applications'>
@@ -134,6 +195,8 @@ export default function About() {
 </div>
 </div>
 
+
+
 <div id="tab4">
 <div className='languages'>
    <div className='myLanguageSection'>
@@ -182,6 +245,8 @@ export default function About() {
 </div>
 </div>
 
+
+
 <div id="tab5">
  <div className="blogContainer img-tape1">
 <div id="col-1">
@@ -206,6 +271,8 @@ export default function About() {
 </div>
 </div>
 
+
+
 <div id="tab6">
     <h3>Kevin Hidalgo</h3>
     <p>CASE FILE #226</p>
@@ -214,7 +281,6 @@ export default function About() {
     <span class="paper-clip"></span>
 </div>
     </div> 
-*/}
 
 
 
@@ -228,66 +294,6 @@ export default function About() {
    </div>
 
 
-
-
- 
-   <div className='tools'>
-
-   <div className='myToolSection'>
-<div className='toolsType img4-tape'>
-    <div className='langPartOne'>
-    <div className='secOne'>
-    <p>Express</p>
-    <div class="container">
-        <div class="skill express">51%</div>
-    </div>
-</div> 
-<div className='secOne'>
-<p>React</p>
-    <div class="container">
-        <div class="skill react">68%</div>
-    </div>
-</div> 
-<div className='secOne'>
-<p>Node</p>
-    <div class="container">
-        <div class="skill node">58%</div>
-    </div>  
-</div>
-<div className='secOne'>
-<p>Handlebars</p>
-    <div class="container">
-        <div class="skill handlebars">65%</div>
-    </div>
-</div>
-</div>
-
-<div className='langPartOne'>
-<div className='secOne'>
-<p>JQuery</p>
-    <div class="container">
-        <div class="skill jquery">50%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>Bootstrap</p>
-    <div class="container">
-        <div class="skill bootstrap">90%</div>
-    </div>
-</div> 
-<div className='secOne'>
-<p>Api(server-side/3rd Party</p>
-    <div class="container">
-        <div class="skill api">60%</div>
-    </div>
-</div> 
-</div>
-</div>
-<div className='toolstypeOne img5-tape'>
-   <h3>tools.</h3>
-   </div>
-</div>
-</div>
 
 </div>
     </>
