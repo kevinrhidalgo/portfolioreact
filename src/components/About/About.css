@@ -55,7 +55,7 @@
     
       }
       .skill {
-        background-color:#629ac9;
+        background-color:orange;
         color: rgb(255, 255, 255);
         padding: 1%;
         text-align: right;
@@ -389,7 +389,7 @@ span.paper-clip {
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .languagestypeOne h3{
-  color:tomato;
+  color:#9b870c;
   font-size: 40px;
   display: flex;
   justify-content: center;
@@ -408,6 +408,15 @@ span.paper-clip {
 .langPartOne{
   display: flex;
   flex-direction: column;
+}
+.skillOne {
+  background-color:#9b870c;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  text-align: right;
+  font-size: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .html {
   width: 90%;
@@ -464,7 +473,7 @@ span.paper-clip {
   align-content: center;
 }
 .applicationstypeOne h3{
-  color:rgba(255, 255, 6, 0.822);
+  color:#00316e;
   font-size: 40px;
   display: flex;
   justify-content: center;
@@ -489,17 +498,15 @@ span.paper-clip {
     border: 2px black solid;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.applicationSection{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.application1Type{
-  background-color:beige;
-  width:800px;
-    display: flex;
-    flex-direction: row;     
+.skillTwo {
+  background-color:#00316e;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  text-align: right;
+  font-size: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .github{
   width: 95%;
@@ -562,14 +569,14 @@ span.paper-clip {
   align-content: center;
 }
 .toolstypeOne h3{
-  color:rgba(255, 255, 6, 0.822);
+  color:#0d5b28;
   font-size: 40px;
   display: flex;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
 .toolstypeOne{
-  background: 	#cce2c4;
+  background: 	rgb(175, 252, 175);
   width:240px;
   height:180px;
  padding:10px;
@@ -578,7 +585,7 @@ span.paper-clip {
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .toolsType{
-  background-color:#cce2c4;
+  background: 	rgb(175, 252, 175);
   width:300px;
     display: flex;
     flex-direction: row;
@@ -586,6 +593,15 @@ span.paper-clip {
     padding:40px;
     border: 2px black solid;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.skillThree {
+  background-color:#0d5b28;
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  text-align: right;
+  font-size: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .express{
   width: 51%;
