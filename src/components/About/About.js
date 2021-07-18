@@ -75,7 +75,17 @@ export default function About() {
 <div id="tab0"></div>
 
 <div id="tab1">
-
+<div className='hobbiesInterestOne'>
+<div className='hobbiesInterest img-tape'>
+<h3>Hobbies & Interests</h3>
+<p>Besides my passion for coding, I love to play and watch sports, specfically baseball, 
+    basketball and football. Any of the New York teams, you name it, im a huge fan of minus the Mets and Brooklyn Nets.
+     I also love to cook, travel and draw. My favorite foods to cook is lasagana and chicken sandwiches.
+    Places I hope to visit one day are Greece and the great wall of China. And I dont do much drawing today as I 
+    did before but now I have the chance to implement that hobbie into my coding passion.
+</p>
+</div>
+</div>
 </div>
 
 <div id="tab2"></div>
@@ -316,7 +326,6 @@ export default function About() {
 
 <div className='hobbiesInterestOne'>
 <div className='hobbiesInterest img-tape'>
-<div class="top-tape"></div>
 <h3>Hobbies & Interests</h3>
 <p>Besides my passion for coding, I love to play and watch sports, specfically baseball, 
     basketball and football. Any of the New York teams, you name it, im a huge fan of minus the Mets and Brooklyn Nets.

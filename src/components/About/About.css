@@ -255,7 +255,7 @@
   display: flex;
   justify-content: center;
   background-color: #dddddd;
-  margin-bottom: -18px;
+  margin-bottom: 20px;
   padding:50px;
   height: 10px;
   font-size: 30px;
@@ -281,8 +281,20 @@
   text-align: center;
   display: inline-block;
   margin: 20px auto 10px;
+  
 }
-.img-tape:before,
+.img-tape:before{
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:180px;
+  margin-left: 330px;
+  width: 150px;
+ transform: rotate(60deg);
+ }
 .img-tape:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -290,12 +302,16 @@
   display: block;
   height: 30px;
   position: absolute;
-  margin: auto;
-  width: 100px;
-}
-.img-tape h3{
-  background: #fff;
-  border: 1px solid #ddd;
+  margin-top:-40px;
+  margin-left: -30px;
+  width: 150px;
+ transform: translate(110%,10%);
+ transform: rotate(60deg);
+ }
+
+.img-tape p {
+  background: #dddddd;
+  border: 6px solid white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   display: inline-block;
   height: auto;
@@ -304,7 +320,9 @@
   padding: 8px;
   text-align: center;
   vertical-align: top;
+  
 }
+
 
 
 
