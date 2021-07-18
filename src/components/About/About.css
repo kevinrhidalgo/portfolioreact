@@ -246,7 +246,10 @@
       } 
 
 /* css for the hobbies and interests section on the tab 1 of the folder */
-
+.hobbiesInterestOne{
+  transform: rotate(90deg);
+  margin-top: 300px;
+}
 .hobbiesInterest{
   color:#222222;
   width:450px;
