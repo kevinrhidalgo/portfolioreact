@@ -71,6 +71,7 @@ export default function About() {
         <>
       <div className='aboutPage'>
 
+
     <div className='folders'>   
 <div id="tab0"></div>
 
@@ -95,7 +96,7 @@ export default function About() {
 <div id="tab4"></div>
 
 <div id="tab5">
- <div className="blogContainer">
+ <div className="blogContainer img-tape1">
 <div id="col-1">
     <h2>about.</h2>
     <br/>
@@ -134,6 +135,11 @@ export default function About() {
 <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
     </div>  
    </div>
+
+
+
+
+
 
    <div className='skillsSeccion'>
 
