@@ -70,40 +70,22 @@ export default function About() {
 
         <>
       <div className='aboutPage'>
-      <div className='folders'>   
+
+    <div className='folders'>   
 <div id="tab0"></div>
-<div id="tab1"></div>
-<div id="tab2"></div>
-<div id="tab3"></div>
-<div id="tab4"></div>
-<div id="tab5"></div>
 
+<div id="tab1">
 
-
-<div id="tab6">
-    <h3>Kevin Hidalgo</h3>
-    <h1>CLASSIFIED</h1>
-    <h2>DECLASSIFIED</h2>
-    <span class="paper-clip"></span>
 </div>
-</div> 
-      <div className='aboutSection'> 
 
+<div id="tab2"></div>
 
-    
-      <div className='sideContacts'> 
-<a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
-<a href="tel:555-555-5555"><img style={footerImg2} src={Phone}/></a>
-<a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg3} src={Email}/></a>
-<a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
-    </div>
+<div id="tab3"></div>
 
+<div id="tab4"></div>
 
-
-   <div className="blogContainer">
-
-
-
+<div id="tab5">
+ <div className="blogContainer">
 <div id="col-1">
     <h2>about.</h2>
     <br/>
@@ -123,9 +105,24 @@ export default function About() {
         change career paths due to some unfortunate events. Thanks to a friend, it was he who introduced me to the concept of a coding bootcamp to jumpstart my career in web development.</p>
           <p> Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
 </div>
-
-
 </div>
+</div>
+
+<div id="tab6">
+    <h3>Kevin Hidalgo</h3>
+    <h1>CLASSIFIED</h1>
+    <h2>DECLASSIFIED</h2>
+    <span class="paper-clip"></span>
+</div>
+    </div> 
+
+      <div className='aboutSection'> 
+      <div className='sideContacts'> 
+<a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
+<a href="tel:555-555-5555"><img style={footerImg2} src={Phone}/></a>
+<a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg3} src={Email}/></a>
+<a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
+    </div>  
    </div>
 
    <div className='skillsSeccion'>
@@ -309,12 +306,17 @@ export default function About() {
 
 </div>
 </div>
+
+
 <br/>
 <br/>
 <br/>
 
+
+
 <div className='hobbiesInterestOne'>
-<div className='hobbiesInterest'>
+<div className='hobbiesInterest img-tape'>
+<div class="top-tape"></div>
 <h3>Hobbies & Interests</h3>
 <p>Besides my passion for coding, I love to play and watch sports, specfically baseball, 
     basketball and football. Any of the New York teams, you name it, im a huge fan of minus the Mets and Brooklyn Nets.
@@ -324,6 +326,7 @@ export default function About() {
 </p>
 </div>
 </div>
+
 
 
 

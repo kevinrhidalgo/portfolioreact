@@ -1,3 +1,6 @@
+
+ 
+ 
  /* CSS for the about me section and the box its in */
 .aboutSection{
   padding-top: 270px;
@@ -37,18 +40,21 @@
 /* css for the boxes of the about me section */
 .blogContainer {
   display: flex;
-  margin:10px;
-  width:900px;
+  flex-direction: row;
+  margin-left: -195px;
+  margin-top: 190px;
+  width:670px;
   height:645px;
+  transform: rotate(90deg);
 }
 #col-1 {
   background-image: url(https://images.pexels.com/photos/1755680/pexels-photo-1755680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  flex: 1;
+  flex: .6;
   color:white;
-  padding-top:100px;
+  padding-top:60px;
   padding-left: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  height:460px;
+  height:360px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #col-1 h2{
@@ -56,31 +62,33 @@
   margin-left: 30px;
   display: flex;
   justify-content: center;
+  font-size: 20px;
 }
 #col-1 p{
   margin-left: 30px;
   display: flex;
   justify-content: center;
+  font-size: 14px;
 }
 #col-1 a{
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
-
-
+#col-1 h2{
+  text-decoration: overline;
+}
 
 #col-2 {
   color:#222222;
   background-color: rgb(206, 206, 206);
   flex: 1;
-  height:460px;
-  padding:50px;
+  font-size: 14px;
+  height:360px;
+  padding:30px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-#col-1 h2{
-  text-decoration: overline;
-}
+
 
 /* css for the skills section of the about me page */
 
@@ -237,9 +245,10 @@
         font-family: Mulish, sans-serif;
       } 
 
-/* css for the hobbies and interests section on the about page */
+/* css for the hobbies and interests section on the tab 1 of the folder */
+
 .hobbiesInterest{
-  color:white;
+  color:#222222;
   width:450px;
       }
 .hobbiesInterest h3{
@@ -248,19 +257,54 @@
   background-color: #dddddd;
   margin-bottom: -18px;
   padding:50px;
+  height: 10px;
+  font-size: 30px;
+  border: 6px solid white;
+  transform:  rotate(-10deg);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
       } 
 .hobbiesInterest p{
- font-size: 17px;
+  border: 6px solid white;
+ font-size: 14px;
  font-family: Mulish, sans-serif;
  background-color: #dddddd;
  padding:40px;
- 
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }      
 .hobbiesInterestOne{
   display: flex;
   justify-content: center;
 }
-  
+
+.img-tape {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto 10px;
+}
+.img-tape:before,
+.img-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin: auto;
+  width: 100px;
+}
+.img-tape h3{
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  height: auto;
+  margin: 0 20px;
+  max-width: 100%;
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+}
 
 
 
@@ -406,6 +450,8 @@
   justify-content: center;
 }
 
+
+
 /* Css for the info in the first folder tab 6 */
 #tab6 h2{
   border:black 4px solid;
@@ -463,3 +509,8 @@ span.paper-clip {
   display: inline-block;
   position: absolute;
 }
+
+/* css for tab 5 of the about me page */
+
+
+
