@@ -340,8 +340,14 @@ color:rgb(80, 80, 80);
 transform: translate(30%,20%);
 font-size: 40px;
 }
+#tab6 p{
+  font-family: 'Encode Sans SC', sans-serif;
+  color:rgb(80, 80, 80);
+  transform: translate(40%,20%);
+  font-size: 20px;
+  }
 #tab6 .paper-clip{
-  transform: translate(400%,-766%);
+  transform: translate(400%,-834%);
 }
 span.paper-clip:after {
   width: 11px;

@@ -168,6 +168,7 @@ export default function About() {
 
 <div id="tab6">
     <h3>Kevin Hidalgo</h3>
+    <p>CASE FILE #226</p>
     <h1>CLASSIFIED</h1>
     <h2>DECLASSIFIED</h2>
     <span class="paper-clip"></span>
