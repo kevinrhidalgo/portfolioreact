@@ -24,18 +24,7 @@ const resumePro={
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
     textDecoration:'none'
 }
-const underScoreTwo={
-    color:'white',
-    animation: 'blinker 1s linear infinite',
-    fontSize:'50px',
-    transform:'translate(20%,-10%',
-}
-const underScore={
-    color:'tomato',
-    animation: 'blinker 1s linear infinite',
-    fontSize:'50px',
-    transform:'translate(20%,-35%',
-}
+
 const footerImg1 ={
     width: 50,
     height: 55,
@@ -71,7 +60,7 @@ export default function About() {
         <>
       <div className='aboutPage'>
 
-
+{/*
     <div className='folders'>
            
 <div id="tab0"></div>
@@ -92,13 +81,64 @@ export default function About() {
 
 <div id="tab2"></div>
 
-<div id="tab3"></div>
+<div id="tab3">
+<div className='applications'>
+   <div className='myApplicationSection'>
+<div className='applicationsType img4-tape'>
+    <div className='langPartOne'>
+    <div className='secOne'>  
+<p>Github</p>
+    <div class="container">
+        <div class="skill github">95%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>MongoDB</p>
+    <div class="container">
+        <div class="skill mongodb">51%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>MySQL</p>
+    <div class="container">
+        <div class="skill mysql">55%</div>
+    </div>
+</div>
+</div>
+
+<div className='langPartOne'>
+<div className='secOne'>
+<p>Robo 3T</p>
+    <div class="container">
+        <div class="skill robo3t">33%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>Insomnia</p>
+<div class="container">
+        <div class="skill insomnia">75%</div>
+    </div>
+</div>
+<div className='secOne'>
+<p>VS Code</p>
+    <div class="container">
+        <div class="skill vscode">99%</div>
+    </div>
+</div> 
+</div>
+</div>
+<div className='applicationstypeOne img5-tape'>
+   <h3>applications.</h3>
+   </div>
+</div>
+</div>
+</div>
 
 <div id="tab4">
 <div className='languages'>
    <div className='myLanguageSection'>
 <div className='languagestypeOne img2-tape'>
-   <h3>languages<span style={underScore} className='underScore'>.</span></h3>
+   <h3>languages.</h3>
    </div>
 
 <div className='languagesType img3-tape'>
@@ -174,6 +214,7 @@ export default function About() {
     <span class="paper-clip"></span>
 </div>
     </div> 
+*/}
 
 
 
@@ -189,115 +230,24 @@ export default function About() {
 
 
 
+ 
+   <div className='tools'>
 
-
-
-
-
-
-
-
-<div className='skillsSeccion'>
-
-
-   <div className='mySkillsSection'>
-   <h1>skills<span style={underScoreTwo} className='underScore'>.</span></h1>
-
-
-
-
-
-
-
-
-
-
-
-
-<div className='applicationSection'>
-<div className='applicationType'>
-<div className='applicationType'>
-<div className='applicationstypeOne'>
-<h3>applications<span style={underScore} className='underScore'>.</span></h3>
-</div>
-<div className='langPartOne'>
-<div className='secOne'>  
-<p>Github</p>
-    <div class="container">
-        <div class="skill github">95%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>MongoDB</p>
-    <div class="container">
-        <div class="skill mongodb">51%</div>
-    </div>
-</div>
-</div>
-
-<div className='applicationType'>
-<div className='langPartOne'>
-<div className='secOne'>
-<p>MySQL</p>
-    <div class="container">
-        <div class="skill mysql">55%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>Robo 3T</p>
-    <div class="container">
-        <div class="skill robo3t">33%</div>
-    </div>
-</div>
-</div>
-</div>
-
-<div className='applicationType'>
-<div className='langPartOne'>
-<div className='secOne'>
-<p>Insomnia</p>
-<div class="container">
-        <div class="skill insomnia">75%</div>
-    </div>
-</div>
-<div className='secOne'>
-<p>VS Code</p>
-    <div class="container">
-        <div class="skill vscode">99%</div>
-    </div>
-</div> 
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-
-
-
-<div className='toolssSection'>
-<div className='toolstypeOne'>
-<h3>tools<span style={underScore} className='underScore'>.</span></h3>
-</div>
-<div className='toolsType'>
-<div className='toolType'>
-<div className='toolPartOne'>
-<div className='secOne'>
+   <div className='myToolSection'>
+<div className='toolsType img4-tape'>
+    <div className='langPartOne'>
+    <div className='secOne'>
     <p>Express</p>
     <div class="container">
         <div class="skill express">51%</div>
     </div>
-</div>   
+</div> 
 <div className='secOne'>
 <p>React</p>
     <div class="container">
         <div class="skill react">68%</div>
     </div>
-</div>
-</div>
-<div className='toolPartOne'>
+</div> 
 <div className='secOne'>
 <p>Node</p>
     <div class="container">
@@ -311,10 +261,8 @@ export default function About() {
     </div>
 </div>
 </div>
-</div>
 
-<div className='toolType'>
-<div className='toolPartOne'>
+<div className='langPartOne'>
 <div className='secOne'>
 <p>JQuery</p>
     <div class="container">
@@ -326,24 +274,20 @@ export default function About() {
     <div class="container">
         <div class="skill bootstrap">90%</div>
     </div>
-</div>  
-</div>
+</div> 
 <div className='secOne'>
 <p>Api(server-side/3rd Party</p>
     <div class="container">
         <div class="skill api">60%</div>
     </div>
-</div>  
+</div> 
 </div>
 </div>
+<div className='toolstypeOne img5-tape'>
+   <h3>tools.</h3>
+   </div>
 </div>
-
 </div>
-</div>
-
-
-
-
 
 </div>
     </>

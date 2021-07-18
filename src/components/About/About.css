@@ -1,6 +1,3 @@
-
- 
- 
  /* CSS for the about me section and the box its in */
 .aboutSection{
   padding-top: 270px;
@@ -37,36 +34,6 @@
 
 /* css for the skills section of the about me page */
 
-.skillsSeccion{
- background-color:red; 
- margin-top: 100px;
-}
-
-.languagesSection{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.applicationSection{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.applicationstypeOne{
-  background: brown;
-  width:200px;
-  height:200px;
-}
-.applicationType{
-  background-color:beige;
-  width:800px;
-    display: flex;
-    flex-direction: row;     
-}
-
-
 .toolsType{
   background-color:beige;
   width:800px;
@@ -80,50 +47,7 @@
         flex-direction: row;
         justify-content: center;
     }
-    
       
-      
-      .github{
-        width: 95%;
-      }
-      .mongodb{
-        width: 51%;
-      }
-      .mysql{
-        width: 55%;
-      }
-      .vscode{
-        width: 99%;
-      }
-      .robo3t{
-        width: 33%;
-      }
-      .insomnia{
-        width: 75%;
-      }
-      
-      
-      .express{
-        width: 51%;
-      }
-      .react{
-        width: 68%;
-      }
-      .node{
-        width: 58%;
-      }
-      .handlebars{
-        width: 65%;
-      }
-      .jquery{
-        width: 50%;
-      }
-      .bootstrap{
-        width: 90%;
-      }
-      .api{
-        width: 60%;
-      }
       .container {
         background-color: rgb(192, 192, 192);
         width: 70%;
@@ -167,7 +91,6 @@
 
 
 /* css for the folder design */
-
 .tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
   position: absolute;
@@ -177,14 +100,12 @@
 .tab:hover ~ div, #tab6:hover ~ div, #tab5:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
   transform: translateX(-80vw);
 }
-
 #tab0 {
   width: 530px;
   height:900px;
   background: black;
   transform: rotate(-90deg);
 }
-
 #tab1 {
   width: 500px;
   height:940px;
@@ -204,7 +125,6 @@
   border-left:1px solid black;
   border-bottom:1px solid black;
 }
-
 #tab2 {
   width: 500px;
   height:940px;
@@ -224,7 +144,6 @@
   border-left:1px solid black;
   border-bottom:1px solid black;
 }
-
 #tab3 {
   width: 500px;
   height:940px;
@@ -301,7 +220,6 @@
   border-right:1px solid black;
   border-top:1px solid black;
   border-bottom:1px solid black;
-  
 }
 .folders{
   display: flex;
@@ -309,21 +227,19 @@
 }
 
 
-
 /* NUMBER 6!!!!!! Css for the info in the first folder tab 6 */
 #tab6 h2{
   border:black 4px solid;
   font-size: 67px;
   margin-top: -140px;
-  transform: rotate(55deg);
-  
+  transform: rotate(55deg); 
 }
 #tab6 h1{
   border:black 4px solid;
   font-size: 65px;
   margin-top: -100px;
   transform: rotate(80deg);
-  margin-top:410px;
+  margin-top:310px;
   font-size: 75px;
   color:red;
   border:red 4px solid;
@@ -333,7 +249,6 @@
   letter-spacing: 5px;
   font-weight:bolder ;
 }
-
 #tab6 h3{
 font-family: 'Encode Sans SC', sans-serif;
 color:rgb(80, 80, 80);
@@ -345,9 +260,9 @@ font-size: 40px;
   color:rgb(80, 80, 80);
   transform: translate(40%,20%);
   font-size: 20px;
-  }
+}
 #tab6 .paper-clip{
-  transform: translate(400%,-834%);
+  transform: translate(400%,-731%);
 }
 span.paper-clip:after {
   width: 11px;
@@ -375,7 +290,6 @@ span.paper-clip {
 }
 
 /* NUMBER 5!!!!!! css for tab 5 of the about me page */
-
 .blogContainer {
   display: flex;
   flex-direction: row;
@@ -416,7 +330,6 @@ span.paper-clip {
 #col-1 h2{
   text-decoration: overline;
 }
-
 #col-2 {
   color:#222222;
   background-color: rgb(206, 206, 206);
@@ -426,7 +339,6 @@ span.paper-clip {
   padding:30px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
 .img-tape1:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -454,7 +366,7 @@ span.paper-clip {
  }
 
 
-/* NUMBER 4!!!!!!  css for tab 4 of the about me page */
+/* NUMBER 4!!!!!!  css for languages on  tab 4 of the about me page */
 .languages{
   display: flex;
   justify-content: center;
@@ -468,7 +380,7 @@ span.paper-clip {
   align-content: center;
 }
 .languagestypeOne{
-  background: #fff740;
+  background: #feff9c;
   width:240px;
   height:180px;
  padding:10px;
@@ -481,11 +393,10 @@ span.paper-clip {
   font-size: 40px;
   display: flex;
   justify-content: center;
-  font-family: Mulish, sans-serif;
-  
+  font-family: Mulish, sans-serif; 
 }
 .languagesType{
-  background-color:#fff740;
+  background-color:#feff9c;
   width:300px;
     display: flex;
     flex-direction: row;
@@ -538,17 +449,167 @@ span.paper-clip {
  transform: rotate(0deg);
  }
 
-/* css for tab 3 of the about me page */
+/* NUMBER 3!!!!!! css for applications on tab 3 of the about me page */
+.applications{
+  display: flex;
+  justify-content: center;
+  transform: rotate(90deg);
+  margin-top: 150px;
+}
+.myApplicationSection{
+  margin-right: -550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.applicationstypeOne h3{
+  color:rgba(255, 255, 6, 0.822);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Mulish, sans-serif; 
+}
+.applicationstypeOne{
+  background: #7afcff;
+  width:240px;
+  height:180px;
+ padding:10px;
+ transform: rotate(-10deg);
+ border: 2px black solid;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.applicationsType{
+  background-color:#7afcff;
+  width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px;
+    border: 2px black solid;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.applicationSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.application1Type{
+  background-color:beige;
+  width:800px;
+    display: flex;
+    flex-direction: row;     
+}
+.github{
+  width: 95%;
+}
+.mongodb{
+  width: 51%;
+}
+.mysql{
+  width: 55%;
+}
+.vscode{
+  width: 99%;
+}
+.robo3t{
+  width: 33%;
+}
+.insomnia{
+  width: 75%;
+}
+.img4-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-57px;
+  margin-left: 50px;
+  width: 190px;
+ transform: rotate(0deg);
+ }
+ .img5-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-155px;
+  margin-left: 33px;
+  width: 190px;
+ transform: rotate(0deg);
+ }
 
 
-/* css for tab 2 of the about me page */
+
+/* NUMBER 2!!!!!! css for tab 2 of the about me page */
+
+.tools{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.myToolSection{
+  margin-right: -550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.toolstypeOne h3{
+  color:rgba(255, 255, 6, 0.822);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Mulish, sans-serif; 
+}
+.toolstypeOne{
+  background: 	#ff7eb9;
+  width:240px;
+  height:180px;
+ padding:10px;
+ transform: rotate(-10deg);
+ border: 2px black solid;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.toolsType{
+  background-color:#ff7eb9;
+  width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px;
+    border: 2px black solid;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.express{
+  width: 51%;
+}
+.react{
+  width: 68%;
+}
+.node{
+  width: 58%;
+}
+.handlebars{
+  width: 65%;
+}
+.jquery{
+  width: 50%;
+}
+.bootstrap{
+  width: 90%;
+}
+.api{
+  width: 60%;
+}
 
 
-
-
-
-
-/* css for the hobbies and interests section on the tab 1 of the folder */
+/* NUMBER 1!!!!!! css for the hobbies and interests section on the tab 1 of the folder */
 .hobbiesInterestOne{
   transform: rotate(90deg);
   margin-top: 300px;
