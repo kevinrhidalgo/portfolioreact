@@ -146,6 +146,7 @@ export default function About() {
 <div id="tab3">
 <div className='applications'>
    <div className='myApplicationSection'>
+<div className='applicationsTypeTwo'></div>
 <div className='applicationsType img4-tape'>
     <div className='langPartOne'>
     <div className='secOne'>  
@@ -201,10 +202,10 @@ export default function About() {
 <div id="tab4">
 <div className='languages'>
    <div className='myLanguageSection'>
+<div className='languagestypeTwo img7-tape'></div>
 <div className='languagestypeOne img2-tape'>
    <h3>languages.</h3>
-   </div>
-
+   </div> 
 <div className='languagesType img3-tape'>
     <div className='langPartOne'>
     <div className='secOne'>
