@@ -84,9 +84,15 @@ export default function About() {
 <div id="tab2">
     
 <div className='tools'>
-   <div className='toolstypeOne img5-tape'>
+<div className='toolstypeOne img5-tape'>
    <h3>tools.</h3>
    </div>
+    <div className='toolstypeTwo img8-tape'>
+        <h2>Web Developer Skills.</h2>
+        <p>languages</p>
+        <p>applications</p>
+        <p>tools</p>
+    </div>
    <div className='myToolSection'>
 <div className='toolsType img4-tape'>
     <div className='langPartOne'>
