@@ -53,6 +53,10 @@ const footerImg4 ={
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
                 }
+const wdSkill={
+    textDecoration: 'line-through',
+    color:'black'
+}
 
 export default function About() {
     return (
@@ -89,8 +93,8 @@ export default function About() {
    </div>
     <div className='toolstypeTwo img8-tape'>
         <h2>Web Developer Skills.</h2>
-        <p>languages</p>
-        <p>applications</p>
+        <p style={wdSkill}>languages</p>
+        <p style={wdSkill}>applications</p>
         <p>tools</p>
     </div>
    <div className='myToolSection'>
