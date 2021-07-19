@@ -67,7 +67,12 @@ export default function About() {
 <div className='folderData'>
     <div className='folders'>
            
-<div id="tab0"></div>
+<div id="tab0">
+<div class='tabZero'>
+   <h1>Thank You,</h1>
+   <h1>Hope to hear from you soon.</h1>
+</div>
+</div>
 
 <div id="tab1">
 <div className='hobbiesInterestOne'>

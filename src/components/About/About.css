@@ -718,7 +718,6 @@ width:240px;
  transform: translate(110%,10%);
  transform: rotate(60deg);
  }
-
 .img-tape p {
   background: #dddddd;
   border: 6px solid white;
@@ -729,6 +728,16 @@ width:240px;
   max-width: 100%;
   padding: 8px;
   text-align: center;
-  vertical-align: top;
-  
+  vertical-align: top; 
+}
+
+
+/* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
+#tab0{
+background: #fffaf1;
+}
+.tabZero{
+  transform:translate(10%,400%) rotate(90deg); 
+  font-family: Dancing Script, cursive;
+  font-size:20px;
 }
