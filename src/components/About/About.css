@@ -37,7 +37,7 @@
   box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.3);
   transition: all 0.9s ease;
 }
-.tab:hover ~ div, #tab6:hover ~ div, #tab5:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
+.tab:hover, #tab6:hover ~ div, #tab5:hover ~ div, #tab4:hover ~ div, #tab3:hover ~ div, #tab2:hover ~ div, #tab1:hover ~ div, #tab0:hover ~ div {
   transform: translateX(-80vw);
 }
 #tab0 {
@@ -232,28 +232,29 @@ span.paper-clip {
 }
 #tab6 .frontAbout{
   color:#222222;
-  font-size: 15px;
-  transform: translate(54%, -1010%) rotate(90deg) ;
+  font-size: 12px;
+  transform: translate(53.5%, -1200%) rotate(90deg);
+  
 }
 #tab6 .frontLanguages{
   color:#222222;
-  font-size: 15px;
-  transform: translate(54%, -300%) rotate(90deg) ;
+  font-size: 11px;
+  transform: translate(53.5%, -300%) rotate(90deg) ;
 }
 #tab6 .frontApps{
   color:#222222;
-  font-size: 15px;
-  transform: translate(54%, 430%) rotate(90deg) ;
+  font-size: 11px;
+  transform: translate(53.5%, 700%) rotate(90deg) ;
 }
 #tab6 .frontTools{
   color:#222222;
-  font-size: 15px;
-  transform: translate(54%, 1300%) rotate(90deg) ;
+  font-size: 12px;
+  transform: translate(53.5%, 1600%) rotate(90deg) ;
 }
 #tab6 .frontHobs{
   color:#222222;
-  font-size: 12px;
-  transform: translate(54%, 2200%) rotate(90deg) ;
+  font-size: 10px;
+  transform: translate(53.5%, 2500%) rotate(90deg) ;
 }
 
 /* NUMBER 5!!!!!! css for tab 5 of the about me page */
