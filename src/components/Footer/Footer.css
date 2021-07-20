@@ -9,16 +9,22 @@
       flex-direction: row; 
       justify-content: center;
       background-color: #ececec;;
-      height: 800px;
-     
+      height: 800px;   
   } 
+  @media only screen and (max-width: 500px) {
+    .footerInfo{
+    display: flex;
+    flex-direction: column;
+    }
+  }
+
+
 .footerInfo a{
   text-decoration: none;
 }
 .footerInfo :hover{
   cursor: pointer;  
 } 
-
 .questionAsk{
     background-color: #ececec;
     color:#222222;
@@ -27,6 +33,25 @@
     font-family: 'Encode Sans SC', sans-serif; 
     padding-top: 50px;
 }
+@media only screen and (max-width: 500px) {
+  .questionAsk {
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .questionAsk h1{
+   margin-left: 110px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .questionAsk a{
+   margin-left: 110px;
+  }
+}
+
 .questionAsk a:hover{
   background-color:#bcd2e8;
   border-radius: 100%;
