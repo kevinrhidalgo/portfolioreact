@@ -270,9 +270,11 @@ The application is an ongoing project with hopes to continue growing and impleme
       </div>
  
 </div>
+<div className='closeBtn'>
             <a className="close-modal" onClick={toggleModal}>
-            <span style={closeBtn}>X</span>
+            <span>X</span>
             </a>
+            </div>
           </div>
         </div>
       )}

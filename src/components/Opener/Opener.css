@@ -257,6 +257,57 @@ body.active-modal {
   width:1000px;
   font-family: 'Encode Sans SC', sans-serif;
 }
+@media only screen and (max-width: 500px) {
+  .modal-content .closeBtn{
+    transform: translate(-190%,-90%);
+  }
+}
+.closeBtn a{
+  color: #629ac9;
+  font-size:30px;
+  transform: translate(-100%,-100%);
+}
+@media only screen and (max-width: 500px) {
+  .closeBtn a{
+    transform: translate(-900%,-150%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInner{
+    transform: translate(46%,-20%);
+    width: 400px;
+    height:100px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInner .left{
+    transform: translate(60%,0%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInner .right{
+    transform: translate(-90%,1%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutSalud{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-80%,30%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutSalud a{
+    transform: translate(0%,-80%);
+    
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutSalud .toolsUsed{
+    transform: translate(10%,-80%);
+  }
+}
 
 .close-modal {
   position: absolute;
@@ -270,7 +321,7 @@ body.active-modal {
 /* css for the image scroll section of the modals */
 .carousel {
   margin-top: 100px;
-  width: 52%;
+  width: 53%;
   height: 260px;
   background-color: white;
 }
