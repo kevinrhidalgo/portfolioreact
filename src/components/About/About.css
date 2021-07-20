@@ -472,7 +472,7 @@ width:240px;
   width:240px;
   height:180px;
  padding:10px;
- transform: translate(-60%, 0%) rotate(-10deg);
+ transform: translate(-100%, 0%) rotate(-10deg);
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -485,7 +485,7 @@ width:240px;
     border-radius: 0 0 0 20%;
     padding:40px;
     border: 2px black solid;
-    transform: translate(-40%,-10%);
+    transform: translate(-70%,-10%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .applicationsTypeTwo{
@@ -495,7 +495,7 @@ width:240px;
   flex-direction: row;
   justify-content: center;
   padding:40px;
-  transform: translate(60%,0%);
+  transform: translate(30%,0%);
   border: 2px black solid;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -735,6 +735,7 @@ width:240px;
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
 background: #fffaf1;
+
 }
 .tabZero{
   transform:translate(10%,400%) rotate(90deg); 

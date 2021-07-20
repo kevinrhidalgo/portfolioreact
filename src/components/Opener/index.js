@@ -149,9 +149,9 @@ const [currImg, setCurrImg] = useState(0);
 </h3>
 </div>
 </div>
-
           
       </div>
+
 
       <div className='sideContacts'> 
 <a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 

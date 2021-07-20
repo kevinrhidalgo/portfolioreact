@@ -1,0 +1,17 @@
+nav .btnStyle{
+    color:'#629ac9';
+    font-weight:'bold';
+    font-size: 20px;
+    transform: translate(50%,1010%);
+    font-family: Lato, sans-serif;
+    opacity: 1.0;
+}
+.navOne{
+    margin-right:100px ;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   transform: translate(0%,-800%);
+}
