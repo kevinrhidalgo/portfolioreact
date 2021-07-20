@@ -26,29 +26,29 @@ const resumePro={
 }
 
 const footerImg1 ={
-    width: 45,
-    height: 50,
+    width: 40,
+    height: 45,
     backgroundColor:'#222222',
     marginBottom:'-4px',
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
     }
 const footerImg2 ={
-    width: 45,
-    height: 50,
+    width: 40,
+    height: 45,
         backgroundColor:'#ff8822',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
         }
 const footerImg3 ={
-    width: 45,
-    height: 50,
+    width: 40,
+    height: 45,
         background:'#0e76a8',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
             }
 const footerImg4 ={
-    width: 45,
-    height: 50,
+    width: 40,
+    height: 45,
         backgroundColor:'#0e76a8',
         marginBottom:'-4px',
         boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
