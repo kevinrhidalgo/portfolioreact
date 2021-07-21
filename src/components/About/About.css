@@ -19,7 +19,16 @@
   width: 70%;
   border-radius: 15px;
 }
+.folderData{
+  margin-top: 250px;
+  
+}
+@media only screen and (max-width: 500px) {
+  .folderData{
+    transform: translate(0%,0%) rotate(0deg);
 
+  }
+}
  /* this is the css for the side bar contacts */
  .sideContacts{
   position:fixed;
@@ -167,15 +176,64 @@
   justify-content: center;
   margin-top: 100px;
 }
-
+/*FOLDER MEDIA QUIRIES!!!!!!!!!*/
+@media only screen and (max-width: 500px) {
+  #tab6{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab6::after{
+    width: 4.0vw;
+  height: 13vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab5{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab5::after{
+    width: 4.0vw;
+  height: 13vh;
+  top: 16%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab4{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab3{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab2{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab1{
+    width: 230px;
+  height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab0{
+    width: 230px;
+  height:450px;
+  }
+}
 
 /* NUMBER 6!!!!!! Css for the info in the first folder tab 6 */
-#tab6 h2{
-  border:black 4px solid;
-  font-size: 67px;
-  margin-top: -140px;
-  transform: rotate(55deg); 
-}
 #tab6 h1{
   border:black 4px solid;
   font-size: 65px;
@@ -191,17 +249,51 @@
   letter-spacing: 5px;
   font-weight:bolder ;
 }
+@media only screen and (max-width: 500px) {
+  #tab6 h1{
+    font-size: 15px;
+    border:red 1px solid;
+    width: 110px;
+    transform: translate(20%,-200%) rotate(0deg);
+  }
+}
+#tab6 h2{
+  border:black 4px solid;
+  font-size: 67px;
+  margin-top: -140px;
+  transform: rotate(55deg); 
+}
+@media only screen and (max-width: 500px) {
+  #tab6 h2{
+    font-size: 27px;
+    border:black 2px solid;
+    width: 200px;
+    transform: translate(10%,-250%) rotate(50deg);
+  }
+}
 #tab6 h3{
 font-family: 'Encode Sans SC', sans-serif;
 color:rgb(80, 80, 80);
 transform: translate(30%,20%);
 font-size: 40px;
 }
+@media only screen and (max-width: 500px) {
+  #tab6 h3{
+    font-size: 17px;
+    transform: translate(25%,100%);
+  }
+}
 #tab6 p{
   font-family: 'Encode Sans SC', sans-serif;
   color:rgb(80, 80, 80);
   transform: translate(40%,20%);
   font-size: 20px;
+}
+@media only screen and (max-width: 500px) {
+  #tab6 p{
+    font-size: 11px;
+    transform: translate(30%,100%);
+  }
 }
 #tab6 .paper-clip{
   transform: translate(400%,-731%);
@@ -730,7 +822,6 @@ width:240px;
   text-align: center;
   vertical-align: top; 
 }
-
 
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
