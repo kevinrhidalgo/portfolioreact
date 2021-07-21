@@ -1,19 +1,4 @@
-
-
-/* css for the skills section of the about me page */
-.secOne{
-    background-color: #fffaf1;
-    width:150px;
-    height:40px;
-    padding: 8px;
-    margin:6px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
- }
- .secOne p{
-  font-size: 11px;
-  margin-top: 4px;
-  margin-left: 25px;
-}    
+/* css for the skills section of the about me page */   
 .container {
   background-color: rgb(192, 192, 192);
   width: 70%;
@@ -176,7 +161,7 @@
   justify-content: center;
   margin-top: 100px;
 }
-/*FOLDER MEDIA QUIRIES!!!!!!!!!*/
+/*FOLDER LOOK MEDIA QUIRIES!!!!!!!!!*/
 @media only screen and (max-width: 500px) {
   #tab6{
     width: 230px;
@@ -186,7 +171,8 @@
 @media only screen and (max-width: 500px) {
   #tab6::after{
     width: 4.0vw;
-  height: 13vh;
+  height: 11vh;
+  top:-0.3%
   }
 }
 @media only screen and (max-width: 500px) {
@@ -199,13 +185,19 @@
   #tab5::after{
     width: 4.0vw;
   height: 13vh;
-  top: 16%;
+  top: 11%;
   }
 }
 @media only screen and (max-width: 500px) {
   #tab4{
     width: 230px;
-  height:450px;
+  height:450px; 
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab4::after{
+    width: 4.0vw;
+  height: 10vh;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -215,15 +207,33 @@
   }
 }
 @media only screen and (max-width: 500px) {
+  #tab3::after{
+    width: 4.0vw;
+  height: 11vh;
+  }
+}
+@media only screen and (max-width: 500px) {
   #tab2{
     width: 230px;
   height:450px;
   }
 }
 @media only screen and (max-width: 500px) {
+  #tab2::after{
+    width: 4.0vw;
+  height: 11vh;
+  }
+}
+@media only screen and (max-width: 500px) {
   #tab1{
     width: 230px;
   height:450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #tab1::after{
+    width: 4.0vw;
+  height: 11vh;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -334,7 +344,7 @@ span.paper-clip {
 }
 @media only screen and (max-width: 500px) {
   #tab6 .frontAbout{
-    transform: translate(52%,-1500%) rotate(90deg);
+    transform: translate(52%,-1700%) rotate(90deg);
     color:#222222;
   font-size: 8px;
   }
@@ -344,15 +354,36 @@ span.paper-clip {
   font-size: 11px;
   transform: translate(53.5%, -300%) rotate(90deg) ;
 }
+@media only screen and (max-width: 500px) {
+  #tab6 .frontLanguages{
+    transform: translate(53%,-1150%) rotate(90deg);
+    color:#222222;
+  font-size: 8px;
+  }
+}
 #tab6 .frontApps{
   color:#222222;
   font-size: 11px;
   transform: translate(53.5%, 700%) rotate(90deg) ;
 }
+@media only screen and (max-width: 500px) {
+  #tab6 .frontApps{
+    transform: translate(53%,-500%) rotate(90deg);
+    color:#222222;
+  font-size: 8px;
+  }
+}
 #tab6 .frontTools{
   color:#222222;
   font-size: 12px;
   transform: translate(53.5%, 1600%) rotate(90deg) ;
+}
+@media only screen and (max-width: 500px) {
+  #tab6 .frontTools{
+    transform: translate(53%,350%) rotate(90deg);
+    color:#222222;
+  font-size: 8px;
+  }
 }
 #tab6 .frontHobs{
   color:#222222;
@@ -502,6 +533,51 @@ width: 110px;
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.secTwo{
+  background-color: #fffaf1;
+  width:150px;
+  height:40px;
+  padding: 8px;
+  margin:6px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .secTwo{
+    width:90px;
+  height:30px;
+  }
+}
+.secTwo p{
+font-size: 11px;
+margin-top: 4px;
+margin-left: 25px;
+} 
+@media only screen and (max-width: 500px) {
+  .secTwo p{
+    font-size: 9px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .languagestypeOne{
+    width:150px;
+    height:100px;
+    transform: translate(-125%,30%) rotate(-10deg);
+  }
+}
+.languagestypeOne h3{
+  color:#9b870c;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Mulish, sans-serif; 
+}
+@media only screen and (max-width: 500px) {
+  .languagestypeOne h3{
+    font-size: 20px;
+    
+  }
+}
 .languagestypeTwo{
 background: #feff9c;
 width:240px;
@@ -510,12 +586,12 @@ width:240px;
  transform: translate(101%,10%) rotate(-10deg);
  border: 2px black solid;
 }
-.languagestypeOne h3{
-  color:#9b870c;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  font-family: Mulish, sans-serif; 
+@media only screen and (max-width: 500px) {
+  .languagestypeTwo{
+    width:150px;
+  height:100px;
+  transform: translate(-28%,35%) rotate(-10deg);
+  }
 }
 .languagesType{
   background-color:#feff9c;
@@ -527,9 +603,21 @@ width:240px;
     border: 2px black solid;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
+    @media only screen and (max-width: 500px) {
+      .languagesType{
+        width:150px;
+        height: 100px;
+        transform: translate(-90%,0%);   
+      }
+    }
 .langPartOne{
   display: flex;
   flex-direction: column;
+}
+@media only screen and (max-width: 500px) {
+  .langPartOne{
+    margin-top: -37px;
+  }
 }
 .skillOne {
   background-color:#9b870c;
@@ -613,6 +701,11 @@ width:240px;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
+@media only screen and (max-width: 500px) {
+  .applicationstypeOne h3{
+    font-size: 20px;
+  }
+}
 .applicationstypeOne{
   background: #7afcff;
   width:240px;
@@ -621,6 +714,13 @@ width:240px;
  transform: translate(-100%, 0%) rotate(-10deg);
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .applicationstypeOne{
+    width:130px;
+    height:100px;
+    transform: translate(-260%,30%) rotate(-10deg);
+  }
 }
 .applicationsType{
   background-color:#7afcff;
@@ -634,6 +734,13 @@ width:240px;
     transform: translate(-70%,-10%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+@media only screen and (max-width: 500px) {
+  .applicationsType{
+    width:150px;
+    height:100px;
+    transform:translate(-180%,5%);
+    }
+}
 .applicationsTypeTwo{
   background-color:#7afcff;
   width:300px;
@@ -645,6 +752,13 @@ width:240px;
   border: 2px black solid;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+@media only screen and (max-width: 500px) {
+  .applicationsTypeTwo{
+    width:150px;
+    height:100px;
+    transform:translate(-80%,10%);
+    }
+}
 
 
 .skillTwo {
@@ -655,6 +769,31 @@ width:240px;
   font-size: 10px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.secThree{
+  background-color: #fffaf1;
+  width:150px;
+  height:40px;
+  padding: 8px;
+  margin:6px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .secThree{
+    width:90px;
+  height:30px;
+  }
+}
+.secThree p{
+font-size: 11px;
+margin-top: 4px;
+margin-left: 25px;
+} 
+@media only screen and (max-width: 500px) {
+  .secThree p{
+    font-size: 9px;
+    margin-top: 0px;
+  }
 }
 .github{
   width: 95%;
@@ -698,6 +837,12 @@ width:240px;
   width: 190px;
  transform: rotate(0deg);
  }
+ @media only screen and (max-width: 500px) {
+  .img5-tape:after{
+    width: 120px;
+    transform: translate(-15%,200%);
+  }
+}
 
 
 
@@ -767,6 +912,19 @@ width:240px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.secOne{
+  background-color: #fffaf1;
+  width:150px;
+  height:40px;
+  padding: 8px;
+  margin:6px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.secOne p{
+font-size: 11px;
+margin-top: 4px;
+margin-left: 25px;
+} 
 .express{
   width: 51%;
 }
@@ -798,7 +956,18 @@ width:240px;
   width: 190px;
  transform:translate(10%,-740%) rotate(0deg);
  }
-
+ .img15-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-155px;
+  margin-left: 33px;
+  width: 190px;
+ transform: rotate(0deg);
+ }
 /* NUMBER 1!!!!!! css for the hobbies and interests section on the tab 1 of the folder */
 .hobbiesInterestOne{
   transform: rotate(90deg);

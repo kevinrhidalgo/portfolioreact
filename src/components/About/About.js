@@ -93,7 +93,7 @@ export default function About() {
 <div id="tab2">
     
 <div className='tools'>
-<div className='toolstypeOne img5-tape'>
+<div className='toolstypeOne img15-tape'>
    <h3>tools.</h3>
    </div>
     <div className='toolstypeTwo img8-tape'>
@@ -164,19 +164,19 @@ export default function About() {
 <div className='applicationsTypeTwo'></div>
 <div className='applicationsType img4-tape'>
     <div className='langPartOne'>
-    <div className='secOne'>  
+    <div className='secThree'>  
 <p>Github</p>
     <div class="container">
         <div class="skillTwo github">95%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secThree'>
 <p>MongoDB</p>
     <div class="container">
         <div class="skillTwo mongodb">51%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secThree'>
 <p>MySQL</p>
     <div class="container">
         <div class="skillTwo mysql">55%</div>
@@ -185,19 +185,19 @@ export default function About() {
 </div>
 
 <div className='langPartOne'>
-<div className='secOne'>
+<div className='secThree'>
 <p>Robo 3T</p>
     <div class="container">
         <div class="skillTwo robo3t">33%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secThree'>
 <p>Insomnia</p>
 <div class="container">
         <div class="skillTwo insomnia">75%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secThree'>
 <p>VS Code</p>
     <div class="container">
         <div class="skillTwo vscode">99%</div>
@@ -223,19 +223,19 @@ export default function About() {
    </div> 
 <div className='languagesType img3-tape'>
     <div className='langPartOne'>
-    <div className='secOne'>
+    <div className='secTwo'>
 <p>HTML</p>
     <div class="container">
         <div class="skillOne html">90%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secTwo'>
 <p>CSS</p>
     <div class="container">
         <div class="skillOne css">83%</div>
     </div>
     </div>
-<div className='secOne'>
+<div className='secTwo'>
 <p>Javascript</p>
     <div class="container">
         <div class="skillOne javascript">60%</div>
@@ -244,13 +244,13 @@ export default function About() {
 </div>
 
 <div className='langPartOne'>
-<div className='secOne'>
+<div className='secTwo'>
 <p>NoSQL</p>
     <div class="container">
         <div class="skillOne nosql">35%</div>
     </div>
 </div>
-<div className='secOne'>
+<div className='secTwo'>
 <p>Spanish</p>
     <div class="container">
         <div class="skillOne spanish">100%</div>
