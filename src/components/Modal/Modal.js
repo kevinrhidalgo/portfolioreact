@@ -24,8 +24,8 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
-  width: 800px;
-  height: 500px;
+  width: 650px;
+  height: 410px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -34,14 +34,21 @@ const ModalWrapper = styled.div`
   position: relative;
   z-index: 10;
   border-radius: 10px;
-  
+  @media (max-width: 500px) {
+    max-width:400px;
+    max-height:300px;
+    transform:translate(25%,10%);
+  }
 `;
 
 const ModalImg = styled.img`
-  width: 100%;
-  height: 70%;
+  width: 90%;
+  height: 79%;
   border-radius: 10px 0 0 10px;
   background-color: #dddddd;
+  @media (max-width: 500px) {
+    height: 92%;
+  }
   
 `;
 
@@ -113,7 +120,7 @@ export const Modal = ({ showModal, setShowModal }) => {
   );
 
   return (
-    <>
+    <div className='popOutModal'>
       {showModal ? (
         <Background onClick={closeModal} ref={modalRef}>
           <animated.div style={animation}>
@@ -121,7 +128,7 @@ export const Modal = ({ showModal, setShowModal }) => {
               <ModalImg src={nyc} alt='camera' />
               <ModalContent>
                 <h1>Contacts.</h1>
-                <div className="contactList">
+                <div className="contactListModal">
        <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 
        <a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
         <a href="tel:555-555-5555"><img style={footerImg} src={Phone}/></a>
@@ -139,6 +146,6 @@ export const Modal = ({ showModal, setShowModal }) => {
           </animated.div>
         </Background>
       ) : null}
-    </>
+    </div>
   );
 };
