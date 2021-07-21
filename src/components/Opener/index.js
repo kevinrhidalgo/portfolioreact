@@ -372,7 +372,7 @@ to view a description and details.
             <h4>Heres the Link to my Github in the meantime</h4>
             <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
   
-            <div className='closeBtn'> 
+            <div className='closeBtnThree'> 
             <a className="close-modal" onClick={toggleModalThree}>
               <span>X</span>
             </a>

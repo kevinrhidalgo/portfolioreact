@@ -266,10 +266,12 @@ body.active-modal {
   color: #629ac9;
   font-size:30px;
   transform: translate(-100%,-100%);
+  cursor:pointer;
 }
 @media only screen and (max-width: 500px) {
   .closeBtn a{
     transform: translate(-900%,-150%);
+    cursor:pointer;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -321,6 +323,7 @@ body.active-modal {
   top: 30px;
   right: 10px;
   padding: 5px 7px;
+  cursor:pointer;
 }
 
 
@@ -571,5 +574,15 @@ body.active-modal {
 @media only screen and (max-width: 500px) {
   .aboutShelfi .toolsUsed{
     transform: translate(0%,-50%);  
+  }
+}
+
+
+/* media quieries for the 3rd + modals*/
+
+@media only screen and (max-width: 500px) {
+  .closeBtnThree a{
+    transform: translate(-50%,-50%);
+    cursor:pointer;
   }
 }
