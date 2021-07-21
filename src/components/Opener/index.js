@@ -322,8 +322,8 @@ The application is an ongoing project with hopes to continue growing and impleme
 to find their next good read. Users can search books by author or title 
 to view a description and details.
 </p>
-<a href='https://github.com/mascarelloa/shelfi'>View Repo</a>
-<a href='https://myshelfi.herokuapp.com/'>View Site</a>
+<a id='repo' href='https://github.com/mascarelloa/shelfi'>View Repo</a>
+<a id='site' href='https://myshelfi.herokuapp.com/'>View Site</a>
 
 <div className='toolsUsed'>
 

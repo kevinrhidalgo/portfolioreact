@@ -330,7 +330,6 @@ body.active-modal {
   margin-top: 100px;
   width: 53%;
   height: 260px;
-  background-color: white;
 }
 .carouselInner {
   height: 340px;
@@ -519,4 +518,58 @@ body.active-modal {
   border-top: 3px solid #007996;
   width: 50px;
   margin-top: -20px ;
+}
+@media only screen and (max-width: 500px) {
+  .aboutShelfi h1{
+    transform: translate(10%,70%);
+    
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutShelfi p{
+    transform: translate(0%,0%);
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutShelfi{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-80%,30%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInnerShelfi{
+    transform: translate(75%,-15%);
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInnerShelfi .left{
+    transform: translate(-70%,10%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carouselInnerShelfi .right{
+    transform: translate(-240%,10%);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutShelfi #repo{
+    transform: translate(80%,-30%);  
+    max-width: 18%;
+    margin-bottom: -10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutShelfi #site{
+    transform: translate(80%,-20%);  
+    max-width: 18%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutShelfi .toolsUsed{
+    transform: translate(0%,-50%);  
+  }
 }
