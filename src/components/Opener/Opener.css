@@ -274,15 +274,15 @@ body.active-modal {
 }
 @media only screen and (max-width: 500px) {
   .carouselInner{
-    transform: translate(46%,-20%);
-    width: 400px;
-    height:100px;
+    transform: translate(56%,0%);
     margin-bottom: 40px;
+    max-width: 88%;
+    max-height: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
   .carouselInner .left{
-    transform: translate(60%,0%);
+    transform: translate(10%,0%);
   }
 }
 @media only screen and (max-width: 500px) {
@@ -298,14 +298,21 @@ body.active-modal {
   }
 }
 @media only screen and (max-width: 500px) {
-  .aboutSalud a{
-    transform: translate(0%,-80%);
-    
+  .aboutSalud #repo{
+    transform: translate(90%,-130%);  
+    max-width: 18%;
+    margin-bottom: -10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutSalud #site{
+    transform: translate(90%,-130%);  
+    max-width: 18%;
   }
 }
 @media only screen and (max-width: 500px) {
   .aboutSalud .toolsUsed{
-    transform: translate(10%,-80%);
+    transform: translate(0%,-80%);
   }
 }
 

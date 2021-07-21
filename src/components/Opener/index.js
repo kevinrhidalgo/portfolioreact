@@ -248,8 +248,8 @@ various technology, designs, and research with non-stop experimentation.
 You can read articles, read blogs, watch mini-films and even find recipes based on how calories you plan to consume. 
 The application is an ongoing project with hopes to continue growing and implementing new ideas.
 </p>
-<a  href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</a>
-<a  href='https://github.com/kevinrhidalgo/dd-salud'>View Site</a>
+<a id='repo' href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</a>
+<a id='site'  href='https://github.com/kevinrhidalgo/dd-salud'>View Site</a>
 
 <div className='toolsUsed'>
 
@@ -347,9 +347,12 @@ to view a description and details.
 </div>
     </div>
 </div>
+
+<div className='closeBtn'>
 <a className="close-modal" onClick={toggleModalTwo}>
-            <span style={closeBtn}>X</span>
+            <span>X</span>
             </a>
+            </div>
         </div>
       </div>
       )}
@@ -368,10 +371,12 @@ to view a description and details.
             </p>
             <h4>Heres the Link to my Github in the meantime</h4>
             <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
-            
+  
+            <div className='closeBtn'> 
             <a className="close-modal" onClick={toggleModalThree}>
-              <span style={closeBtn}>X</span>
+              <span>X</span>
             </a>
+            </div>
           </div>
         </div>
       )}
