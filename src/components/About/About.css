@@ -248,7 +248,7 @@
   border:black 4px solid;
   font-size: 65px;
   margin-top: -100px;
-  transform: rotate(80deg);
+  transform: rotate(100deg);
   margin-top:310px;
   font-size: 75px;
   color:red;
@@ -262,16 +262,16 @@
 @media only screen and (max-width: 500px) {
   #tab6 h1{
     font-size: 15px;
-    border:red 1px solid;
+    border:red 2px solid;
     width: 110px;
-    transform: translate(20%,-200%) rotate(0deg);
+    transform: translate(20%,-170%) rotate(110deg);
   }
 }
 #tab6 h2{
   border:black 4px solid;
   font-size: 67px;
   margin-top: -140px;
-  transform: rotate(55deg); 
+  transform: rotate(65deg); 
   background-color: lightblue;
 }
 @media only screen and (max-width: 500px) {
