@@ -76,7 +76,7 @@ export default function About() {
 
 <div id="tab1">
 <div className='hobbiesInterestOne'>
-<div className='hobbiesInterest img-tape'>
+<div className='hobbiesInterest img1-tape'>
 
 <div className='hobInt'><h3>Hobbies & Interests</h3></div>
 <div className='intHob'>

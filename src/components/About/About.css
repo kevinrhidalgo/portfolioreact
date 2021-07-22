@@ -184,7 +184,7 @@
 @media only screen and (max-width: 500px) {
   #tab5::after{
     width: 4.0vw;
-  height: 13vh;
+  height: 14vh;
   top: 11%;
   }
 }
@@ -272,11 +272,13 @@
   font-size: 67px;
   margin-top: -140px;
   transform: rotate(55deg); 
+  background-color: lightblue;
 }
 @media only screen and (max-width: 500px) {
   #tab6 h2{
     font-size: 27px;
     border:black 2px solid;
+    background-color: lightblue;
     width: 200px;
     transform: translate(10%,-250%) rotate(50deg);
   }
@@ -344,7 +346,7 @@ span.paper-clip {
 }
 @media only screen and (max-width: 500px) {
   #tab6 .frontAbout{
-    transform: translate(52%,-1700%) rotate(90deg);
+    transform: translate(52%,-1800%) rotate(90deg);
     color:#222222;
   font-size: 8px;
   }
@@ -518,8 +520,8 @@ width: 110px;
  }
  @media only screen and (max-width: 500px) {
   .img-tape1:before{
-transform: translate(-350%,-1300%) ;
-width: 110px;
+width: 310px;
+margin-top: -23px;
   }
 }
 /* NUMBER 4!!!!!!  css for languages on  tab 4 of the about me page */
@@ -1090,12 +1092,16 @@ margin-left: 25px;
 }
 @media only screen and (max-width: 500px) {
   .hobInt{
-  transform:translate(-90%,20%);
+    width:170px;
+    height:80px;
+  transform:translate(40%,10%) rotate(20deg);
   }
 }
 @media only screen and (max-width: 500px) {
   .intHob{
-  transform:translate(15%,-75%) rotate(-10deg);
+    width:300px;
+    height:80px;
+  transform:translate(65%,-175%) rotate(-10deg);
   }
 }
 .hobbiesInterest h3{
@@ -1134,50 +1140,39 @@ margin-left: 25px;
   justify-content: center;
 }
 
-.img-tape {
-  position: relative;
-  text-align: center;
-  display: inline-block;
-  margin: 20px auto 10px; 
-}
-.img-tape:before{
+
+@media only screen and (max-width: 500px) {
+  .img-tape1:before{
+    transform: translate(-200%,10%); 
+  }
+} 
+.img1-tape:before{
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   content: "";
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:180px;
-  margin-left: 330px;
   width: 150px;
- transform: rotate(60deg);
+ transform: translate(240%,540%) rotate(40deg);
  }
- 
-.img-tape:after {
+ @media only screen and (max-width: 500px) {
+  .img1-tape:before{
+    width:300px;
+transform:translate(50%,-80%);
+  }
+}
+.img1-tape:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   content: "";
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:-40px;
-  margin-left: -30px;
   width: 150px;
- transform: translate(110%,10%);
- transform: rotate(60deg);
+ transform: translate(-40%,-215%) rotate(50deg);
  }
-.img-tape p {
-  background: #dddddd;
-  border: 6px solid white;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  display: inline-block;
-  height: auto;
-  margin: 0 20px;
-  max-width: 100%;
-  padding: 8px;
-  text-align: center;
-  vertical-align: top; 
-}
+
 
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
