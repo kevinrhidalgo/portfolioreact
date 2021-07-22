@@ -390,7 +390,13 @@ span.paper-clip {
   font-size: 10px;
   transform: translate(53.5%, 2500%) rotate(90deg) ;
 }
-
+@media only screen and (max-width: 500px) {
+  #tab6 .frontHobs{
+    transform: translate(54%,900%) rotate(90deg);
+    color:#222222;
+  font-size: 6.5px;
+  }
+}
 /* NUMBER 5!!!!!! css for tab 5 of the about me page */
 .blogContainer {
   display: flex;
@@ -510,6 +516,12 @@ width: 110px;
   width: 150px;
  transform: rotate(90deg);
  }
+ @media only screen and (max-width: 500px) {
+  .img-tape1:before{
+transform: translate(-350%,-1300%) ;
+width: 110px;
+  }
+}
 /* NUMBER 4!!!!!!  css for languages on  tab 4 of the about me page */
 .languages{
   display: flex;
@@ -655,6 +667,12 @@ width:240px;
   width: 150px;
  transform: rotate(0deg);
  }
+@media only screen and (max-width: 500px) {
+ .img2-tape:after{
+   width: 120px;
+   transform: translate(-20%,240%) rotate(0deg);
+   }
+}
  .img3-tape:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -679,7 +697,12 @@ width:240px;
   width: 190px;
  transform: translate(150%,1180%) rotate(10deg);
  }
-
+ @media only screen and (max-width: 500px) {
+  .img7-tape:after{
+    transform: translate(50%,100%);
+    width:1px;
+    }
+ }
 /* NUMBER 3!!!!!! css for applications on tab 3 of the about me page */
 .applications{
   display: flex;
@@ -868,6 +891,11 @@ margin-left: 25px;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
+@media only screen and (max-width: 500px) {
+  .toolstypeOne h3{
+    font-size: 20px;
+    }
+}
 .toolstypeOne{
   background: 	rgb(175, 252, 175);
   width:250px;
@@ -876,6 +904,13 @@ margin-left: 25px;
  transform: translate(30%,0%) rotate(30deg);
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .toolstypeOne{
+    width:110px;
+    height:90px;
+    transform: translate(-80%,20%) rotate(30deg);
+    }
 }
 .toolstypeTwo{
   background: 	rgb(175, 252, 175);
@@ -886,12 +921,27 @@ margin-left: 25px;
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+@media only screen and (max-width: 500px) {
+  .toolstypeTwo{
+    width:115px;
+    height:95px;
+    transform: translate(-150%,80%);
+    }
+}
 .toolstypeTwo p{
   font-size: 20px;
   font-weight: bolder;
-  
 }
-
+@media only screen and (max-width: 500px) {
+  .toolstypeTwo p{
+   font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+  .toolstypeTwo h2{
+   font-size: 12px;
+    }
+}
 .toolsType{
   background: 	rgb(175, 252, 175);
   width:300px;
@@ -902,6 +952,13 @@ margin-left: 25px;
     border: 2px black solid;
     transform: translate(-10%, -10%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .toolsType{
+    width:160px;
+    height: 140px;
+    transform: translate(-80%,0%);
+    }
 }
 .skillThree {
   background-color:#0d5b28;
@@ -917,14 +974,26 @@ margin-left: 25px;
   width:150px;
   height:40px;
   padding: 8px;
-  margin:6px;
+  margin:3px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 500px) {
+  .secOne{
+    width:80px;
+  height:28px;
+  }
 }
 .secOne p{
 font-size: 11px;
 margin-top: 4px;
 margin-left: 25px;
 } 
+@media only screen and (max-width: 500px) {
+  .secOne p{
+    font-size: 9px;
+    margin-top: 0px;
+  }
+}
 .express{
   width: 51%;
 }
@@ -956,6 +1025,12 @@ margin-left: 25px;
   width: 190px;
  transform:translate(10%,-740%) rotate(0deg);
  }
+ @media only screen and (max-width: 500px) {
+  .img8-tape:after{
+    width: 100px;
+    transform: translate(0%,-470%) rotate(0deg);
+    }
+}
  .img15-tape:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -968,27 +1043,79 @@ margin-left: 25px;
   width: 190px;
  transform: rotate(0deg);
  }
+ @media only screen and (max-width: 500px) {
+  .img15-tape:after{
+    width: 100px;
+    transform: translate(-10%,190%) rotate(0deg);
+    }
+}
+.img14-tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  margin-top:-57px;
+  margin-left: 50px;
+  width: 190px;
+ transform: rotate(0deg);
+ }
+ @media only screen and (max-width: 500px) {
+  .img14-tape:after{
+    width: 130px;
+    transform: translate(-110%,300%) rotate(90deg);
+    }
+}
 /* NUMBER 1!!!!!! css for the hobbies and interests section on the tab 1 of the folder */
 .hobbiesInterestOne{
   transform: rotate(90deg);
   margin-top: 300px;
 }
+@media only screen and (max-width: 500px) {
+  .hobbiesInterestOne{
+    width:200px; 
+    display:flex;
+    flex-direction: row;
+  }
+}
 .hobbiesInterest{
   color:#222222;
   width:450px;
-      }
+}
+@media only screen and (max-width: 500px) {
+  .hobbiesInterest{
+  transform: translate(-100%,10%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hobInt{
+  transform:translate(-90%,20%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .intHob{
+  transform:translate(15%,-75%) rotate(-10deg);
+  }
+}
 .hobbiesInterest h3{
   display: flex;
   justify-content: center;
   background-color: #dddddd;
   margin-bottom: 20px;
   padding:50px;
-  height: 10px;
+  height: 20px;
   font-size: 30px;
   border: 6px solid white;
   transform:  rotate(-10deg);
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-      } 
+} 
+@media only screen and (max-width: 500px) {
+  .hobbiesInterest h3{
+    font-size: 12px;    
+  }
+}
+
 .hobbiesInterest p{
   border: 6px solid white;
  font-size: 14px;
@@ -996,7 +1123,12 @@ margin-left: 25px;
  background-color: #dddddd;
  padding:40px;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}      
+}  
+@media only screen and (max-width: 500px) {
+  .hobbiesInterest p{
+    font-size: 8px;    
+  }
+}    
 .hobbiesInterestOne{
   display: flex;
   justify-content: center;
@@ -1020,6 +1152,7 @@ margin-left: 25px;
   width: 150px;
  transform: rotate(60deg);
  }
+ 
 .img-tape:after {
   background: rgba(255, 255, 235, 0.6);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -1049,10 +1182,22 @@ margin-left: 25px;
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
 background: #fffaf1;
-
 }
 .tabZero{
   transform:translate(10%,400%) rotate(90deg); 
   font-family: Dancing Script, cursive;
   font-size:20px;
 }
+@media only screen and (max-width: 500px) {
+  #tab0{
+    width:240px;
+    transform:translate(0%,-3%) rotate(-90deg);
+    border-radius: 5%;
+  }
+} 
+@media only screen and (max-width: 500px) {
+  .tabZero{
+    font-size:10px;
+    transform: translate(10%,300%) rotate(90deg);
+  }
+} 
