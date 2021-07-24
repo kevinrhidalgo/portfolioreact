@@ -75,6 +75,7 @@ export default function About() {
 </div>
 
 <div id="tab1">
+<div className='blankHobInt'><h1>Hobbies & <br/> Interests.</h1></div>
 <div className='hobbiesInterestOne'>
 <div className='hobbiesInterest img1-tape'>
 
@@ -94,7 +95,7 @@ export default function About() {
 
 
 <div id="tab2">
-    
+<div className='blankTool'><p>tools.</p></div>    
 <div className='tools'>
 <div className='toolstypeOne img15-tape'>
    <h3>tools.</h3>
@@ -162,7 +163,9 @@ export default function About() {
 
 
 <div id="tab3">
+<div className='blankAppl'><p>applications.</p></div>
 <div className='applications'>
+
    <div className='myApplicationSection'>
 <div className='applicationsTypeTwo'></div>
 <div className='applicationsType img4-tape'>
@@ -219,6 +222,7 @@ export default function About() {
 
 <div id="tab4">
 <div className='languages'>
+    <div className='blankLang '><h1>Languages.</h1></div>
    <div className='myLanguageSection'>
 <div className='languagestypeTwo img7-tape'></div>
 <div className='languagestypeOne img2-tape'>

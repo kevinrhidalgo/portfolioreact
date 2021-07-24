@@ -49,6 +49,7 @@
 #tab1::after {
   content: "";
   position: absolute;
+  z-index: -1;
   width: 5vw;
   height: 23.2vh;
   background: #f9e5bc;
@@ -68,6 +69,7 @@
 #tab2::after {
   content: "";
   position: absolute;
+  z-index: -1;
   width: 5vw;
   height: 25vh;
   background: #f9e5bc;
@@ -87,6 +89,7 @@
 #tab3::after {
   content: "";
   position: absolute;
+  z-index: -1;
   width: 5vw;
   height: 24.5vh;
   background: #f9e5bc;
@@ -107,6 +110,7 @@
 #tab4::after {
   content: "";
   position: absolute;
+  z-index: -1;
   width: 5vw;
   height: 24vh;
   background: #f9e5bc;
@@ -521,7 +525,7 @@ width: 120px;
   width:240px;
   height:180px;
  padding:10px;
- transform: rotate(-10deg);
+ transform:translate(-100%,-10%) rotate(-10deg);
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -575,7 +579,7 @@ background: #feff9c;
 width:240px;
   height:180px;
  padding:10px;
- transform: translate(101%,10%) rotate(-10deg);
+ transform: translate(0%,0%) rotate(-10deg);
  border: 2px black solid;
 }
 @media only screen and (max-width: 600px) {
@@ -588,18 +592,19 @@ width:240px;
 .languagesType{
   background-color:#feff9c;
   width:300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding:40px;
-    border: 2px black solid;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding:40px;
+  border: 2px black solid;
+  transform: translate(-60%,-20%);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
-    @media only screen and (max-width: 600px) {
-      .languagesType{
-        width:150px;
-        height: 100px;
-        transform: translate(-90%,0%);   
+@media only screen and (max-width: 600px) {
+  .languagesType{
+  width:150px;
+  height: 100px;
+  transform: translate(-90%,0%);   
       }
     }
 .langPartOne{
@@ -645,7 +650,7 @@ width:240px;
   margin-top:-170px;
   margin-left: 47px;
   width: 150px;
- transform: rotate(0deg);
+ transform:translate(10%,40%) rotate(0deg);
  }
 @media only screen and (max-width: 600px) {
  .img2-tape:after{
@@ -662,8 +667,8 @@ width:240px;
   position: absolute;
   margin-top:-57px;
   margin-left: 50px;
-  width: 190px;
- transform: rotate(0deg);
+  width: 110px;
+ transform: translate(-10%,10%) rotate(30deg);
  }
  .img7-tape:after {
   background: rgba(255, 255, 235, 0.6);
@@ -675,13 +680,30 @@ width:240px;
   margin-top:-57px;
   margin-left: 50px;
   width: 190px;
- transform: translate(150%,1180%) rotate(10deg);
+ transform: translate(-10%,800%) rotate(0deg);
+ z-index: -1;
  }
  @media only screen and (max-width: 600px) {
   .img7-tape:after{
     transform: translate(50%,100%);
     width:1px;
     }
+ }
+ .blankLang{
+   width:400px;
+   height:40px;
+   background-color:#feff9c;
+   transform: translate(180%,-500%) rotate(-70deg);
+   position:relative;
+  z-index: 1;
+  border: 1px solid black;
+ }
+ .blankLang h1{
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transform: translate(24%,0%);
  }
 /* NUMBER 3!!!!!! css for applications on tab 3 of the about me page */
 .applications{
@@ -762,8 +784,6 @@ width:240px;
     transform:translate(-80%,10%);
     }
 }
-
-
 .skillTwo {
   background-color:#00316e;
   color: rgb(255, 255, 255);
@@ -823,10 +843,8 @@ margin-left: 25px;
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:-57px;
-  margin-left: 50px;
   width: 190px;
- transform: rotate(0deg);
+ transform: translate(10%,-175%) rotate(0deg);
  }
  .img5-tape:after {
   background: rgba(255, 255, 235, 0.6);
@@ -835,10 +853,8 @@ margin-left: 25px;
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:-155px;
-  margin-left: 33px;
   width: 190px;
- transform: rotate(0deg);
+ transform:translate(10%,130%) rotate(0deg);
  }
  @media only screen and (max-width: 600px) {
   .img5-tape:after{
@@ -846,7 +862,23 @@ margin-left: 25px;
     transform: translate(-15%,200%);
   }
 }
-
+.blankAppl{
+  width:230px;
+  height:40px;
+  background-color:#7afcff;
+  transform: translate(220%,1320%) rotate(20deg);
+  position:relative;
+ z-index: 1;
+ border: 1px solid black;
+}
+.blankAppl p{
+ font-size: 17px;
+ font-weight: bolder;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ transform: translate(25%,-20%);
+}
 
 
 /* NUMBER 2!!!!!! css for tab 2 of the about me page */
@@ -930,7 +962,7 @@ margin-left: 25px;
     justify-content: center;
     padding:40px;
     border: 2px black solid;
-    transform: translate(-10%, -10%);
+    transform: translate(-15%,0%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 @media only screen and (max-width: 600px) {
@@ -1047,9 +1079,26 @@ margin-left: 25px;
     transform: translate(-110%,300%) rotate(90deg);
     }
 }
+.blankTool{
+  width:230px;
+  height:40px;
+  background: 	rgb(175, 252, 175);
+  transform: translate(212%,1650%) rotate(10deg);
+  position:relative;
+ z-index: 1;
+ border: 1px solid black;
+}
+.blankTool p{
+ font-size: 17px;
+ font-weight: bolder;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ transform: translate(25%,-20%);
+}
 /* NUMBER 1!!!!!! css for the hobbies and interests section on the tab 1 of the folder */
 .hobbiesInterestOne{
-  transform: rotate(90deg);
+  transform: translate(0%,-50%) rotate(90deg);
   margin-top: 300px;
 }
 @media only screen and (max-width: 600px) {
@@ -1150,16 +1199,33 @@ transform:translate(50%,-80%);
   width: 150px;
  transform: translate(-40%,-215%) rotate(50deg);
  }
-
-
+ 
+.blankHobInt{
+  width:150px;
+  height:170px;
+  background-color: white;
+  transform: translate(320%,430%) rotate(41deg);
+  border:1px solid black;
+  position:relative;
+  z-index: 1;
+}
+.blankHobInt h1{
+  font-size: 15px;
+  transform: translate(44%,140%)rotate(60deg);
+}
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
 background: #fffaf1;
+width:900px;
+height: 540px;
+transform:translate(0%,23%);
+
 }
 .tabZero{
-  transform:translate(10%,400%) rotate(90deg); 
+  transform:translate(30%,100%) rotate(0deg); 
   font-family: Dancing Script, cursive;
   font-size:20px;
+  color:tomato;
 }
 @media only screen and (max-width: 600px) {
   #tab0{
