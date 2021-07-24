@@ -50,7 +50,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 22vh;
+  height: 31vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 77%;
@@ -69,7 +69,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 22vh;
+  height: 26vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 62%;
@@ -88,7 +88,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 22vh;
+  height: 26vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 48%;
@@ -108,7 +108,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 22vh;
+  height: 26vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 33%;
@@ -127,7 +127,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 22vh;
+  height: 26vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 17%;
@@ -147,7 +147,7 @@
   content: "";
   position: absolute;
   width: 5.1vw;
-  height: 22vh;
+  height: 28vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 0;
@@ -171,7 +171,7 @@
 @media only screen and (max-width: 600px) {
   #tab6::after{
     width: 4.0vw;
-  height: 11vh;
+  height: 15vh;
   top:-0.3%
   }
 }
@@ -184,8 +184,8 @@
 @media only screen and (max-width: 600px) {
   #tab5::after{
     width: 4.0vw;
-  height: 14vh;
-  top: 11%;
+  height: 15vh;
+  top: 15%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -197,7 +197,8 @@
 @media only screen and (max-width: 600px) {
   #tab4::after{
     width: 4.0vw;
-  height: 10vh;
+  height: 14vh;
+  top:32%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -209,7 +210,8 @@
 @media only screen and (max-width: 600px) {
   #tab3::after{
     width: 4.0vw;
-  height: 11vh;
+  height: 16vh;
+  top:44%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -220,8 +222,9 @@
 }
 @media only screen and (max-width: 600px) {
   #tab2::after{
-    width: 4.0vw;
-  height: 11vh;
+  width: 4.0vw;
+  height: 14vh;
+  top:62%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -233,7 +236,8 @@
 @media only screen and (max-width: 600px) {
   #tab1::after{
     width: 4.0vw;
-  height: 11vh;
+  height: 15vh;
+  top:76.6%;
   }
 }
 @media only screen and (max-width: 600px) {
