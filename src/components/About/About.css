@@ -50,10 +50,10 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 31vh;
+  height: 23.2vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
-  top: 77%;
+  top: 80%;
   right: -4vw;
   border-right:1px solid black;
   border-left:1px solid black;
@@ -69,7 +69,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 26vh;
+  height: 25vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 62%;
@@ -88,7 +88,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 26vh;
+  height: 24.5vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 48%;
@@ -108,7 +108,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 26vh;
+  height: 24vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 33%;
@@ -127,7 +127,7 @@
   content: "";
   position: absolute;
   width: 5vw;
-  height: 26vh;
+  height: 25vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 17%;
@@ -146,8 +146,8 @@
 #tab6::after {
   content: "";
   position: absolute;
-  width: 5.1vw;
-  height: 28vh;
+  width: 4.0vw;
+  height: 24vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 0;
@@ -171,8 +171,15 @@
 @media only screen and (max-width: 600px) {
   #tab6::after{
     width: 4.0vw;
-  height: 15vh;
+  height: 11vh;
   top:-0.3%
+  }
+}
+@media only screen and (max-height: 500px) {
+  #tab6::after{
+    width: 4.0vw;
+  height: 100%;
+  top:-0.1%
   }
 }
 @media only screen and (max-width: 600px) {
@@ -184,7 +191,7 @@
 @media only screen and (max-width: 600px) {
   #tab5::after{
     width: 4.0vw;
-  height: 15vh;
+  height: 13vh;
   top: 15%;
   }
 }
@@ -197,7 +204,7 @@
 @media only screen and (max-width: 600px) {
   #tab4::after{
     width: 4.0vw;
-  height: 14vh;
+  height: 11vh;
   top:32%;
   }
 }
@@ -210,7 +217,7 @@
 @media only screen and (max-width: 600px) {
   #tab3::after{
     width: 4.0vw;
-  height: 16vh;
+  height: 12vh;
   top:44%;
   }
 }
@@ -223,7 +230,7 @@
 @media only screen and (max-width: 600px) {
   #tab2::after{
   width: 4.0vw;
-  height: 14vh;
+  height: 11vh;
   top:62%;
   }
 }
@@ -236,7 +243,7 @@
 @media only screen and (max-width: 600px) {
   #tab1::after{
     width: 4.0vw;
-  height: 15vh;
+  height: 10.8vh;
   top:76.6%;
   }
 }
@@ -343,81 +350,20 @@ span.paper-clip {
   display: inline-block;
   position: absolute;
 }
-#tab6 .frontAbout{
-  color:#222222;
-  font-size: 12px;
-  transform: translate(53.5%, -1200%) rotate(90deg);
-}
-@media only screen and (max-width: 600px) {
-  #tab6 .frontAbout{
-    transform: translate(52%,-1800%) rotate(90deg);
-    color:#222222;
-  font-size: 8px;
-  }
-}
-#tab6 .frontLanguages{
-  color:#222222;
-  font-size: 11px;
-  transform: translate(53.5%, -300%) rotate(90deg) ;
-}
-@media only screen and (max-width: 600px) {
-  #tab6 .frontLanguages{
-    transform: translate(53%,-1150%) rotate(90deg);
-    color:#222222;
-  font-size: 8px;
-  }
-}
-#tab6 .frontApps{
-  color:#222222;
-  font-size: 11px;
-  transform: translate(53.5%, 700%) rotate(90deg) ;
-}
-@media only screen and (max-width: 600px) {
-  #tab6 .frontApps{
-    transform: translate(53%,-600%) rotate(90deg);
-    color:#222222;
-  font-size: 8px;
-  }
-}
-#tab6 .frontTools{
-  color:#222222;
-  font-size: 12px;
-  transform: translate(53.5%, 1600%) rotate(90deg) ;
-}
-@media only screen and (max-width: 600px) {
-  #tab6 .frontTools{
-    transform: translate(53%,350%) rotate(90deg);
-    color:#222222;
-  font-size: 8px;
-  }
-}
-#tab6 .frontHobs{
-  color:#222222;
-  font-size: 10px;
-  transform: translate(53.5%, 2600%) rotate(90deg) ;
-}
-@media only screen and (max-width: 600px) {
-  #tab6 .frontHobs{
-    transform: translate(54%,900%) rotate(90deg);
-    color:#222222;
-  font-size: 6.5px;
-  }
-}
+
 /* NUMBER 5!!!!!! css for tab 5 of the about me page */
 .blogContainer {
   display: flex;
   flex-direction: row;
-  margin-left: -195px;
-  margin-top: 190px;
   width:670px;
   height:645px;
-  transform: rotate(90deg);
+  transform: translate(-20%,3%) rotate(90deg);
 }
 @media only screen and (max-width: 600px) {
   .blogContainer{
     transform: translate(-15%,280%) rotate(90deg);
-    width:520px;
-  height:45px;
+    width:400px;
+  height:40px;
   }
 }
 #col-1 {
@@ -432,10 +378,9 @@ span.paper-clip {
 }
 @media only screen and (max-width: 600px) {
   #col-1{
-    transform: translate(-50%,-99%) rotate(0deg);
+    transform: translate(-53%,-19%) rotate(0deg);
   height:130px;
-  font-size: 0px;
-  margin-right: -300px;
+  font-size: 0px; 
   }
 }
 #col-1 h2{
@@ -455,14 +400,25 @@ span.paper-clip {
   display: flex;
   justify-content: center;
 }
+#col-1 h2{
+  text-decoration: overline;
+}
+@media only screen and (max-width: 600px) {
+  #col-1 h2{
+  font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #col-1 p{
+  font-size: 10px;
+  }
+}
 @media only screen and (max-width: 600px) {
   #col-1 a{
   transform: translate(-5%,-15%);
   }
 }
-#col-1 h2{
-  text-decoration: overline;
-}
+
 #col-2 {
   color:#222222;
   background-color: rgb(206, 206, 206);
@@ -475,7 +431,7 @@ span.paper-clip {
 @media only screen and (max-width: 600px) {
   #col-2{
     transform: translate(-25%,-100%);
-    height:130px;
+    height:100px;
     max-width:200px;
     font-size: 8px;
   }
@@ -488,7 +444,7 @@ transform: translate(0%,-250%);
 @media only screen and (max-width: 600px) {
   #col-2 p{
 transform: translate(0%,-90%);
-line-height: 8px;
+
   }
 }
 .img-tape1:after {
@@ -527,6 +483,19 @@ width: 110px;
 width: 310px;
 margin-top: -23px;
   }
+}
+.blankAbout{
+  width:150px;
+  height:170px;
+  background-color: white;
+  transform: translate(320%,90%) rotate(30deg);
+  border:1px solid black;
+  position:relative;
+  z-index: 1;
+}
+.blankAbout h1{
+  font-size: 15px;
+  transform: translate(40%,450%)rotate(60deg);
 }
 /* NUMBER 4!!!!!!  css for languages on  tab 4 of the about me page */
 .languages{

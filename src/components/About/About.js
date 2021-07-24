@@ -268,6 +268,7 @@ export default function About() {
 
 
 <div id="tab5">
+    <div className='blankAbout'><h1>About Me.</h1></div>
  <div className="blogContainer img-tape1">
 <div id="col-1">
     <h2>about.</h2>
@@ -285,8 +286,8 @@ export default function About() {
        <p>If you are reading this than that means you are either grading my work or here to get to know me a little. My name is Kevin Hidalgo and I am a web developer in the making and a current full-time student 
         at the UCF coding bootcamp. I was born and raised in the Bronx, New York until August of 2019, in which I moved to Orlando, Florida. </p>
         <p>Growing up I always had two career paths I wanted to pursue, coder or cardiologist. Prior to deciding between the two, I chose to pursue a career in medicine. I got as far as my junior year in which it was than I made the difficult decision to 
-        change career paths due to some unfortunate events. Thanks to a friend, it was he who introduced me to the concept of a coding bootcamp to jumpstart my career in web development.</p>
-          <p> Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
+        change career paths due to some unfortunate events. Thanks to a friend, it was he who introduced me to the concept of a coding bootcamp to jumpstart my career in web development.
+        Though i am inexperienced, I have alot of aspirations to continue learning various languages while also building my own applications from my pocket of ideas that i believe has potential; Hey! it doesn't hurt to dream big.  </p>
 </div>
 </div>
 </div>
@@ -299,11 +300,8 @@ export default function About() {
     <h1>CLASSIFIED</h1>
     <h2>DECLASSIFIED</h2>
     <span class="paper-clip"></span>
-<div className='frontAbout'>ABOUT</div>
-<div className='frontLanguages'>LANGUAGES</div>
-<div className='frontApps'>APPLICATIONS</div>
-<div className='frontTools'>TOOLS</div>
-<div className='frontHobs'>HOBBIES/INTERESTS</div>
+
+
 </div>
 
 </div> 
