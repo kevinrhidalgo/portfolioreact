@@ -361,7 +361,7 @@ span.paper-clip {
 }
 @media only screen and (max-width: 600px) {
   .blogContainer{
-    transform: translate(-15%,280%) rotate(90deg);
+    transform: translate(-15%,410%) rotate(90deg);
     width:400px;
   height:40px;
   }
@@ -410,7 +410,7 @@ span.paper-clip {
 }
 @media only screen and (max-width: 600px) {
   #col-1 p{
-  font-size: 10px;
+  font-size: 8x;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -430,8 +430,8 @@ span.paper-clip {
 }
 @media only screen and (max-width: 600px) {
   #col-2{
-    transform: translate(-25%,-100%);
-    height:100px;
+    transform: translate(-50%,-23%);
+    height:140px;
     max-width:200px;
     font-size: 8px;
   }
@@ -454,16 +454,13 @@ transform: translate(0%,-90%);
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:180px;
-  margin-left: -77px;
-  width: 150px;
- transform: translate(110%,10%);
- transform: rotate(90deg);
+  width: 250px;
+ transform: translate(-50%,500%)rotate(90deg);
  }
  @media only screen and (max-width: 600px) {
   .img-tape1:after{
-transform: translate(100%,-1300%) ;
-width: 110px;
+transform: translate(10%,-60%) rotate(-15deg) ;
+width: 120px;
   }
 }
  .img-tape1:before {
@@ -473,17 +470,10 @@ width: 110px;
   display: block;
   height: 30px;
   position: absolute;
-  margin-top:180px;
-  margin-left: 595px;
-  width: 150px;
- transform: rotate(90deg);
+  width: 250px;
+ transform: translate(220%,500%) rotate(90deg);
  }
- @media only screen and (max-width: 600px) {
-  .img-tape1:before{
-width: 310px;
-margin-top: -23px;
-  }
-}
+
 .blankAbout{
   width:150px;
   height:170px;
@@ -497,6 +487,21 @@ margin-top: -23px;
   font-size: 15px;
   transform: translate(40%,450%)rotate(60deg);
 }
+@media only screen and (max-width: 600px) {
+  .blankAbout{
+    width:100px;
+  height:130px;
+  transform: translate(140%,30%)rotate(-30deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blankAbout h1{
+   font-size: 10px;
+   transform: translate(20%,900%)rotate(120deg);
+  }
+}
+
+
 /* NUMBER 4!!!!!!  css for languages on  tab 4 of the about me page */
 .languages{
   display: flex;
