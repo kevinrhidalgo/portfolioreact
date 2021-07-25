@@ -558,7 +558,7 @@ margin-left: 25px;
   .languagestypeOne{
     width:150px;
     height:100px;
-    transform: translate(-125%,30%) rotate(-10deg);
+    transform: translate(-170%,30%) rotate(-10deg);
   }
 }
 .languagestypeOne h3{
@@ -586,7 +586,7 @@ width:240px;
   .languagestypeTwo{
     width:150px;
   height:100px;
-  transform: translate(-28%,35%) rotate(-10deg);
+  transform: translate(-70%,35%) rotate(-10deg);
   }
 }
 .languagesType{
@@ -604,7 +604,7 @@ width:240px;
   .languagesType{
   width:150px;
   height: 100px;
-  transform: translate(-90%,0%);   
+  transform: translate(-117%,10%);   
       }
     }
 .langPartOne{
@@ -705,6 +705,21 @@ width:240px;
   align-content: center;
   transform: translate(24%,0%);
  }
+ @media only screen and (max-width: 600px) {
+  .blankLang{
+   width:120px;
+   height:20px;
+   transform: translate(90%,-210%)rotate(-60deg);
+    }
+ }
+ @media only screen and (max-width: 600px) {
+  .blankLang h1{
+    font-size:12px;
+    justify-content: center;
+  align-content: center;
+  transform: translate(25%,-30%);
+    }
+ }
 /* NUMBER 3!!!!!! css for applications on tab 3 of the about me page */
 .applications{
   display: flex;
@@ -744,7 +759,7 @@ width:240px;
   .applicationstypeOne{
     width:130px;
     height:100px;
-    transform: translate(-260%,30%) rotate(-10deg);
+    transform: translate(-290%,30%) rotate(-10deg);
   }
 }
 .applicationsType{
@@ -763,7 +778,7 @@ width:240px;
   .applicationsType{
     width:150px;
     height:100px;
-    transform:translate(-180%,5%);
+    transform:translate(-190%,5%);
     }
 }
 .applicationsTypeTwo{
@@ -781,7 +796,7 @@ width:240px;
   .applicationsTypeTwo{
     width:150px;
     height:100px;
-    transform:translate(-80%,10%);
+    transform:translate(-90%,10%);
     }
 }
 .skillTwo {
@@ -859,7 +874,7 @@ margin-left: 25px;
  @media only screen and (max-width: 600px) {
   .img5-tape:after{
     width: 120px;
-    transform: translate(-15%,200%);
+    transform: translate(0%,120%);
   }
 }
 .blankAppl{
@@ -879,7 +894,21 @@ margin-left: 25px;
  align-content: center;
  transform: translate(25%,-20%);
 }
-
+@media only screen and (max-width: 600px) {
+  .blankAppl{
+   width:120px;
+   height:20px;
+   transform: translate(150%,1110%)rotate(20deg);
+    }
+ }
+ @media only screen and (max-width: 600px) {
+  .blankAppl p{
+    font-size:12px;
+    justify-content: center;
+  align-content: center;
+  transform: translate(19%,-30%);
+    }
+ }
 
 /* NUMBER 2!!!!!! css for tab 2 of the about me page */
 
@@ -921,7 +950,7 @@ margin-left: 25px;
   .toolstypeOne{
     width:110px;
     height:90px;
-    transform: translate(-80%,20%) rotate(30deg);
+    transform: translate(-90%,20%) rotate(30deg);
     }
 }
 .toolstypeTwo{
@@ -937,7 +966,7 @@ margin-left: 25px;
   .toolstypeTwo{
     width:115px;
     height:95px;
-    transform: translate(-150%,80%);
+    transform: translate(-180%,85%);
     }
 }
 .toolstypeTwo p{
@@ -969,7 +998,7 @@ margin-left: 25px;
   .toolsType{
     width:160px;
     height: 140px;
-    transform: translate(-80%,0%);
+    transform: translate(-100%,0%);
     }
 }
 .skillThree {
@@ -1096,6 +1125,22 @@ margin-left: 25px;
  align-content: center;
  transform: translate(25%,-20%);
 }
+@media only screen and (max-width: 600px) {
+  .blankTool{
+   width:120px;
+   height:20px;
+   transform: translate(140%,1450%)rotate(0deg);
+
+    }
+ }
+ @media only screen and (max-width: 600px) {
+  .blankTool p{
+    font-size:12px;
+    justify-content: center;
+  align-content: center;
+  transform: translate(30%,-30%);
+    }
+ }
 /* NUMBER 1!!!!!! css for the hobbies and interests section on the tab 1 of the folder */
 .hobbiesInterestOne{
   transform: translate(0%,-50%) rotate(90deg);
@@ -1103,32 +1148,32 @@ margin-left: 25px;
 }
 @media only screen and (max-width: 600px) {
   .hobbiesInterestOne{
-    width:200px; 
+    width:190px; 
     display:flex;
     flex-direction: row;
   }
 }
 .hobbiesInterest{
   color:#222222;
-  width:450px;
+ 
 }
 @media only screen and (max-width: 600px) {
   .hobbiesInterest{
-  transform: translate(-100%,10%);
+  transform: translate(0%,60%);
   }
 }
 @media only screen and (max-width: 600px) {
   .hobInt{
     width:170px;
     height:80px;
-  transform:translate(40%,10%) rotate(20deg);
+  transform:translate(0%,-120%) rotate(20deg);
   }
 }
 @media only screen and (max-width: 600px) {
   .intHob{
     width:300px;
-    height:80px;
-  transform:translate(65%,-175%) rotate(-10deg);
+    height:200px;
+  transform:translate(-90%,-125%) rotate(-10deg);
   }
 }
 .hobbiesInterest h3{
@@ -1170,7 +1215,7 @@ margin-left: 25px;
 
 @media only screen and (max-width: 600px) {
   .img-tape1:before{
-    transform: translate(-200%,10%); 
+    transform: translate(-150%,10%); 
   }
 } 
 .img1-tape:before{
@@ -1185,8 +1230,8 @@ margin-left: 25px;
  }
  @media only screen and (max-width: 600px) {
   .img1-tape:before{
-    width:300px;
-transform:translate(50%,-80%);
+    width:200px;
+transform:translate(-110%,-500%);
   }
 }
 .img1-tape:after {
@@ -1199,7 +1244,12 @@ transform:translate(50%,-80%);
   width: 150px;
  transform: translate(-40%,-215%) rotate(50deg);
  }
- 
+ @media only screen and (max-width: 600px) {
+  .img1-tape:after{
+   width:160px;
+   transform: translate(-30%,-1200%) rotate(-20deg);
+  }
+}
 .blankHobInt{
   width:150px;
   height:170px;
@@ -1213,6 +1263,20 @@ transform:translate(50%,-80%);
   font-size: 15px;
   transform: translate(44%,140%)rotate(60deg);
 }
+@media only screen and (max-width: 600px) {
+  .blankHobInt{
+    width:100px;
+  height:130px;
+  transform: translate(140%,230%)rotate(-30deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blankHobInt h1{
+   font-size: 9px;
+   transform: translate(15%,600%)rotate(120deg);
+  }
+}
+
 /* NUMBER 0!!!!!! css for the hobbies and interests section on the last tab of the folder */
 #tab0{
 background: #fffaf1;
@@ -1229,14 +1293,15 @@ transform:translate(0%,23%);
 }
 @media only screen and (max-width: 600px) {
   #tab0{
-    width:240px;
-    transform:translate(0%,-3%) rotate(-90deg);
+    width:200px;
+    height:400px;
+    transform:translate(0%,-2.5%) rotate(-90deg);
     border-radius: 5%;
   }
 } 
 @media only screen and (max-width: 600px) {
   .tabZero{
     font-size:10px;
-    transform: translate(10%,300%) rotate(90deg);
+    transform: translate(0%,210%) rotate(90deg);
   }
 } 
