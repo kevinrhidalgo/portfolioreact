@@ -249,7 +249,7 @@ You can read articles, read blogs, watch mini-films and even find recipes based 
 The application is an ongoing project with hopes to continue growing and implementing new ideas.
 </p>
 <a id='repo' href='https://github.com/kevinrhidalgo/dd-salud'>View Repo</a>
-<a id='site'  href='https://github.com/kevinrhidalgo/dd-salud'>View Site</a>
+<a id='site'  href='https://kevin-salud.web.app/home'>View Site</a>
 
 <div className='toolsUsed'>
 

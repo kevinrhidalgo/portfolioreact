@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac92502b.chunk.css",
+    "main.js": "/static/js/main.1227fa44.chunk.js",
+    "main.js.map": "/static/js/main.1227fa44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.047f52df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.047f52df.js.map",
+    "static/js/2.0e537514.chunk.js": "/static/js/2.0e537514.chunk.js",
+    "static/js/2.0e537514.chunk.js.map": "/static/js/2.0e537514.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ac92502b.chunk.css.map": "/static/css/main.ac92502b.chunk.css.map",
+    "static/js/2.0e537514.chunk.js.LICENSE.txt": "/static/js/2.0e537514.chunk.js.LICENSE.txt",
+    "static/media/Email.9e500886.png": "/static/media/Email.9e500886.png",
+    "static/media/cellphone.4de7a473.jpeg": "/static/media/cellphone.4de7a473.jpeg",
+    "static/media/cellphone.98271704.PNG": "/static/media/cellphone.98271704.PNG",
+    "static/media/email.3b9ec46f.PNG": "/static/media/email.3b9ec46f.PNG",
+    "static/media/github.958a94ba.PNG": "/static/media/github.958a94ba.PNG",
+    "static/media/homepage.65c1d017.png": "/static/media/homepage.65c1d017.png",
+    "static/media/ig.bd118fa3.png": "/static/media/ig.bd118fa3.png",
+    "static/media/in.7be0d03c.png": "/static/media/in.7be0d03c.png",
+    "static/media/linkedin.df729550.PNG": "/static/media/linkedin.df729550.PNG",
+    "static/media/login.59301755.png": "/static/media/login.59301755.png",
+    "static/media/nyc.8adc7f12.png": "/static/media/nyc.8adc7f12.png",
+    "static/media/proResume.609a4f9a.pdf": "/static/media/proResume.609a4f9a.pdf",
+    "static/media/recipes.ae5cf3b4.png": "/static/media/recipes.ae5cf3b4.png",
+    "static/media/saludBlog.c8789d0c.png": "/static/media/saludBlog.c8789d0c.png",
+    "static/media/saludFilm.5013dc21.png": "/static/media/saludFilm.5013dc21.png",
+    "static/media/saludHome.7b1ce2fc.png": "/static/media/saludHome.7b1ce2fc.png",
+    "static/media/searchpage.b1a7bbec.png": "/static/media/searchpage.b1a7bbec.png",
+    "static/media/searchresult.34698cbd.png": "/static/media/searchresult.34698cbd.png",
+    "static/media/shelfi.1dfff874.png": "/static/media/shelfi.1dfff874.png",
+    "static/media/shelfiLogin.1dfff874.png": "/static/media/shelfiLogin.1dfff874.png",
+    "static/media/underC.80a56a3e.jpg": "/static/media/underC.80a56a3e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047f52df.js",
+    "static/js/2.0e537514.chunk.js",
+    "static/css/main.ac92502b.chunk.css",
+    "static/js/main.1227fa44.chunk.js"
+  ]
+}
