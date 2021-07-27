@@ -8,7 +8,7 @@
   margin-top: 250px;
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .folderData{
     transform: translate(0%,0%) rotate(0deg);
 
@@ -23,7 +23,11 @@
   left: 0;
   z-index: 100;
 }
-
+@media only screen and (max-width: 700px) {
+  .sideContacts{
+    top: 500px;
+  }
+}
 /* css for the folder design */
 .tab,#tab6, #tab5, #tab4, #tab3, #tab2, #tab1, #tab0 {
   height: 100%;
@@ -41,7 +45,7 @@
   transform: rotate(-90deg);
 }
 #tab1 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -61,7 +65,7 @@
   border-bottom:1px solid black;
 }
 #tab2 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -81,7 +85,7 @@
   border-bottom:1px solid black;
 }
 #tab3 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -102,7 +106,7 @@
 }
 
 #tab4 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -122,7 +126,7 @@
   border-bottom:1px solid black;
 }
 #tab5 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -141,7 +145,7 @@
   border-bottom:1px solid black;
 }
 #tab6 {
-  width: 600px;
+  width: 700px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -165,14 +169,17 @@
   justify-content: center;
   margin-top: 100px;
 }
+.folderData{
+  margin-top:300px;
+}
 /*FOLDER LOOK MEDIA QUIRIES!!!!!!!!!*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6{
     width: 230px;
   height:450px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6::after{
     width: 4.0vw;
   height: 11vh;
@@ -186,72 +193,72 @@
   top:-0.1%
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab5{
     width: 230px;
   height:450px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab5::after{
     width: 4.0vw;
   height: 13vh;
   top: 15%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab4{
     width: 230px;
   height:450px; 
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab4::after{
     width: 4.0vw;
   height: 11vh;
   top:32%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab3{
     width: 230px;
   height:450px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab3::after{
     width: 4.0vw;
   height: 12vh;
   top:44%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab2{
     width: 230px;
   height:450px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab2::after{
   width: 4.0vw;
   height: 11vh;
   top:62%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab1{
     width: 230px;
   height:450px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab1::after{
     width: 4.0vw;
   height: 10.8vh;
   top:76.6%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab0{
     width: 230px;
   height:450px;
@@ -274,7 +281,7 @@
   letter-spacing: 5px;
   font-weight:bolder ;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6 h1{
     font-size: 15px;
     border:red 2px solid;
@@ -289,7 +296,7 @@
   transform: rotate(65deg); 
   background-color: lightblue;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6 h2{
     font-size: 27px;
     border:black 2px solid;
@@ -304,7 +311,7 @@ color:rgb(80, 80, 80);
 transform: translate(30%,20%);
 font-size: 40px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6 h3{
     font-size: 17px;
     transform: translate(25%,100%);
@@ -316,7 +323,7 @@ font-size: 40px;
   transform: translate(40%,20%);
   font-size: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6 p{
     font-size: 11px;
     transform: translate(30%,100%);
@@ -325,7 +332,7 @@ font-size: 40px;
 #tab6 .paper-clip{
   transform: translate(400%,-731%);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab6 .paper-clip{
     transform: translate(80%,-414%);
   }
@@ -363,15 +370,15 @@ span.paper-clip {
   height:645px;
   transform: translate(-20%,3%) rotate(90deg);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blogContainer{
     transform: translate(-15%,410%) rotate(90deg);
-    width:400px;
+    width:560px;
   height:40px;
   }
 }
 #col-1 {
-  background-image: url(https://images.pexels.com/photos/1755680/pexels-photo-1755680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600);
+  background-image: url(https://images.pexels.com/photos/1755680/pexels-photo-1755680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=700);
   flex: .6;
   color:white;
   padding-top:60px;
@@ -380,10 +387,10 @@ span.paper-clip {
   height:360px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-1{
-    transform: translate(-53%,-19%) rotate(0deg);
-  height:130px;
+    transform: translate(7%,5%) rotate(0deg);
+  height:110px;
   font-size: 0px; 
   }
 }
@@ -403,23 +410,27 @@ span.paper-clip {
   text-decoration: none;
   display: flex;
   justify-content: center;
+  
 }
 #col-1 h2{
   text-decoration: overline;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-1 h2{
-  font-size: 10px;
+  font-size: 9px;
+  transform: translate(-50%,0%);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-1 p{
-  font-size: 8x;
+  font-size: 7.5px;
+  transform: translate(-30%,0%);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-1 a{
-  transform: translate(-5%,-15%);
+  transform: translate(-15%,-15%);
+  width:80px
   }
 }
 
@@ -432,21 +443,27 @@ span.paper-clip {
   padding:30px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+#col-2 h2{
+  margin-top: -10px;
+}
+@media only screen and (max-width: 700px) {
   #col-2{
-    transform: translate(-50%,-23%);
+    transform: translate(-28%,6%);
     height:140px;
-    max-width:200px;
+    max-width:400px;
     font-size: 8px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-2 h2{
-transform: translate(0%,-250%);
+transform: translate(10%,-60%);
+margin-bottom:130px;
+font-size: 20px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #col-2 p{
+    font-size:8px;
 transform: translate(0%,-90%);
 
   }
@@ -461,7 +478,7 @@ transform: translate(0%,-90%);
   width: 250px;
  transform: translate(-50%,500%)rotate(90deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img-tape1:after{
 transform: translate(10%,-60%) rotate(-15deg) ;
 width: 120px;
@@ -491,17 +508,17 @@ width: 120px;
   font-size: 15px;
   transform: translate(40%,450%)rotate(60deg);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankAbout{
-    width:100px;
-  height:130px;
-  transform: translate(140%,30%)rotate(-30deg);
+    width:70px;
+  height:80px;
+  transform: translate(250%,90%)rotate(-30deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankAbout h1{
    font-size: 10px;
-   transform: translate(20%,900%)rotate(120deg);
+   transform: translate(10%,430%)rotate(120deg);
   }
 }
 
@@ -537,7 +554,7 @@ width: 120px;
   margin:6px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secTwo{
     width:90px;
   height:30px;
@@ -548,13 +565,13 @@ font-size: 11px;
 margin-top: 4px;
 margin-left: 25px;
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secTwo p{
     font-size: 9px;
     margin-top: 0px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .languagestypeOne{
     width:150px;
     height:100px;
@@ -568,7 +585,7 @@ margin-left: 25px;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .languagestypeOne h3{
     font-size: 20px;
     
@@ -582,7 +599,7 @@ width:240px;
  transform: translate(0%,0%) rotate(-10deg);
  border: 2px black solid;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .languagestypeTwo{
     width:150px;
   height:100px;
@@ -600,7 +617,7 @@ width:240px;
   transform: translate(-60%,-20%);
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .languagesType{
   width:150px;
   height: 100px;
@@ -611,7 +628,7 @@ width:240px;
   display: flex;
   flex-direction: column;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .langPartOne{
     margin-top: -37px;
   }
@@ -652,7 +669,7 @@ width:240px;
   width: 150px;
  transform:translate(10%,40%) rotate(0deg);
  }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
  .img2-tape:after{
    width: 120px;
    transform: translate(-20%,240%) rotate(0deg);
@@ -683,7 +700,7 @@ width:240px;
  transform: translate(-10%,800%) rotate(0deg);
  z-index: -1;
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img7-tape:after{
     transform: translate(50%,100%);
     width:1px;
@@ -705,14 +722,14 @@ width:240px;
   align-content: center;
   transform: translate(24%,0%);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .blankLang{
    width:120px;
    height:20px;
    transform: translate(90%,-210%)rotate(-60deg);
     }
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .blankLang h1{
     font-size:12px;
     justify-content: center;
@@ -741,7 +758,7 @@ width:240px;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .applicationstypeOne h3{
     font-size: 20px;
   }
@@ -755,7 +772,7 @@ width:240px;
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .applicationstypeOne{
     width:130px;
     height:100px;
@@ -774,7 +791,7 @@ width:240px;
     transform: translate(-70%,-10%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .applicationsType{
     width:150px;
     height:100px;
@@ -792,7 +809,7 @@ width:240px;
   border: 2px black solid;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .applicationsTypeTwo{
     width:150px;
     height:100px;
@@ -816,7 +833,7 @@ width:240px;
   margin:6px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secThree{
     width:90px;
   height:30px;
@@ -827,7 +844,7 @@ font-size: 11px;
 margin-top: 4px;
 margin-left: 25px;
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secThree p{
     font-size: 9px;
     margin-top: 0px;
@@ -871,7 +888,7 @@ margin-left: 25px;
   width: 190px;
  transform:translate(10%,130%) rotate(0deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img5-tape:after{
     width: 120px;
     transform: translate(0%,120%);
@@ -894,14 +911,14 @@ margin-left: 25px;
  align-content: center;
  transform: translate(25%,-20%);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankAppl{
    width:120px;
    height:20px;
    transform: translate(150%,1110%)rotate(20deg);
     }
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .blankAppl p{
     font-size:12px;
     justify-content: center;
@@ -932,7 +949,7 @@ margin-left: 25px;
   justify-content: center;
   font-family: Mulish, sans-serif; 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolstypeOne h3{
     font-size: 20px;
     }
@@ -946,7 +963,7 @@ margin-left: 25px;
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolstypeOne{
     width:110px;
     height:90px;
@@ -962,7 +979,7 @@ margin-left: 25px;
  border: 2px black solid;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolstypeTwo{
     width:115px;
     height:95px;
@@ -973,12 +990,12 @@ margin-left: 25px;
   font-size: 20px;
   font-weight: bolder;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolstypeTwo p{
    font-size: 12px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolstypeTwo h2{
    font-size: 12px;
     }
@@ -994,7 +1011,7 @@ margin-left: 25px;
     transform: translate(-15%,0%);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .toolsType{
     width:160px;
     height: 140px;
@@ -1018,7 +1035,7 @@ margin-left: 25px;
   margin:3px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secOne{
     width:80px;
   height:28px;
@@ -1029,7 +1046,7 @@ font-size: 11px;
 margin-top: 4px;
 margin-left: 25px;
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .secOne p{
     font-size: 9px;
     margin-top: 0px;
@@ -1066,7 +1083,7 @@ margin-left: 25px;
   width: 190px;
  transform:translate(10%,-740%) rotate(0deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img8-tape:after{
     width: 100px;
     transform: translate(0%,-470%) rotate(0deg);
@@ -1084,7 +1101,7 @@ margin-left: 25px;
   width: 190px;
  transform: rotate(0deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img15-tape:after{
     width: 100px;
     transform: translate(-10%,190%) rotate(0deg);
@@ -1102,7 +1119,7 @@ margin-left: 25px;
   width: 190px;
  transform: rotate(0deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img14-tape:after{
     width: 130px;
     transform: translate(-110%,300%) rotate(90deg);
@@ -1125,15 +1142,15 @@ margin-left: 25px;
  align-content: center;
  transform: translate(25%,-20%);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankTool{
-   width:120px;
+   width:80px;
    height:20px;
-   transform: translate(140%,1450%)rotate(0deg);
+   transform: translate(235%,1450%)rotate(0deg);
 
     }
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .blankTool p{
     font-size:12px;
     justify-content: center;
@@ -1146,7 +1163,7 @@ margin-left: 25px;
   transform: translate(0%,-50%) rotate(90deg);
   margin-top: 300px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hobbiesInterestOne{
     width:190px; 
     display:flex;
@@ -1157,19 +1174,19 @@ margin-left: 25px;
   color:#222222;
  
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hobbiesInterest{
   transform: translate(0%,60%);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hobInt{
     width:170px;
     height:80px;
   transform:translate(0%,-120%) rotate(20deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .intHob{
     width:300px;
     height:200px;
@@ -1188,7 +1205,7 @@ margin-left: 25px;
   transform:  rotate(-10deg);
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hobbiesInterest h3{
     font-size: 12px;    
   }
@@ -1202,7 +1219,7 @@ margin-left: 25px;
  padding:40px;
  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }  
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hobbiesInterest p{
     font-size: 8px;    
   }
@@ -1213,7 +1230,7 @@ margin-left: 25px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .img-tape1:before{
     transform: translate(-150%,10%); 
   }
@@ -1228,7 +1245,7 @@ margin-left: 25px;
   width: 150px;
  transform: translate(240%,540%) rotate(40deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img1-tape:before{
     width:200px;
 transform:translate(-110%,-500%);
@@ -1244,7 +1261,7 @@ transform:translate(-110%,-500%);
   width: 150px;
  transform: translate(-40%,-215%) rotate(50deg);
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
   .img1-tape:after{
    width:160px;
    transform: translate(-30%,-1200%) rotate(-20deg);
@@ -1263,17 +1280,17 @@ transform:translate(-110%,-500%);
   font-size: 15px;
   transform: translate(44%,140%)rotate(60deg);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankHobInt{
     width:100px;
   height:130px;
   transform: translate(140%,230%)rotate(-30deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .blankHobInt h1{
    font-size: 9px;
-   transform: translate(15%,600%)rotate(120deg);
+   transform: translate(15%,700%)rotate(120deg);
   }
 }
 
@@ -1291,7 +1308,7 @@ transform:translate(0%,23%);
   font-size:20px;
   color:tomato;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tab0{
     width:200px;
     height:400px;
@@ -1299,7 +1316,7 @@ transform:translate(0%,23%);
     border-radius: 5%;
   }
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .tabZero{
     font-size:10px;
     transform: translate(0%,210%) rotate(90deg);

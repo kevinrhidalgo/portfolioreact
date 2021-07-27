@@ -69,7 +69,7 @@ export default function About() {
            
 <div id="tab0">
 <div class='tabZero'>
-   <h1>Thank You,</h1>
+   <h1>Thank You for reading,</h1>
    <h1>Hope to hear from you soon.</h1>
 </div>
 </div>
@@ -81,9 +81,9 @@ export default function About() {
 
 <div className='hobInt'><h3>Hobbies & Interests</h3></div>
 <div className='intHob'>
-<p>Besides my passion for coding, I love to play and watch sports, specfically baseball, 
-    basketball and football. Any of the New York teams, you name it, im a huge fan of minus the Mets and Brooklyn Nets.
-     I also love to cook, travel and draw. My favorite foods to cook is lasagana and chicken sandwiches.
+<p>Besides my passion for coding, I love to play and watch sports, specifically baseball, 
+    basketball and football. Any of the New York teams, you name it, im a huge fan of, minus the Mets and Brooklyn Nets.
+    I also love to cook, travel and draw. My favorite foods to cook is lasagana and chicken sandwiches.
     Places I hope to visit one day are Greece and the great wall of China. And I dont do much drawing today as I 
     did before but now I have the chance to implement that hobbie into my coding passion.
 </p>
@@ -285,13 +285,19 @@ export default function About() {
 </div>
 
 <div id="col-2">
-<h2 style={hello}>Hello</h2>
-<br/>
+<h2 style={hello}>Hello,</h2>
 <p>
-My name is Kevin Hidalgo and I am a Web Developer. If you are reading this, than hopefully this means you may be potentially interested in bringing me in to be
-apart of your team, so i'd like to tell you a little about me.  
+If you are reading this than hopefully this means you may be interested in bringing me in to be apart of your team. 
+I'm Kevin, and I am full-stack web developer from the Bronx,NY (living in Orlando,FL). Growing up I knew I wanted to be either a cardiologist or a web developer.
+Due to a rollercoaster of a ride they call life I lost my love for a career in medicine and knew what I wanted to do was build stuff. I accredit my passion and love 
+for web developing to two key factors, legos and my dad. Growing up whatever store we went to, he would always go to the tech section of any store and I would be right
+behind him following his every foot step or he would collect a thrown out piece of tech and fix it and it was always amazing what he could do. And as a kid I collected 
+loads of legos building new stuff everyday from soccer stadiums to skyscrapers. It was always fascinting to me the ability to have an idea and bring it to life. 
+When it comes to web developing I am ambitious, passionate and self driven, never giving up and always looking at the silver lining, I believe we can go as far as we want to.
+Three years ago I was a waiter at an olive garden, confused and lost on how I can become a web developer and make something of myself, today i've coded out mulitple 
+projects from javascript to handlebars, to react with a certificate at the University of Central Florida and the continous ambition to continue learning and
+bringing my own ideas to life. 
 </p>
-       
 </div>
 </div>
 </div>
@@ -300,7 +306,7 @@ apart of your team, so i'd like to tell you a little about me.
 
 <div id="tab6">
     <h3>Kevin Hidalgo</h3>
-    <p>CASE FILE #226</p>
+    <p>CASE FILE #22693</p>
     <h1>CLASSIFIED</h1>
     <h2>DECLASSIFIED</h2>
     <span class="paper-clip"></span>
@@ -314,8 +320,8 @@ apart of your team, so i'd like to tell you a little about me.
       
       <div className='sideContacts'> 
 <a href="https://github.com//kevinrhidalgo"><img style={footerImg1} src={Github}/></a> 
-<a href="tel:555-555-5555"><img style={footerImg2} src={Phone}/></a>
-<a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg3} src={Email}/></a>
+<a href="tel:646-285-5696"><img style={footerImg2} src={Phone}/></a>
+<a href="mailto:kevinrhidalgo@yahoo.com"><img style={footerImg3} src={Email}/></a>
 <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg4} src={Linkedin}/></a>
     </div>  
 

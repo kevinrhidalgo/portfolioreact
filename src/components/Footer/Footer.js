@@ -76,8 +76,8 @@ function Footer() {
    <div className="contactList">
        <a href="https://www.instagram.com/"><img style={footerImg} src={Ig}/></a> 
        <a href="https://github.com//kevinrhidalgo"><img style={footerImg} src={Github}/></a> 
-        <a href="tel:555-555-5555"><img style={footerImg} src={Phone}/></a>
-        <a href="mailto:EmailAddress@.XYZ.com"><img style={footerImg} src={Email}/></a>
+        <a href="tel:646-285-5696"><img style={footerImg} src={Phone}/></a>
+        <a href="mailto:kevinrhidalgo@yahoo.com"><img style={footerImg} src={Email}/></a>
         <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg} src={Linkedin}/></a>
         </div>   
     </nav>
