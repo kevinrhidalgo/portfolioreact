@@ -45,7 +45,7 @@
   transform: rotate(-90deg);
 }
 #tab1 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -55,7 +55,7 @@
   position: absolute;
   z-index: -1;
   width: 5vw;
-  height: 23.2vh;
+  height: 22.2vh;
   background: #f9e5bc;
   border-radius: 0 15px 15px 0;
   top: 80%;
@@ -65,7 +65,7 @@
   border-bottom:1px solid black;
 }
 #tab2 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -85,7 +85,7 @@
   border-bottom:1px solid black;
 }
 #tab3 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -106,7 +106,7 @@
 }
 
 #tab4 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -126,7 +126,7 @@
   border-bottom:1px solid black;
 }
 #tab5 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -145,7 +145,7 @@
   border-bottom:1px solid black;
 }
 #tab6 {
-  width: 700px;
+  width: 600px;
   height:940px;
   background: #f9e5bc;
   transform: rotate(-90deg);
@@ -499,7 +499,7 @@ width: 120px;
   width:150px;
   height:170px;
   background-color: white;
-  transform: translate(320%,90%) rotate(30deg);
+  transform: translate(330%,100%) rotate(30deg);
   border:1px solid black;
   position:relative;
   z-index: 1;
@@ -1271,7 +1271,7 @@ transform:translate(-110%,-500%);
   width:150px;
   height:170px;
   background-color: white;
-  transform: translate(320%,430%) rotate(41deg);
+  transform: translate(330%,450%) rotate(41deg);
   border:1px solid black;
   position:relative;
   z-index: 1;
