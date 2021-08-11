@@ -371,10 +371,11 @@ to view a description and details.
       </div>
       )}
 
+
 {modalFour && (
         <div className="modal">
           <div onClick={toggleModalThree} className="overlay"></div>
-          <div className="modal-content">
+          <div className="modal-content2">
             <h2>Coming Soon!</h2>
             <p>
               This is a current Project underdevelopment.<br/>
