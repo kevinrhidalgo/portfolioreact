@@ -13,6 +13,7 @@ import Github from "../About/github.PNG"
 import Phone from "../About/cellphone.PNG"
 import Email from "../About/email.PNG"
 import Linkedin from "../About/linkedin.PNG"
+import { imagesThree } from "../../Helpers/TrippiData";
 
 
 const underScore={
@@ -376,13 +377,14 @@ to view a description and details.
         <div className="modal">
           <div onClick={toggleModalThree} className="overlay"></div>
           <div className="modal-content2">
+
 <div className='aboutProject2'>
 
 <div className="carousel">
     
     <div
       className="carouselInnerShelfi"
-      style={{ backgroundImage: `url(${imagesTwo[currImg].img})` }}
+      style={{ backgroundImage: `url(${imagesThree[currImg].img})` }}
     >
 
    <div
@@ -396,7 +398,7 @@ to view a description and details.
       <div
         className="right"
         onClick={() => {
-          currImg < imagesTwo.length - 1 && setCurrImg(currImg + 1);
+          currImg < imagesThree.length - 1 && setCurrImg(currImg + 1);
         }}
       >
         <ArrowForwardIosIcon style={{ fontSize: 45 }} />
