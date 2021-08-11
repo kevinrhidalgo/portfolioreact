@@ -376,14 +376,37 @@ to view a description and details.
         <div className="modal">
           <div onClick={toggleModalThree} className="overlay"></div>
           <div className="modal-content2">
-            <h2>Coming Soon!</h2>
-            <p>
-              This is a current Project underdevelopment.<br/>
-              Currently being coded out.
-            </p>
-            <h1>YUURRRRRRRRRRRRRRRR</h1>
-            <h4>Heres the Link to my Github in the meantime</h4>
-            <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
+<div className='aboutProject2'>
+
+<div className="carousel">
+    
+    <div
+      className="carouselInnerShelfi"
+      style={{ backgroundImage: `url(${imagesTwo[currImg].img})` }}
+    >
+
+   <div
+        className="left"
+        onClick={() => {
+          currImg > 0 && setCurrImg(currImg - 1);
+        }}
+      >
+        <ArrowBackIosIcon style={{ fontSize: 45 }} />
+      </div>
+      <div
+        className="right"
+        onClick={() => {
+          currImg < imagesTwo.length - 1 && setCurrImg(currImg + 1);
+        }}
+      >
+        <ArrowForwardIosIcon style={{ fontSize: 45 }} />
+      </div>
+    </div>
+  </div>
+
+</div>
+
+            
   
             <div className='closeBtn'> 
             <a className="close-modal" onClick={toggleModalFour}>
