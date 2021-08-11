@@ -3,6 +3,7 @@ import './Opener.css'
 import { Link } from "react-router-dom";
 import salud from './saludHome.png'
 import shelfi from './shelfi.png'
+import trippi from './Trippi.png'
 import underC from './underC.jpg'
 import { images } from "../../Helpers/CarouselData"
 import { imagesTwo } from "../../Helpers/ShelfiData";
@@ -188,7 +189,7 @@ various technology, designs, and research with non-stop experimentation.
 </a>
 
 <a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
-  <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle3'>Coming Soon!</div></div>
+  <div className='setOne'><img style={projectImg} className='projectImg' src={trippi}/><div className='projectTitle3'>Trippi!</div></div>
 </a>
 <a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={underC}/><div className='projectTitle4'>Coming Soon!</div></div>
