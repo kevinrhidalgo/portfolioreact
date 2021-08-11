@@ -409,7 +409,7 @@ to view a description and details.
             <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
   
             <div className='closeBtnThree'> 
-            <a className="close-modal" onClick={toggleModalThree}>
+            <a className="close-modal" onClick={toggleModalFour}>
               <span>X</span>
             </a>
             </div>
