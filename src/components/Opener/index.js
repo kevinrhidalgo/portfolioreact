@@ -111,6 +111,13 @@ export default function Opener() {
     setModalThree(!modalThree);
   };
 
+  const [modalFour, setModalFour] = useState(false);
+
+  const toggleModalFour = () => {
+
+    setModalFour(!modalFour);
+  };
+
   if(modal) {
     document.body.classList.add('active-modal')
   } else {
@@ -124,6 +131,12 @@ export default function Opener() {
   }
 
   if(modalThree) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+  if(modalFour) {
     document.body.classList.add('active-modal')
   } else {
     document.body.classList.remove('active-modal')
@@ -188,7 +201,7 @@ various technology, designs, and research with non-stop experimentation.
   <div className='setOne'><img style={projectImg} className='projectImg' src={shelfi}/><div className='projectTitle2'>Shelfi.</div></div>
 </a>
 
-<a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
+<a style={modalProjects} onClick={toggleModalFour} className="btn-modal">
   <div className='setOne'><img style={projectImg} className='projectImg' src={trippi}/><div className='projectTitle3'>Trippi!</div></div>
 </a>
 <a style={modalProjects} onClick={toggleModalThree} className="btn-modal">
@@ -370,6 +383,28 @@ to view a description and details.
               This is a current Project underdevelopment.<br/>
               Currently being coded out.
             </p>
+            <h4>Heres the Link to my Github in the meantime</h4>
+            <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
+  
+            <div className='closeBtnThree'> 
+            <a className="close-modal" onClick={toggleModalThree}>
+              <span>X</span>
+            </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+{modalFour && (
+        <div className="modal">
+          <div onClick={toggleModalThree} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Coming Soon!</h2>
+            <p>
+              This is a current Project underdevelopment.<br/>
+              Currently being coded out.
+            </p>
+            <h1>YUURRRRRRRRRRRRRRRR</h1>
             <h4>Heres the Link to my Github in the meantime</h4>
             <a href='https://github.com/kevinrhidalgo' style={githubLink}> Github</a>
   
