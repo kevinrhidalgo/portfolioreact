@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { Modal } from '../Modal/Modal';
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import Ig from "../Modal/ig.png"
-import Github from "../Modal/ghub.png"
-import Phone from "../Modal/cellphone.jpeg"
-import Email from "../Modal/Email.png"
-import Linkedin from "../Modal/in.png"
+import Ig from "./instagram.png"
+import Github from "./gitH.png"
+import Phone from "./phone.png"
+import Email from "./mailE.png"
+import Linkedin from "./linkedIn.png"
+import Twitter from "./twittwe.png"
 import proResume from './proResume.pdf'
 
 const footerBg={
@@ -35,8 +36,6 @@ const footerImg ={
   height: 30,
   borderRadius:'100%',
   margin: '12px',
-  filter: 'grayscale(50%)',
-  boxShadow: 'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px'
   }
 
 function Footer() {
@@ -79,6 +78,7 @@ function Footer() {
         <a href="tel:646-285-5696"><img style={footerImg} src={Phone}/></a>
         <a href="mailto:kevinrhidalgo@yahoo.com"><img style={footerImg} src={Email}/></a>
         <a href="https://www.linkedin.com/in/kevinrhidalgo/"><img style={footerImg} src={Linkedin}/></a>
+        <a href="twitter.com"><img style={footerImg} src={Twitter}/></a>
         </div>   
     </nav>
     </div>
