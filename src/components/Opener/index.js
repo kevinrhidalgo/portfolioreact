@@ -406,6 +406,38 @@ to view a description and details.
     </div>
   </div>
 
+  <div className='aboutShelfi'> 
+    <h1>Trippi!</h1>
+<p>
+<span style={indent}>Shelfi</span>  is a modern search engine for book lovers 
+to find their next good read. Users can search books by author or title 
+to view a description and details.
+</p>
+<a id='repo' href='https://github.com/mascarelloa/shelfi'>View Repo</a>
+<a id='site' href='https://myshelfi.herokuapp.com/'>View Site</a>
+
+<div className='toolsUsed'>
+
+  <div className='toolsUsedTwo'>
+  <h6>Handlebars</h6>
+  <div className='vlOne1'></div>
+  <h6>NODE</h6>
+  <div className='vlTwo2'></div>
+  </div>
+
+  <div className='toolsUsedTwo'>
+  <h6>mySQL</h6>
+  <div className='vlThree3'></div>
+  <h6>EXPRESS</h6>
+  <div className='vlFour4'></div>
+  </div>
+  <div className='toolsUsedTwo'>
+  <h6>SEQUELIZE</h6>
+  <div className='vlFive5'></div>
+  </div>
+</div>
+    </div>
+
 </div>
 
             
