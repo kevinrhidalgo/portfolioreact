@@ -409,9 +409,11 @@ to view a description and details.
   <div className='aboutShelfi'> 
     <h1>Trippi!</h1>
 <p>
-<span style={indent}>Shelfi</span>  is a modern search engine for book lovers 
-to find their next good read. Users can search books by author or title 
-to view a description and details.
+<span style={indent}>Trippi,</span> inspired by the roadtrippers application is 
+an application focused on those who enjoy taking roadtrips. With an ambition to have it 
+continue growing, within this application you can interact with an interactice map
+thanks to google's direction api. You can have updated weather based on your location also 
+thanks to the open weather api and you can also create a mini todo itenerary.
 </p>
 <a id='repo' href='https://github.com/kevinrhidalgo/Trippi'>View Repo</a>
 <a id='site' href='https://kevinrhidalgo.github.io/Trippi/'>View Site</a>
