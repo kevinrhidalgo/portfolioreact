@@ -421,20 +421,16 @@ thanks to the open weather api and you can also create a mini todo itenerary.
 <div className='toolsUsed'>
 
   <div className='toolsUsedTwo'>
-  <h6>Handlebars</h6>
-  <div className='vlOne1'></div>
-  <h6>NODE</h6>
+  <h6>HTML</h6>
   <div className='vlTwo2'></div>
   </div>
 
   <div className='toolsUsedTwo'>
-  <h6>mySQL</h6>
+  <h6>CSS</h6>
   <div className='vlThree3'></div>
-  <h6>EXPRESS</h6>
-  <div className='vlFour4'></div>
   </div>
   <div className='toolsUsedTwo'>
-  <h6>SEQUELIZE</h6>
+  <h6>JAVASCRIPT</h6>
   <div className='vlFive5'></div>
   </div>
 </div>
