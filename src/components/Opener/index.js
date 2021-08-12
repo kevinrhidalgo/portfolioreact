@@ -413,8 +413,8 @@ to view a description and details.
 to find their next good read. Users can search books by author or title 
 to view a description and details.
 </p>
-<a id='repo' href='https://github.com/mascarelloa/shelfi'>View Repo</a>
-<a id='site' href='https://myshelfi.herokuapp.com/'>View Site</a>
+<a id='repo' href='https://github.com/kevinrhidalgo/Trippi'>View Repo</a>
+<a id='site' href='https://kevinrhidalgo.github.io/Trippi/'>View Site</a>
 
 <div className='toolsUsed'>
 
