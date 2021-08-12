@@ -350,6 +350,14 @@ body.active-modal {
   background-size: cover;
   display: flex; 
 }
+.carouselInnerTrippi {
+  height: 370px;
+  width: 520px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; 
+}
 .carouselInner .left {
   flex: 5%;
   height: 100%; 
@@ -362,6 +370,17 @@ body.active-modal {
   margin-left:0px;
 }
 .carouselInnerShelfi .left {
+  flex: 5%;
+  height: 100%; 
+  place-items: center;
+  color: #629ac9;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 85px;
+  margin-left:0px;
+}
+.carouselInnerTrippi .left {
   flex: 5%;
   height: 100%; 
   place-items: center;
@@ -394,7 +413,17 @@ body.active-modal {
   margin-top: 85px;
   margin-left:440px;
 }
-
+.carouselInnerTrippi .right {
+  flex: 5%;
+  height: 100%;
+  place-items: center;
+  color: #629ac9;
+  cursor: pointer;
+  display: flex;
+  align-items:flex-end;
+  margin-top: 85px;
+  margin-left:440px;
+}
 
 
 

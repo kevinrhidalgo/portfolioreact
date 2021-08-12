@@ -383,7 +383,7 @@ to view a description and details.
 <div className="carousel">
     
     <div
-      className="carouselInnerShelfi"
+      className="carouselInnerTrippi"
       style={{ backgroundImage: `url(${imagesThree[currImg].img})` }}
     >
 
