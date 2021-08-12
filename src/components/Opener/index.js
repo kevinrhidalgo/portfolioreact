@@ -409,7 +409,7 @@ to view a description and details.
   <div className='aboutShelfi'> 
     <h1>Trippi!</h1>
 <p>
-<span style={indent}>Trippi,</span> inspired by the roadtrippers application is 
+<span style={indent}>Trippi;</span> inspired by the roadtrippers application is 
 an application focused on those who enjoy taking roadtrips. With an ambition to have it 
 continue growing, within this application you can interact with an interactice map
 thanks to google's direction api. You can have updated weather based on your location also 

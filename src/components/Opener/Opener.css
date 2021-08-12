@@ -181,10 +181,10 @@ transform: translate(43%, 10%);
   font-weight: bolder;
 }
 .projectTitle3{
-  font-size:20px ;
+  font-size:25px ;
   color:white;
   font-family: 'IBM Plex Mono', monospace;
-  transform: translate(20%,-650%);
+  transform: translate(20%,-560%);
 }
 .projectTitle4{
   font-size:25px;
@@ -606,6 +606,22 @@ body.active-modal {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .carouselInnerTrippi{
+    transform: translate(70%,-45%);
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .carouselInnerTrippi .left{
+    transform: translate(-70%,10%);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .carouselInnerTrippi .right{
+    transform: translate(-240%,10%);
+  }
+}
 
 /* media quieries for the 3rd + modals*/
 
