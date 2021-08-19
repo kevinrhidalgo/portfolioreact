@@ -8,7 +8,7 @@ import Phone from "./phone.png"
 import Email from "./mailE.png"
 import Linkedin from "./linkedIn.png"
 import Twitter from "./twittwe.png"
-import proResume from './proResume.pdf'
+import proResume from './professionalResume.pdf'
 
 const footerBg={
   backgroundColor:'white',
