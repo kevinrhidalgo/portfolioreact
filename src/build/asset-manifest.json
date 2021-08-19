@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.262fc411.chunk.css",
-    "main.js": "/static/js/main.8322a600.chunk.js",
-    "main.js.map": "/static/js/main.8322a600.chunk.js.map",
+    "main.js": "/static/js/main.40332b35.chunk.js",
+    "main.js.map": "/static/js/main.40332b35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.047f52df.js",
     "runtime-main.js.map": "/static/js/runtime-main.047f52df.js.map",
     "static/js/2.3624c5d1.chunk.js": "/static/js/2.3624c5d1.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/login.59301755.png": "/static/media/login.59301755.png",
     "static/media/nyc.8adc7f12.png": "/static/media/nyc.8adc7f12.png",
     "static/media/proResume.609a4f9a.pdf": "/static/media/proResume.609a4f9a.pdf",
+    "static/media/professionalResume.c0f4f8a8.pdf": "/static/media/professionalResume.c0f4f8a8.pdf",
     "static/media/recipes.ae5cf3b4.png": "/static/media/recipes.ae5cf3b4.png",
     "static/media/saludBlog.c8789d0c.png": "/static/media/saludBlog.c8789d0c.png",
     "static/media/saludFilm.5013dc21.png": "/static/media/saludFilm.5013dc21.png",
@@ -44,6 +45,6 @@
     "static/js/runtime-main.047f52df.js",
     "static/js/2.3624c5d1.chunk.js",
     "static/css/main.262fc411.chunk.css",
-    "static/js/main.8322a600.chunk.js"
+    "static/js/main.40332b35.chunk.js"
   ]
 }
